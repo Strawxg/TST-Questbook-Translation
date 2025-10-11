@@ -1,12 +1,13 @@
 TST 任务书
 
-使用 DeepSeek 机翻版本，目前由Straw完成第二次人工校对，目前已去除绝大部分的格式错误、机翻内容和少部分的赘余描述。你可以 fork 这个仓库，创建自己的翻译，或者提交你觉得有问题的翻译，以及提交更好的翻译方式来完善翻译，目前该版本已适配至GTNH版本2.7.4
+使用 DeepSeek 机翻版本，目前由Straw完成第二次人工校对，目前已去除绝大部分的格式错误、机翻内容和少部分的赘余描述。你可以 fork 这个仓库，创建自己的翻译，或者提交你觉得有问题的翻译，以及提交更好的翻译方式来完善翻译，目前该版本已适配至GTNH版本2.7.4。
+由于人工翻译作者不会找en_US.lang文件且生活较为繁忙，2.8.0任务书在原仓库Pull Requests通过后，再进行汉化
 
 使用方法
 
-将仓库中的 zh_CH.lang 内容复制到./config/txloader/load/betterquesting/lang/zh_CN.lang 文件末尾，即在原GTNH翻译lang文件末尾添加TST任务书的翻译，然后重启游戏即可，如果翻译未变化，可以输入 `/bq_admin default load` 重新加载任务书
+将仓库中的 zh_CN.lang 内容复制到./config/txloader/load/betterquesting/lang/zh_CN.lang 文件末尾，即在原GTNH翻译lang文件末尾添加TST任务书的翻译，然后重启游戏即可，如果翻译未变化，可以输入 `/bq_admin default load` 重新加载任务书
 
-建议使用 `VSCode `进行此项操作，以避免出现格式错误问题
+建议使用 `VSCode`进行此项操作，以避免出现格式错误问题
 
 # Twist-Stuff
 
