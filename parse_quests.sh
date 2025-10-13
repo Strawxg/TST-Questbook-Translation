@@ -4,7 +4,7 @@ output="quests_output.txt"
 fixed_id="_-aiEKuQSJy_zPlDW08sDA"
 > "$output"
 
-find "./Hard Way/Quests" -type f -name "*.json" | while read -r file; do
+find "./Hard Way-280/Quests" -type f -name "*.json" | while read -r file; do
   name=$(jq -r '.["properties:10"]["betterquesting:10"]["name:8"]' "$file")
   desc=$(jq -r --raw-output '.["properties:10"]["betterquesting:10"]["desc:8"] | gsub("\n"; "%n")' "$file")
 

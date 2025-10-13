@@ -1,592 +1,492 @@
-# Quest: THE FINAL MULTIS
-betterquesting.quest.eOElP27LRGKYgi9LceNyKQ.name=THE FINAL MULTIS
-betterquesting.quest.eOElP27LRGKYgi9LceNyKQ.desc=The UXV Multis for Twist!
-
-# Quest: Plasma Forge Version 2
-betterquesting.quest.htqZezx1Sj2z75_HQlFL4A.name=Plasma Forge Version 2
-betterquesting.quest.htqZezx1Sj2z75_HQlFL4A.desc=[quest]Dimensionally Transcendent Matter Plasma Forge Prototype MK-II[/quest]%n%n§6Machine Type:§r Modularized Machine - §aPlasma Forge§r%n%nAfter §c24§r hours of continuous operation, fuel consumption is reduced by §b75%§r%n%nIf the continuous operation is broken, fuel consumption reduction will decrease to §b0%§r after §c1§r hour.%n%nPlace §9Modular Hatches§r around the controller to enhance your machine.%n%n§6Installable Modules§r are: %n%n§cOverclock Controller Module§r: Sets machine overclock type%n§cParallel Controller Module§r: Sets machine parallels%n§cPower Consumption Controller Module§r: Reduces machine energy consumption%n§cSpeed Controller Module§r: Increases machine processing speed%n§cExecution Core Module§r: Adds additional running units to machine, enabling §9True Parallelism§r%n%n[warn]Only the §aExecution Core Module§r can be installed more than once[/warn]
-
-# Quest: Site Launching
-betterquesting.quest.4hZCS1gKQL-LhMkaDx-xBg.name=Site Launching
-betterquesting.quest.4hZCS1gKQL-LhMkaDx-xBg.desc=[quest]Dyson Sphere Module Launch Site[/quest]%n%n§6Machine Type: §aDyson Sphere Program: Launch Site§r%n%nLaunch Dyson Sphere Components into orbit to form a Dyson Sphere | Accepted Components: Launch Vehicles & Solar Sails%n%n§1§9NO§r Overclock%n§1§9NO§r Extra Parallel%n%nHigher Tier of Elevator Motor Module = Faster Launching%n%nInputting §9Space Warper§r will enable overload mode; Reduces Launch Intervals. %n%nWill join the Wireless EU Network if no Energy Hatch is installed.%n%n§6 --- Details --- §r%n%nFinal progress time = recipe time / (module tier * overload mode parameter)%nOverload Parameter = t ^ [§c1§r / (§c1000§r*§c900§r/t + §c5§r)] | t = Overload Time%nEvery Space Warper provides §c15§r minutes of overload mode.%nAll Space Warper inputted will be consumed immediately%n%n§6 --- Dyson Sphere Program --- §r%n%nLaunching Solar Sails increases §aSolar Sail§r amount in the Dyson Sphere. %nLaunching Small Launch Vehicle increases §aNode§r amount in the Dyson Sphere. %n%nDyson Sphere Energy Credit = Solar Sail Output (default §c524,288§r) * Solar Sail Amount * (Node + §c1§r)^§c0.8§r%nEvery Node by default can absorb §c256§r Solar Sails.%n%nIf unabsorbed solar sails amount is > §c2048§r, the excess may be destroyed.%n%nEvery §a30§r minutes has §c1§r/§c5000§r chance to decrease Solar Sail amount.%nWhile decreasing, every Dyson Sphere has §c1§r/§c4§r chance to destroy Solar Sails | The amount destroyed is §c1§r/§c2§r of the excess.%n%n[note]Best Planet to put the Dyson Sphere Program is §9Vega§r[/note]
-
-# Quest: Mega Bricked Blast Furnace
-betterquesting.quest.dHzsOIq2QOOW12qzkiXuzQ.name=Mega Bricked Blast Furnace
-betterquesting.quest.dHzsOIq2QOOW12qzkiXuzQ.desc=[quest]MBBF[/quest]%n%n§6Machine Type:§r §aBlast Furnace§r%n%nDefault Recipe Time = §c240§r seconds | More Wrought Iron & Coal Input will reduce processing time%n%nFormula = default * parallels / ((§c1§r + §c4§r * Ratio of Iron/Wrought Iron Input) * sqrt(Coal/Coal Coke Input))%n%nConsumes all Coal/Coal Coke Inputs at once | Processes §c50%§r of Iron/Wrought Iron Input%n%nMinimum Fuel Requirement = §c2§r * Iron/Wrought Iron processed%n%nTakes §c8§r hours of continuous run time to achieve maximum efficiency of §c800%§r%n%nPrimitive Mode allows you to process all primitive recipes like a regular Blast Furnace, but you will lose the ability to process Wrought Iron%n%n[note]Use a §aScrewdriver§r to change modes[/note]%n%n-------------------------%n%nThe Mega Bricked Blast Furnace is a §933x24x33§r DTPF-shaped multiblock, used to process incredible amounts of iron/wrought iron ingots into steel using coal coke blocks as fuel.%n%n§dPortion written by Annie Pendragon
-
-# Quest: Dual Input Buffer ZPM
-betterquesting.quest.ordKNo_zSRK1flBLbkTGpQ.name=Dual Input Buffer ZPM
-betterquesting.quest.ordKNo_zSRK1flBLbkTGpQ.desc=The Dual Input Buffer is an alternative to the Input Buffer/Input Hatch method. %n%nIt contains slots for fluids and solids, as well as some non-consumable item slots.%n%n§aZPM§r: §c180,000L§r for each Fluid Slot
-
-# Quest: Industrial Magnetar Separator
-betterquesting.quest.-hJjctsISiOPRqN69zh6iQ.name=Industrial Magnetar Separator
-betterquesting.quest.-hJjctsISiOPRqN69zh6iQ.desc=[quest]Industrial Magnetar Separator[/quest]%n%n§6Machine Type: §aElectromagnetic Separator§r%n%n§c300%§f§r faster than using singleblock of the same voltage%n%nOnly uses §c80%§f§r of Eu/t normally required%n%nProcesses §c4§f§r items per voltage tier. 
-
-# Quest: Large Steam Alloy Smelter
-betterquesting.quest.YcradRkPSjGvGr2GT79ZVA.name=Large Steam Alloy Smelter
-betterquesting.quest.YcradRkPSjGvGr2GT79ZVA.desc=[quest]Large Steam Alloy Smelter[/quest]%n%n§6Machine Type: §aAlloy Smelter§r%n%nThe Large Steam Alloy Smelter is a 5x3x3 non-hollow steam-gated multiblock used to process large amounts of early game alloy smelter recipes. %n%n§dWritten by Annie Pendragon
-
-# Quest: Seeds of Space and Time
-betterquesting.quest.IJ7F-6ghQWGw86AzGfnm7w.name=Seeds of Space and Time
-betterquesting.quest.IJ7F-6ghQWGw86AzGfnm7w.desc=Make a Seed of Space and Time to double the output of the Micro Spacetime Fabricatorio.%n%n[note]Trust me, you'll want to set this up[/note]
-
-# Quest: §l§9§lChair
-betterquesting.quest.FKB31ttORhmmrqvXCpw5Bg.name=§l§9§lChair
-betterquesting.quest.FKB31ttORhmmrqvXCpw5Bg.desc=Chair.
-
-# Quest: §6§lThe Basic Infra Check
-betterquesting.quest.pqxgBY1hTXiwg0nT6h9nFA.name=§6§lThe Basic Infra Check
-betterquesting.quest.pqxgBY1hTXiwg0nT6h9nFA.desc=Flasks require §c100K§r of tier-specific components, circuits, and superconductors, as well as a large amount of a fluid input. %n%n[note]If you are seeing these quests and can start to complete them, it means you are on the home stretch, Good Luck![/note]
-
-# Quest: Component Assembly Line Casing - UXV
-betterquesting.quest.uvFKJxgDRa6tdDR5YX3hxA.name=Component Assembly Line Casing - UXV
-betterquesting.quest.uvFKJxgDRa6tdDR5YX3hxA.desc=Component Assembly Line Casing UXV%n%nTo disassemble UXV Recipes
-
-# Quest: Laser Meteor Miner
-betterquesting.quest.WmA_ru82SV-NPp5mBIkNlA.name=Laser Meteor Miner
-betterquesting.quest.WmA_ru82SV-NPp5mBIkNlA.desc=[quest]Laser Meteor Miner[/quest]%n%n§6Machine Type: §aMeteor Miner§r%n%nThere are §c2§r tiers of the Laser Meteor Miner. %n%nFor the Laser Meteor Miner to work, the center of the meteor has to be §c48§r blocks above the highest block of the multi itself. %n%nThe laser will mine in a radius of up to §c40§r blocks in each direction from the center of the meteor. %n%nAll the chunks involved §lmust§r be §9chunkloaded§r.%n%nThe laser will automatically set its radius based on the meteor spawned. If it does not find anything, it will wait for a meteor to spawn. %n%n[note]The Meteor Miner Schematic needs to be in the controller to run[/note]%n%n§4Tier I:§r Mines §c1§r §oblock§r every cycle.%n %nDefault Fortune is §c0§r but can be increased by putting in special pickaxes: %n%n§6Fortune I: §9Pickaxe of the Core%n§6Fortune II: §9Bound Pickaxe%n§6Fortune III: §9Terra Shatterer
-
-# Quest: §c§lFill the Void
-betterquesting.quest.ll-JscZAS8m3DT7mZExPkg.name=§c§lFill the Void
-betterquesting.quest.ll-JscZAS8m3DT7mZExPkg.desc=Stabilised Void Matter. If you've made it this far, well you really are ready for the next steps ahead. %n%nYou'll need §c51K§r of this Liquid to get the Twist Token, and well... it's a large resource sink. %nGood luck! 
-
-# Quest: Parallelism #1
-betterquesting.quest.CGbF2Ep5TQaUQE0jgOaH8Q.name=Parallelism #1
-betterquesting.quest.CGbF2Ep5TQaUQE0jgOaH8Q.desc=[quest]Parallelism Tower #1[/quest]%n%n[note]For Each Tower: [/note]%n%nParallelism Casing: §c134§r%nGlass: §c530§r%nFrame: §c64§r%nCoil: §c42§r%nStainless Steel Casing: §c86§r%nAssembly Line Casing: §c64§r
-
-# Quest: Extreme Crafting Center
-betterquesting.quest.zZ1IMTNxTYa-3OREGKpJCg.name=Extreme Crafting Center
-betterquesting.quest.zZ1IMTNxTYa-3OREGKpJCg.desc=[quest]Extreme Crafting Center[/quest]%n%n§6Machine Type: §aMolecular Assembler§r | §aExtreme Crafting Table§r%n%nDoes not use power. Controller & Pattern Hatch need to be connected to AE Network.%n%n§6Time consumption is fixed at §c1§r §6second§r. %n%nItems will be sent to an Output Bus. %n%n§9Supports Crafting Table & Dire Crafting Processes§r%n%nYou can §c§2x2§r the pattern to run multiple recipes at once.%n%nSet the pattern magnification parameters in the controller GUI.%n%nThe internal pattern input and output quantity will be multiplied by the magnification parameter when the recipe is running. %n%n[note]Use a §aScrewdriver§r on the controller to move internal patterns to output bus.[/note] 
-
-# Quest: This is also a Miracle, but its also a Door
-betterquesting.quest.YoiHB7RcSoygjnaayzeXiw.name=This is also a Miracle, but its also a Door
-betterquesting.quest.YoiHB7RcSoygjnaayzeXiw.desc=[quest]Miracle Door[/quest]%n%n§6Machine Type: §aStellar Forge§r | §aStellar Forge : Alloy Smelter§r%n%nA §aCritical Photon§r is required to start the machine | All recipes will be ran at the same time%n%nPower Consumption:%n%nAlloy Smelter: §c1600%§r%nStellar Forge: §c6400%§r%n%nDirectly takes power from your Wireless EU Net%n%n[note]Put a §aCircuit§r into the Controller Block to decrease the processing time[/note]%n%n[warn]If you do not have enough power in your Wireless EU Net, you will void the inputs[/warn]%n%n§6 --- Details --- §r%n%nEach Run takes the same amount of time: %n%nABS: §c25.6§r seconds%nEBF: §c64§r seconds%n%nIf you use a Circuit, actual processing time = default / (Circuit Number * Stack Size)%n%nEU Cost = Recipe Value * §c16§r * (Circuit Number * Stack Size)%n%nNumber of Critical Photons: Default Critical Photons (1) * Number of Overclocks%n%n[note]Use a §aScrewdriver§r to change modes[/note]
-
-# Quest: Defying Gravity
-betterquesting.quest.a1BWLbF9QMKmdVKLcSy6tw.name=Defying Gravity
-betterquesting.quest.a1BWLbF9QMKmdVKLcSy6tw.desc=The Gravitational Lens enables Tier 2 of the Ball Lightning. %n%nYou'll probably want a dedicated Ball Lightning at Tier 2 (Plasma Arc Furnace) for the Eternity Loop. 
-
-# Quest: Buffered Energy Hatch HV
-betterquesting.quest.Ej-JbH8KTl-sXWK9Ij7ZGw.name=Buffered Energy Hatch HV
-betterquesting.quest.Ej-JbH8KTl-sXWK9Ij7ZGw.desc=Buffered Energy Hatch HV%n%nAllows for batteries to be placed inside the Energy Hatch
-
-# Quest: INFRASTRUCTURE VOLTAGE
-betterquesting.quest.gW3M3LSISnSu8ONX2p-nVg.name=INFRASTRUCTURE VOLTAGE
-betterquesting.quest.gW3M3LSISnSu8ONX2p-nVg.desc=The Twist Multis for IV
-
-# Quest: Photonic Intensifier - UHV
-betterquesting.quest.MD1O4KNIT0ipEMule6Ruxg.name=Photonic Intensifier - UHV
-betterquesting.quest.MD1O4KNIT0ipEMule6Ruxg.desc=Photonic Intensifer UHV%n%n§c70%§r Speed Bonus
-
-# Quest: Solar Sails!!
-betterquesting.quest.B7BpcZF-TwKNsLzDKcQHKQ.name=Solar Sails!!
-betterquesting.quest.B7BpcZF-TwKNsLzDKcQHKQ.desc=[quest]Solar Sail[/quest]%n%nSolar Sails are the second half of what you need to send up in your Dyson Sphere Launch Site to produce power and Critical Photons from the Dyson Sphere Ray Receiver. %n%n[warn]Remember to calculate the ratio correctly with Carrier Vehicles sent up or you'll have a very bad time.[/warn] 
-
-# Quest: PERFECT EXECUTION
-betterquesting.quest.CUw2AbZ3T-yzXkZ9WHpjxg.name=PERFECT EXECUTION
-betterquesting.quest.CUw2AbZ3T-yzXkZ9WHpjxg.desc=[quest]Perfect Execution Core Module[/quest]%n%nUses the Logical Parameters of the Multi, but without energy constraints and infinite parallel%n%nDirectly uses §aWireless EU Energy§r%n%nAny task is completed within §c1§r second.
-
-# Quest: Twist Antimatter!
-betterquesting.quest.hqV4CtXJThuX6znY9EL5JQ.name=Twist Antimatter!
-betterquesting.quest.hqV4CtXJThuX6znY9EL5JQ.desc=[quest]Antimatter[/quest]%n%nThis is Twist's Version of Antimatter. This is a crafting component for endgame Twist items and can be used as a power source in the Artificial Star. %n%n[note]It is recommended to passive this process as you will need a large quantity for the endgame.[/note]
-
-# Quest: Component Assembly Line Casing - UEV
-betterquesting.quest.aFH0QLLXSMGsAJngJcjP2Q.name=Component Assembly Line Casing - UEV
-betterquesting.quest.aFH0QLLXSMGsAJngJcjP2Q.desc=Component Assembly Line Casing UEV%n%nTo disassemble UEV Recipes
-
-# Quest: Space Apiray IV: A New Hope
-betterquesting.quest.05f5ni51Sn2jxrdXVms_-w.name=Space Apiray IV: A New Hope
-betterquesting.quest.05f5ni51Sn2jxrdXVms_-w.desc=[quest]Space Apiray Module MK-IV[/quest]%n%n§7§6Machine Type: §aBee Processing§r%n%nNeeds §nQueen§r Bee in Controller%n%nConsumes §c1A LuV §rper Parallel | Consumes §c1L§o§r Liquid DNA per Parallel per Run%n%nMax Parallels: §c2,147,483,647§r%n%n[note]Needs at least Space Elevator Motor MK-IV to work. [/note]
-
-# Quest: §b§lA Proof of a Hero
-betterquesting.quest.bCU2_cLiSAGmGmFfthMzUA.name=§b§lA Proof of a Hero
-betterquesting.quest.bCU2_cLiSAGmGmFfthMzUA.desc=You'll need 64 of these.
-
-# Quest: The Mini Mixer
-betterquesting.quest.IuJ13T02SMWAgX3sU4OxNA.name=The Mini Mixer
-betterquesting.quest.IuJ13T02SMWAgX3sU4OxNA.desc=[quest]"Mini" Magnetic Mixer[/quest]%n%n§6Machine Type: §aMixer§r%n%nHas Parallel equivalent to §9Perfect Overclock%n%nAdditional §c20%§r time reduction per voltage tier%n%n----------------------------------------%n%nThe “Mini” Magnetic Mixer is a §919x19x21§r Multiblock, used as a direct upgrade to the Industrial Mixing  Machine. %n%nYou’ll need:%n%n§c645§r Radiant Naquadah Alloy Casings%n§c791§r Mining Neutronium Casings%n§c820§r Mining Black Plutonium Casings%n§c60§r Containment Field Casings%n§c36§r Volcanus Casings%nI/O Ports, a Maintenance Hatch and Energy Hatches%n%n§dPortion written by Annie Penndragon
-
-# Quest: §6§lTHE PLASMA FORGE IS PRETTY DANK AM I RIGHT?
-betterquesting.quest.w0IuWUSWT9-cse5pEwNDmg.name=§6§lTHE PLASMA FORGE IS PRETTY DANK AM I RIGHT?
-betterquesting.quest.w0IuWUSWT9-cse5pEwNDmg.desc=Flasks require §c100K§r of tier-specific components, circuits, and superconductors, as well as a large amount of a fluid input.
-
-# Quest: Tier 2 Swelegfyr
-betterquesting.quest.n-XYkdvCT3q_oxZYCVSkbg.name=Tier 2 Swelegfyr
-betterquesting.quest.n-XYkdvCT3q_oxZYCVSkbg.desc=This chip unlocks the T2 of the Swelegfyr Blast Furnace Multi.
-
-# Quest: The Disassembler Returns!
-betterquesting.quest.wl56Hq9CQd2ACqfaK4MgEQ.name=The Disassembler Returns!
-betterquesting.quest.wl56Hq9CQd2ACqfaK4MgEQ.desc=[quest]TST Large Disassembler[/quest]%n%n§6Machine Type: §f§eDisassembler§r%n%nThis machine does not require energy%n%nThe component assembly line casing level limits the tier of what you can disassemble. %n%n[warn]DOES NOT DISASSEMBLE SHAPED/SHAPELESS CRAFTING RECIPES![/warn]
-
-# Quest: Superspeed your Micro-organisms! 
-betterquesting.quest.yo1U0netQSC7pBwbWf_V1g.name=Superspeed your Micro-organisms! 
-betterquesting.quest.yo1U0netQSC7pBwbWf_V1g.desc=[quest]Biosphere III[/quest]%n%n§6Machine Type: §aBacterial Vat§r | §aBrewing Machine§r | §aFermenter§r%n%n[note]Use a §aScrewdriver§r to switch modes[/note]%n%n§6--- Bacterial Vat Mode ---§r%n%nNeeds Petri Dish in Controller. Every Petri Dish provides §c4§r Parallel.%n%nKeep the Output Hatch §9half-filled§r for maximum efficiency.%n%n§6--- Bacterial Vat Automation Mode ---§r%n%nNeeds Petri Dish in Controller. Every Petri Dish provides §c1§r Parallel.%n%nOriginal Efficiency is §c40%§r of the maximum. Each Glass Tier §9over§r recipe requirement improves efficiency by §c15%§r%n%n§6--- Brewing Machine Mode ---§r%n%nDoes not need Petri Dish. %n%nEach Glass Tier §9over§r HV provides §c4§r times Parallel. %n%n§bTitanium Reinforced Borosilicate Glass:§r §c4§r Parallel§r%n§bTungstensteel Reinforced Borosilicate Glass:§r §c16§r Parallel%n§bRhodium-Plated Palladium Reinforced Borosilicate Glass:§r §c64§r Parallel%n§bIridium Reinforced Borosilicate Glass:§r §c256§r Parallel%n§bOsmium Reinforced Borosilicate Glass:§r §c1,024§r Parallel%n§bNeutronium Reinforced Borosilicate Glass:§r §c4,096§r Parallel%n§bCosmic Neutronium Reinforced Borosilicate Glass:§r §c16,384§r Parallel%n§bInfinity Reinforced Borosilicate Glass:§r §c65,536§r Parallel%n§bTranscendentally Reinforced Borosilicate Glass:§r §c262,144§r Parallel%n%n§6--- Fermenter Mode ---§r%n%nDoes not need Petri Dish. %n%nEach Glass Tier §9over§r HV provides §c4§r times Parallel. %n%n§bTitanium Reinforced Borosilicate Glass:§r §c4§r Parallel§r%n§bTungstensteel Reinforced Borosilicate Glass:§r §c16§r Parallel%n§bRhodium-Plated Palladium Reinforced Borosilicate Glass:§r §c64§r Parallel%n§bIridium Reinforced Borosilicate Glass:§r §c256§r Parallel%n§bOsmium Reinforced Borosilicate Glass:§r §c1,024§r Parallel%n§bNeutronium Reinforced Borosilicate Glass:§r §c4,096§r Parallel%n§bCosmic Neutronium Reinforced Borosilicate Glass:§r §c16,384§r Parallel%n§bInfinity Reinforced Borosilicate Glass:§r §c65,536§r Parallel%n§bTranscendentally Reinforced Borosilicate Glass:§r §c262,144§r Parallel
-
-# Quest: Where did all the heat go?
-betterquesting.quest.v0wDgLJLQ4GTDwG7L36zcA.name=Where did all the heat go?
-betterquesting.quest.v0wDgLJLQ4GTDwG7L36zcA.desc=[quest]Hyper Thermal Convector[/quest]%n%n§6Machine Type: §aHeat Exchanger§r | §aHeat Cooler§r%n%nProcesses the input thermal fluid as thoroughly as possible in a single pass.%n%n[note]This device complies with §aGB/T 28712§r standards and will not explode[/note]
-
-# Quest: Physical Form Switcher
-betterquesting.quest.qe4J7g2YS1CEsgVtYQ3egg.name=Physical Form Switcher
-betterquesting.quest.qe4J7g2YS1CEsgVtYQ3egg.desc=[quest]Physical Form Switcher[/quest]%n%n§6Machine Type: §aFluid Solidifier§r | §aFluid Extractor§r%n%nHas Parallel equivalent to §9Perfect Overclock§r%n%nGlass Tier §9limits§r the recipe voltage tier. %n%nAdditional §c10%§r time reduction per voltage tier. %n%n---------------------------------------%n%nThe Physical Form Switcher is a §915x20x15§r Multiblock, used as a direct upgrade to the Fluid Shaper and Large Fluid Extractor. %n%nYou’ll need:%n%n§c365§r Radiant Naquadah Alloy Casings%n§c64§r Containment Field Machine Casings%n§c40§r Field Restriction Casings%n§c88§r Tiered Borosilicate Glass%n§c136§r Naquadah Alloy Frame Boxes%n§c12§r Tungstensteel Pipe Casing%nI/O hatches and Energy Hatches%n%n§dPortion written by Annie Penndragon
-
-# Quest: §6§lMEGA ULTIMATE MEGA VOLTAGE OF MEGA
-betterquesting.quest.sLx-wNh_QKmCYG7o3I7PsA.name=§6§lMEGA ULTIMATE MEGA VOLTAGE OF MEGA
-betterquesting.quest.sLx-wNh_QKmCYG7o3I7PsA.desc=These are the Twist Quests and Multis for UMV. %n%nChecking off this section and going further than this categorizes you as a real gamer btw. 
-
-# Quest: Elven Workshop
-betterquesting.quest.qGzTyPPjTL6XJc8Ks41Q2g.name=Elven Workshop
-betterquesting.quest.qGzTyPPjTL6XJc8Ks41Q2g.desc=[quest]Elven Workshop[/quest]%n%n§6Machine Type: §aMana Infuser§r | §aRune Engraver§r%n%nThe Elven Workshop is the Twist answer to Botania. %n%nThe multiblock has two modes. %n%n§9Have fun with the Liquid Mana!
-
-# Quest: ZERO POINT MODULES
-betterquesting.quest.FzXYJcdGSIePTh9SM46WtQ.name=ZERO POINT MODULES
-betterquesting.quest.FzXYJcdGSIePTh9SM46WtQ.desc=The Twist Multis for ZPM%n%n[note]You might actually need the Zero Point Modules to finish Twist[/note]
-
-# Quest: EXPANSION OF YOUR BEE DOMINANCE
-betterquesting.quest.gcWgvA1WRHqzB4-PixH4Ug.name=EXPANSION OF YOUR BEE DOMINANCE
-betterquesting.quest.gcWgvA1WRHqzB4-PixH4Ug.desc=[quest]Space Apiray Module MK-I[/quest]%n%n§7§6Machine Type: §aBee Processing§r%n%nNeeds §nQueen§r Bee in Controller%n%nConsumes §c1A LuV §rper Parallel | Consumes §c100L§o§r Liquid DNA per Parallel per Run%n%nMax Parallels: §c256§r%n%n[note]Needs at least Space Elevator Motor MK-I to work. [/note]
-
-# Quest: Large Steam Forge Hammer
-betterquesting.quest.RCMMQpKXT12ybR2KO-qIaw.name=Large Steam Forge Hammer
-betterquesting.quest.RCMMQpKXT12ybR2KO-qIaw.desc=[quest]Large Steam Forge Hammer[/quest]%n%n§6Machine Type: §aForge Hammer§r%n%nLarge Steam Forge Hammer by Twist Space Technology. A 3x3 Hollow Multiblock with speed.%n%nThis quest is for those who want to do every Twist Multiblock, but base GTNH has the Steam Presser which is equally as good as this. 
-
-# Quest: YOU MIGHT BE GOING INSANE
-betterquesting.quest.hug1KT9tSbSxvdNveIQQ1w.name=YOU MIGHT BE GOING INSANE
-betterquesting.quest.hug1KT9tSbSxvdNveIQQ1w.desc=THE TWIST STUFF FOR UIV. GO FORTH IF YOU MUST, BUT GOOD LUCK, AND I REALLY HOPE YOUR INFRASTRUCTURE IS SETUP FOR EXPANSION. 
-
-# Quest: Skypiercer Tower
-betterquesting.quest.nX-svQwESIqQsXbidL7c8Q.name=Skypiercer Tower
-betterquesting.quest.nX-svQwESIqQsXbidL7c8Q.desc=[quest]Skypiercer Tower[/quest]%n%n§6Machine Type: §aEssentia Synthesizer§r%n%nThe Multiblock has additional rings that can be constructed. 
-
-# Quest: Component Assembly Line Casing - UHV
-betterquesting.quest.EFT2S5uIQcOiT8EAUxqSSg.name=Component Assembly Line Casing - UHV
-betterquesting.quest.EFT2S5uIQcOiT8EAUxqSSg.desc=Component Assembly Line Casing UHV%n%nTo disassemble UHV Recipes
-
-# Quest: A Rocket for the Ages
-betterquesting.quest.6Lglh082RkCeSrUx-rVXAA.name=A Rocket for the Ages
-betterquesting.quest.6Lglh082RkCeSrUx-rVXAA.desc=[quest]Small Launch Vehicle[/quest]%n%nDepending on how much you invest into your Twist Infrastructure, you may make a couple hundred thousand of these. Have fun!
-
-# Quest: Photonic Intensifier - UIV
-betterquesting.quest.GVhNthqMTrOsPUk-RKNfXw.name=Photonic Intensifier - UIV
-betterquesting.quest.GVhNthqMTrOsPUk-RKNfXw.desc=Photonic Intensifier UIV%n%n§c140% §rSpeed Bonus
-
-# Quest: Advanced High Power Coil
-betterquesting.quest.aV_u22wIRDyb8Wpfg5FuqA.name=Advanced High Power Coil
-betterquesting.quest.aV_u22wIRDyb8Wpfg5FuqA.desc=Unlocks Tier 4 of the Ball Lightning. %n%nIt replaces all the Fusion Coil Blocks, so you'll need a lot of these. 
-
-# Quest: §6§lThis Process will be STRANGE
-betterquesting.quest.XBHhd6MlTUKaBnPprZNVIQ.name=§6§lThis Process will be STRANGE
-betterquesting.quest.XBHhd6MlTUKaBnPprZNVIQ.desc=[quest]Strange Matter Aggregator[/quest]%n%n§6Machine Type:§r Modularized Machine - §aStrange Matter Aggregator§r%n%nYou must set the number of rings per multi-specific block within the Machine UI.%n%nMulti-Specific Blocks: %n%nOscillator%nConstraintor%nMerger%n%n[warn]DO NOT, AND I REPEAT DO NOT USE MORE THAN §91§r HOLOGRAM PROJECTOR ON THIS MULTI[/warn]%n%n[note]It is recommended to go for 15 15 24 for Rings. The Multi will be about 1100 blocks long[/note]%n%nInput Hatch of SpaceTime Maintenance Fluid: §1§aLeft of the Controller Block§r%nInput Bus of Core Element and Annihilation Constrainer: §1§aRight of the Controller Block§r%n%n[note]Higher Tier, more rings, more benefits, but more resources required[/note]%n%nPlace §9Modular Hatches§r around the controller to enhance your machine.%n%n§6Installable Modules§r are: %n%n§cPower Consumption Controller Module§r: Reduces machine energy consumption%n§cSpeed Controller Module§r: Increases machine processing speed%n%n§9 -------§r §6SpaceTime Oscillator§r §9------- §r%n%n§3Base Run Time§r: Higher the tier, the shorter the run time%n§3Basic Materials Consumption§r: Higher number of rings, lower amount of basic materials  consumed%n§3SpaceTime Maintenance Fluid Consumption§r: More Rings, More Fluid consumed%n§3Core Element and Annihilation Constrainer Consumption§r: Higher Tier & More Rings, lower consumption rate%n%n§9 -------§r §6SpaceTime Constraintor§r §9------- §r%n%n§3Consumption Rate of Auxiliary Materials§r: Higher the level, the lower the consumption rate%n§3Actual Running Time§r: Higher the tier, the longer the running time is%n§3SpaceTime Maintenance Fluid Consumption§r: More rings, less fluid consumed%n%n§9 -------§r §6SpaceTime Merger§r §9------- §r%n%n§3Maximum Continuous Running Points§r: Higher the tier, higher the §aContinuous Running Points§r limit%n§3Byproduct Outputs§r: More rings, the more outputs%n§3Power Consumption§r: Higher tier, more rings, the higher the power consumption%n%n§9 -------§r §3SpaceTime Maintenance Fluid§r §9------- §r%n%nSet which SpaceTime Maintenance Fluid Tier within the Machine UI:%n%n§9T1§r: §c576L§r Molten SpaceTime%n§9T2§r: §c96L§r Molten Universium%n§9T3§r: §c16L§r Molten Magnetohydrodynamically Constrained Star Matter%n%nUsing Advanced SpaceTime Maintenance Fluid increases number of fuel rods crafted per Annihilation Constrainer and Core Element, and reduces the consumption of Fluid and Auxiliary Materials. %n%nThe type of byproducts depends on the SpaceTime Maintenance Fluid used:%n%n§9T1§r: Molten Infinity and Molten Hypogen%n§9T2§r: Molten SpaceTime and Molten Shirabon%n§9T3§r: Molten Universium%n%n§6 ------------- §r%n%n§1Continous Operation§r will produce byproducts and more of the main output%n%nFor each successful run, §3Continuous Running Points§r is increased by one.%n%nYou must provide sufficient SpaceTime Maintenance Fluid to maintain continuous operation%n%nProvide §aCore Elements§r to obtain T2 Products%n%nIf you input core elements, it will output the T2 Strange Annihilation Fuel Rod instead | Byproduct yields are doubled
-
-# Quest: ORES GOOO BRRRRRR!! 
-betterquesting.quest.I3vxiGQKTW-kJN6Hn3DpJQ.name=ORES GOOO BRRRRRR!! 
-betterquesting.quest.I3vxiGQKTW-kJN6Hn3DpJQ.desc=[quest]Starcore Miner[/quest]%n%n§6Machine Type: §aVoid Miner§r%n%nEach run produces §c24§r types of ore and §c131,072§r of each type. %n%nTakes §c6.4§r seconds and §c2,013,265,920§r EU/t%n%nJoins the Wireless EU Network when no Energy Hatch is installed.%n%n[note]The tooltip mentions the mining access portion to extend to at least 20 blocks, but it works if you put it exactly on bedrock or 1 block above (the bottom of the multiblock)[/note]
-
-# Quest: Faster Arcing and Faster Fusing
-betterquesting.quest.GKm6kqbkSj2EaMqoYMX4Xw.name=Faster Arcing and Faster Fusing
-betterquesting.quest.GKm6kqbkSj2EaMqoYMX4Xw.desc=[quest]Ball Lightning[/quest]%n%n§6Machine Type: §a(Plasma/Electric) Arc Furnace§r | §aFusion Reactor§r | §aStar Kernal Generator§r%n%n[note]This structure requires at least Infinity Coils[/note]%n%nThe Ball Lightning has §c4§r levels, each unlocking a different mode. %n%n§9T1§r: Arc Furnace%n§9T2§r: Plasma Arc Furnace%n§9T3§r: Fusion Reactor%n§9T4§r: Star Kernal Generator%n%nBase Structure is T1.%nGravitational Lens in the Controller unlocks T2.%nMaking the T2 Structure and Ball Lightning Upgrade Chip in the Controller unlocks T3.%nAdvanced High Power Coil unlocks T4.%n%n§5Wireless Mode§r%n%nT4 Ball Lightning unlocks Wireless EU Mode%nProcessing Time will be fixed at §c3.2§r seconds, and EU cost increases to §c64x§r%n%nYou can put more Upgrade Chips into the controller block to decrease processing time at the cost of an EU increase.%n%nProcessing Time = Default / Upgrade Chip Stack Size%nEU Cost = Recipe Value * Upgrade Chip Stack Size ^ §c2§r * §c64§r%n%n§6 --- Machine Modes --- §r%n%n§aPlasma/Electric Arc Furnace§r:%n%nParallel = §c2§r ^ (Compact Fusion Coil Tier * (Coil Tier - §c10§r))%n%n§aFusion Reactor§r:%n%nMaximum EU consumption: §c4§r ^ (Compact Fusion Coil Tier - §c2§r) * §c1.8§r ^ (Field Generator Tier - §c1§r)%n§c65,536x§r Parallel | §9Perfect Overclock§r%nMax Recipe Tier is limited by Compact Fusion Coil Tier%n%n§aStar Kernal Generator§r:%n%nAlmost Infinite Parallel | Upgrade the Field Generator for faster speeds%nEU Modifier: §c1§r - §r9.9%§r * (Field Generator Tier - §c1§r)%n%n[note]Use a §aScrewdriver§r to change modes[/note]
-
-# Quest: Industrial Magic Matrix
-betterquesting.quest.zxh9fSGUSMa9VvAhtlobxA.name=Industrial Magic Matrix
-betterquesting.quest.zxh9fSGUSMa9VvAhtlobxA.desc=[quest]Industrial Magic Matrix[/quest]%n%n§6Machine Type: §aMagic Matrix§r%n%nTwist's version of the Infusion Matrix from Thaumcraft. %n%n[warn]Use the Infusion Supplier to supply Essence[/warn]%n%n[note]The Industrial Magic Matrix is unable to perform active infusions[/note]%n%nParallelism depends on the level of the structure block.%n%nHas a §c4/2§r OC. You can turn on lossless overclocking after reaching the maximum acceleration rate. %n%n[note]Use Charged Nodes to get acceleration rewards[/note]%n%nIf the number of nodes is < §a6§r, processing time will be recipe time * number of missing nodes * §c1.75§r%n%n§9There is more information on the ToolTip. Please refer to that for more information.§r%n%n[warn]This multi requires a lot of materials. Be sure to keep track of everything you need.[/warn]
-
-# Quest: Oscillator T1
-betterquesting.quest.idEQVkIOSWuDRuMzs02MrQ.name=Oscillator T1
-betterquesting.quest.idEQVkIOSWuDRuMzs02MrQ.desc=The First Tier of the Oscillator
-
-# Quest: Component Assembly Line Casing - UIV
-betterquesting.quest.sjd5yZXdSaSO9YnJbq9h3w.name=Component Assembly Line Casing - UIV
-betterquesting.quest.sjd5yZXdSaSO9YnJbq9h3w.desc=Component Assembly Line Casing UIV%n%nTo disassemble UIV Recipes
-
-# Quest: You'll definitely want this Miracle
-betterquesting.quest.RuR30RKaTD6Mvmu2tq5FBg.name=You'll definitely want this Miracle
-betterquesting.quest.RuR30RKaTD6Mvmu2tq5FBg.desc=[quest]Miracle Top[/quest]%n%n§6Machine Type: §aCircuit Assembler§r | §aGravitation Breaker§r%n%nMaximum amount of Rings: §c16§r | Minimum amount of Rings: §c2§r%n%nEnables §9Perfect Overclock§r when number of rings >= §c8§r%n%n§c128§r Parallel per ring%n%nTotal Speed Multiplier = §c400%§r * Number of Rings%n%n[note]Use a §aScrewdriver§r to change mode[/note]
-
-# Quest: GIGA WOOD
-betterquesting.quest.xU7-lcKwRb2AiXVbb2QRSg.name=GIGA WOOD
-betterquesting.quest.xU7-lcKwRb2AiXVbb2QRSg.desc=[quest]Eco-Sphere Growth Simulator[/quest]%n%n§6Machine Type: §aTree Farm§r | §aAquatic Farm§r | §aGreen House§r | §aMob Cloner§r%n%n[note]As of now, only §9Tree Farm§r and §9Aquatic Farm§r are actually available in game[/note]%n%nNeed to pour a bucket of §9distilled water§r at the top to complete the structure%n%nRecipe Time is §cFixed§r%n%nThe output increases §9nonlinearly§r with an increase in voltage%n%n[note]Use a §aScrewdriver§r to change modes[/note]
-
-# Quest: CleanRoom
-betterquesting.quest.bTmz5K-YSWeZ3EXHMrDpcg.name=CleanRoom
-betterquesting.quest.bTmz5K-YSWeZ3EXHMrDpcg.desc=[quest]The Twist Cleanroom[/quest]%n%n§6Machine Type: §aCleanroom§r%n%nDoes not need maintainence or power. Both hatches need to be placed, but they do not require any setup. %n%nCan be any size up to §963x64x63§r.%n%n[warn]Power Pass must be enabled for Twist CleanRoom to work![/warn]
-
-# Quest: The Apple Version of Ore Processing
-betterquesting.quest.R5kZsC2LSQulgveqI6inJQ.name=The Apple Version of Ore Processing
-betterquesting.quest.R5kZsC2LSQulgveqI6inJQ.desc=[quest]General Ore Processing Factory TST[/quest]%n%n§6Machine Type: §aOre Processor§r%n%nProcess time is always §c6.4§r seconds%n%nWill attempt to consume as many inputs as possible. Inputs that cannot be processed will be sent directly to Output Bus. %n%nJoins the Wireless EU Network when you don't install an Energy Hatch.%n%nConsumes §c3200L §rLubricant every §d§c12.8§r seconds.
-
-# Quest: §6§lI'm pretty sure you should have AE by now?
-betterquesting.quest.uAN88pOGRKKop_2QH2BSsQ.name=§6§lI'm pretty sure you should have AE by now?
-betterquesting.quest.uAN88pOGRKKop_2QH2BSsQ.desc=Flasks require §c100K§r of tier-specific components, circuits, and superconductors, as well as a large amount of a fluid input.
-
-# Quest: §6§lFinally I have achieved Stargate!
-betterquesting.quest.Zci-faB5RKCiluWF-lFV7A.name=§6§lFinally I have achieved Stargate!
-betterquesting.quest.Zci-faB5RKCiluWF-lFV7A.desc=Flasks require §c100K§r of tier-specific components, circuits, and superconductors, as well as a large amount of a fluid input.
-
-# Quest: Vacuum Filter Extractor
-betterquesting.quest.kSHEgSFHQdenuhl07GyD1w.name=Vacuum Filter Extractor
-betterquesting.quest.kSHEgSFHQdenuhl07GyD1w.desc=[quest]Vacuum Filter Extractor[/quest]%n%n§6Machine Type: §aDistillation Tower§r | §aDistillery§r%n%n[note]Use a §aScrewdriver§r to change modes[/note]%n%nRecipe Voltage is only §c50%§r%n%nIncreasing the energy input will result in more speed boosts!%n%nDistillery Mode enables §9Perfect Overclock§r
-
-# Quest: BEEEEEEEEEEEEEES
-betterquesting.quest.zmQVp-q7Q9yBKouqgGDWpQ.name=BEEEEEEEEEEEEEES
-betterquesting.quest.zmQVp-q7Q9yBKouqgGDWpQ.desc=[quest]Bee Engineer[/quest]%n%n§6Machine Type: §aBee Engineer%n%n§rTransforms drones into princess. %n%nCosts §c128kL§f§r Honey with a §c40%§f§r failing chance. %n%nIf provided with §c32kL§f§r of UUMatter, success rate increases to §c80%§f§r%n%n[warn]If the recipe fails, no ingredients will be returned[/warn]
-
-# Quest: Core Elements
-betterquesting.quest.Q1tdSh8wRSuugE0qu_dnpw.name=Core Elements
-betterquesting.quest.Q1tdSh8wRSuugE0qu_dnpw.desc=[quest]Core Elements[/quest]%n%nGood Luck getting the Core Elements, they are not fun to setup.%n%nYou will need lots of Space Elevator Mining Module MK3s running for Zero Point Modules.%n%n[note]I recommend passiving the Core Elements process[/note]
-
-# Quest: §6§lWow you can really skip this tier
-betterquesting.quest.aEjhZQTHR2mF_Z73BLkZ8Q.name=§6§lWow you can really skip this tier
-betterquesting.quest.aEjhZQTHR2mF_Z73BLkZ8Q.desc=Flasks require §c100K§r of tier-specific components, circuits, and superconductors, as well as a large amount of a fluid input.
-
-# Quest: Eye of Wood
-betterquesting.quest.xT0mHKMxTnWQ4QWX7X9U8w.name=Eye of Wood
-betterquesting.quest.xT0mHKMxTnWQ4QWX7X9U8w.desc=[quest]Eye of Wood[/quest]%n%n§6Machine Type: §aHappiness Master§r%n%nThe Eye of Wood is a poor man's Eye of Harmony for the early game. | The EoW produces small quantities of the Overworld Ores %n%n[warn]CAN ONLY BE PLACED IN THE OVERWORLD, UNLESS CHANGED IN CONFIG[/warn]%n%nRequires §c256§r Buckets of Lava and Water every minute to produce items. If it fails, it produces steam. %n%nYou can easily automate this in §aEV§r with §9AE§r or §9OC§r. %n%nLava can easily be obtainable with Everburn Urn. %n%n§6 --- Output Amount --- §r%n%nPer successful cycle, the EoW rolls §c8x§r on the possible Ore Map%n%n§c8§r Veins * §c4§r ore types * §c1§r stack | Gems will give a scaling amount of dust -> exquisite%n%n§6 --- Details --- §r%n%nMaximum Success Rate: §c75%§r when the amount of water & lava are equal to §c256,000L§r%n%n§bSuccess Rate§r = {§c7500§r - §c7499§r * [§c1§r - §c1§r/(§6S§r^§9dW§r * §6S§r^§adL§r)]} / §c10000§r%n%n§5Keys§r:%n%n§6S§r ≈ §c1.087§r%n§9dW§r = floor(|Stored Water - Demand|) / §c1000§r)%n§adL§r = floor(|Stored Lava - Demand|) / §c1000§r)%n%nMachine takes a constant §c60§r seconds to run. %n%nIf processing fails, steam produced = §bSuccess Rate§r * §c360,000,000L§r (Max of §c270,000,000L§r)
-
-# Quest: In fact it's NOT Compact at all! 
-betterquesting.quest.IHFHFybqRKe4r0cTgdB_AA.name=In fact it's NOT Compact at all! 
-betterquesting.quest.IHFHFybqRKe4r0cTgdB_AA.desc=[quest]PULSAR - Incompact Cyclotron[/quest]%n%n§6Machine Type: §aParticle Accelerator§r%n%n§c100%§r Speed Bonus%n§c256x§r Parallel%n%nRequires an additional §c60%§r power to operate
-
-# Quest: Constraintor T1
-betterquesting.quest.zeCGP9PRSfic3_m_i1pMRw.name=Constraintor T1
-betterquesting.quest.zeCGP9PRSfic3_m_i1pMRw.desc=The First Tier of the Constraintor
-
-# Quest: Canning Things (Largely)
-betterquesting.quest.hjt57hHvRyGCd4qkghit7g.name=Canning Things (Largely)
-betterquesting.quest.hjt57hHvRyGCd4qkghit7g.desc=[quest]Large Canner[/quest]%n%n§6Machine Type: §aCanning Machine§r | §aFluid Canner§r%n%n§cCAN§r.%n%nInfinite Parallels%n%n[note]Use a §aScrewdriver§r to switch modes[/note]
-
-# Quest: DOMAIN EXPANSION
-betterquesting.quest.UJwhHVDiRo-v3yATHAoevQ.name=DOMAIN EXPANSION
-betterquesting.quest.UJwhHVDiRo-v3yATHAoevQ.desc=[quest]Magnetic Domain Constructor[/quest]%n%n§6Machine Type: §aElectromagnetic Separator§r | §aElectromagnetic Polarizer§r%n%n[note]Use a §aScrewdriver§r to change modes[/note]%n%n§c64x§r Parallel per Ring%n%n§c25%§r Time Reduction per Voltage Tier%n%n[warn]DO NOT USE A STACK OF HOLOGRAM PROJECTORS WHEN VISUALIZING THE MULTI[/warn]
-
-# Quest: Precision and Grace
-betterquesting.quest.AamvKy0vThaBrEJFx51MSw.name=Precision and Grace
-betterquesting.quest.AamvKy0vThaBrEJFx51MSw.desc=[quest]Holy Separator[/quest]%n%n§6Machine Type: §aCutter§r | §aSlicer§r | §aLathe§r%n%n[note]Use a §aScrewdriver§r to change modes[/note]%n%n§c8x§r Parallel per segment%n%n§c16§r segments enables §9Perfect Overclock§r%n%n§c10%§r Time reduction per Voltage Tier
-
-# Quest: A Giant Vacuum
-betterquesting.quest.I9_4UTuTTUO6h8w7OssucA.name=A Giant Vacuum
-betterquesting.quest.I9_4UTuTTUO6h8w7OssucA.desc=[quest]Giant Vacuum Drying Furnace[/quest]%n%n§6Machine Type: §aVacuum Furnace§r | §aDehydrator§r%n%nThis multi consists of §93§r structures: Vacuum Pump, Main Structure and Drying Tower%n%nParallel = §9coil§r*§9segments§r*§c32§r%n%nEvery additional voltage step reduces time to §c80%§r of the original processing speed.%n%n[note]Use a §aScrewdriver§r to switch modes[/note]
-
-# Quest: Buffered Energy Hatch MV
-betterquesting.quest.XDkyWdpkQpG147tqCA_ojA.name=Buffered Energy Hatch MV
-betterquesting.quest.XDkyWdpkQpG147tqCA_ojA.desc=Buffered Energy Hatch MV%n%nAllows for batteries to be placed inside the Energy Hatch
-
-# Quest: Constraintor T2
-betterquesting.quest.Bsm0wyxuThWF-T4fNI6_ww.name=Constraintor T2
-betterquesting.quest.Bsm0wyxuThWF-T4fNI6_ww.desc=Constraintor T2
-
-# Quest: §9§lModular Machines!
-betterquesting.quest.u9es1JgPQlem3qW22UT1QA.name=§9§lModular Machines!
-betterquesting.quest.u9es1JgPQlem3qW22UT1QA.desc=Modules are installable hatches on specific multiblocks that make them more powerful.%n%nCurrently only §c5§r Multiblocks can use modular blocks, but each can only use specific ones so make sure to read the entire tooltip to know which ones can be used. %n%n§6Available Modules§r are: %n%n§cOverclock Controller Module§r: Sets machine overclock type%n§cParallel Controller Module§r: Sets machine parallels%n§cPower Consumption Controller Module§r: Reduces machine energy consumption%n§cSpeed Controller Module§r: Increases machine processing speed%n§cExecution Core Module§r: Adds additional running units to machine, enabling §9True Parallelism§r
-
-# Quest: Industrial Alchemy Tower
-betterquesting.quest.QqKIT9bsSxyVpDQyqnpjzw.name=Industrial Alchemy Tower
-betterquesting.quest.QqKIT9bsSxyVpDQyqnpjzw.desc=[quest]Industrial Alchemy Tower[/quest]%n%n§6Machine Type: §aThaumatorium§r%n%nThe Twist version of the Thaumatorium
-
-# Quest: Macerating Everything
-betterquesting.quest.LUKxwtJvSeOsn0sc_dQNXQ.name=Macerating Everything
-betterquesting.quest.LUKxwtJvSeOsn0sc_dQNXQ.desc=[quest]"Mini" Household Cell Fragmentizer[/quest]%n%n§6Machine Type: §aMacerator§r%n%nParallel is §c2§r^(§c2§r^(§aTier§r + §c2§r) - §c1§r)%n%n§6Tier 1: §9Damascus Steel Blocks%n§6Tier 2: §9Neutronium Blocks%n§6Tier 3: §9Universium Blocks%n%n§rMax Voltage Tier is §alimited§r by the Glass Tier.%n%nGain §c8x§r speed multiplier when glass tier §9is greater than§r recipe tier.
-
-# Quest: Crystalline Infinitier
-betterquesting.quest.jIvFbhF8ROmb18Vzahbw4Q.name=Crystalline Infinitier
-betterquesting.quest.jIvFbhF8ROmb18Vzahbw4Q.desc=[quest]Crystalline Infinitier[/quest]%n%n§6Machine Type: §aAutoclave§r | §aCrystalline Infinitier§r | §aChemical Bath§r%n%nGlass Tier limits Voltage Tier%n%nHigher Glass Tier, Higher Field Generator Tier & Higher Voltage Tier = Higher Tier of Parallel%n%n[note]Higher Field Generator = Lower Energy Cost[/note]%n%nCrude Stabilisation Field Generator enables §9Perfect Overclock§r.%n%n§6Autoclave Mode§r:%n%nExtra §c300%§r Speed%n%n§6Chemical Bath Mode§r:%n%nExtra §c1500%§r Speed%n%n[note]Use a §aScrewdriver§r to change modes[/note]
-
-# Quest: Blasting to the Future!
-betterquesting.quest.wH_SroFZRZqNE-tBCQALhw.name=Blasting to the Future!
-betterquesting.quest.wH_SroFZRZqNE-tBCQALhw.desc=[quest]Swelegfyr Blast Furnace[/quest]%n%n§6Machine Type: §aBlast Furnace§r%n%nTemperature gradually increases in §9Passive Mode§r%n%nAdditional furnace heat will reset upon recipe change%n%nPower consumption decreases by §c10%§r per §b1800K§r above recipe temperature threshold%n%nEnery Hatch Tier is §arestricted§r by Glass Tier%n%n§6 --- Details --- §r%n%n§5Heat Upper Limit§r:%n%nNormal Mode: §bCoil Heat§r%nPassive Mode: §bCoil Heat§r ^ §c1.08§r%n%n§5Blazing Pyrotheum Consumption§r:%n%nNormal Mode: §c1000§r L/s%nPassive Mode: §bCurrent Heat§r / §c5§r L/s%nRapid Heating Mode: (§bCurrent Heat§r * §bMax Heat§r) / §bVoltage Tier§r ^ §c3§r L/s%n%n§5Heat Capacity Change§r:%n%nPassive Mode: §c5§r K/s [§aIncreasing§r]%nRapid Heating Mode: §c100§r K/s [§aIncreasing§r]%nNormal Mode (Minimum: Coil Heat): §bCurrent Heat§r * §c10%§r K/s [§9Decreasing§r]%nShutdown in Non-Retention Mode (Minimum: Coil Heat): §bCurrent Heat§r * §c20%§r K/s [§9Decreasing§r]%n%n[note]You do not need to use a §aPyrotheum Heating Vent§r on this multi[/note]
-
-# Quest: Advanced Mega Oil Cracker
-betterquesting.quest.f-53qsAjQSiWl1rjSvSD7g.name=Advanced Mega Oil Cracker
-betterquesting.quest.f-53qsAjQSiWl1rjSvSD7g.desc=[quest]Advanced Mega Oil Cracker[/quest]%n%n§6Machine Type: §aOil Cracker%n%n§5§lFREEDOM§r%n%n[note]Perfect Overclock enabled with Eternal Coils[/note]
-
-# Quest: §8§lTentacle
-betterquesting.quest.KdQWczDFRcqQFBlyusifNg.name=§8§lTentacle
-betterquesting.quest.KdQWczDFRcqQFBlyusifNg.desc=[quest]Indistinct Tentacle[/quest]%n%n§6Machine Type: §aAssembly Line§r | §aComponent Assembly Line§r | §aAssembler§r | §aPrecise Assembler§r%n%nGlass Tier limits Energy Hatch Tier | Laser Hatches require UV+ Glass%n%nComponent Casing Tier limits Recipe Tier | Casing Tier requires at least recipe voltage level - §c1§r%n%nIf Component Casing Tier is higher than recipe tier, enable §9Perfect Overclock§r%n%nUMV+ Glass and Component Casing enables §aWireless Mode§r%n%nProcessing Time is §bfixed§r in Wireless Mode.%n%n§6 --- Details --- §r%n%nDefault Speed:%n%nAssembly Line: §c100%§r%nComponent Assembly Line: §c200%§r%nAssembler: §c400%§r%nPrecise Assembler: §c400%§r%n%nDefault Parallel = §c256§r%n%nIn Wireless Mode, time is fixed at §c25.6§r seconds.%n%nUsing an §bAstral Array Fabricator§r in controller slot, processing time is fixed to §c1§r second, and EU cost increases to §c64x§r %n%n[note]Use a §aScrewdriver§r to change modes[/note]
-
-# Quest: Critical Photons
-betterquesting.quest.ffgPXVMsQwiuvWt4LIZJVg.name=Critical Photons
-betterquesting.quest.ffgPXVMsQwiuvWt4LIZJVg.desc=Critical Photons are a byproduct of the Dyson Sphere Ray Receiver in collection mode. %n%nYou'll need Critical Photons to create Antimatter which is required for endgame Twist Items. 
-
-# Quest: Laser Smart Node
-betterquesting.quest.RuM2UtcPQ72shh5mJRKkIw.name=Laser Smart Node
-betterquesting.quest.RuM2UtcPQ72shh5mJRKkIw.desc=[quest]Laser Smart Node[/quest]%n%nThe Twist Laser Smart Node allows you to split lasers into different directions like a Mini-Active Transformer.%n%nAs an alternative to the Base-GTNH Laser Mirror, the Twist version allows you to evenly split a laser between multiple machines or setups a lot easier.
-
-# Quest: Astral Computing Array
-betterquesting.quest.UYO4WX-ySKOIA2DNTm5vsQ.name=Astral Computing Array
-betterquesting.quest.UYO4WX-ySKOIA2DNTm5vsQ.desc=[quest]Astral Computing Array[/quest]%n%n§6Machine Type: §aQuantum Computer§r%n%nThe Astral Computing Array needs to be cooled:%n%nCoolant: §c0.001§r%nSuper Coolant: §c0.01§r%n%nEach operation will consume all the liquid input in the input hatch. If you use multiple different options, a random one will be chosen. %n%nUsing a Twist Wireless Quantum Chip in the controller slot enables §9Wireless Mode§r. %n%n[warn]Do not put multiple Astral Computing Arrays on the same Wireless Frequency[/warn]%n%n[note]Uses §c4x§r Power Consumption[/note]
-
-# Quest: Ray Receiving
-betterquesting.quest.hfghJ3LtRcWOGIjVLuCWjg.name=Ray Receiving
-betterquesting.quest.hfghJ3LtRcWOGIjVLuCWjg.desc=[quest]Dyson Sphere Ray Receiver[/quest]%n%n§6Machine Type: §aDyson Sphere Program: Ray Receiving Station§r%n%nReceived energy can be exported directly to the Wireless EU Net/Dynamo Hatches or converted as Critical Photons%n%n[warn]Actual Output Power is affected by Stellar and Planetary Coefficients.[/warn]%n%nInputting Gravitational Lens will enable §aIntensify Mode§r which increases actual power output. Gravitational Lens will be consumed immediately.%n%nDefault maximum Requested Power Point is §c1024A§r Max%n%n§6 --- Details --- §r%n%nRequesting Ratio: Integrated Circuit Number / Stack Size%nGenerated EU: Used Power Point * Stellar Coefficient * Planetary Coefficient * §c1§r (§c2§r in Intensify Mode)%n%nEvery Gravitational Lens will provide §c10§r minutes of Intensify Mode.%n%nPutting an §1§bAstral Array Fabricator§r into controller slot jumps the requesting power limit to: Astral Array Amount^§c2§r * §c2048A§r Max%n%nMax Power without AA: §968T§r EU every §c6.4§r seconds. %nMax Power with §a64AA§r: §9558P§r EU every §c6.4§r seconds.%n%n§6 --- Dyson Sphere Program --- §r%n%nLaunching Solar Sails increases §aSolar Sail§r amount in the Dyson Sphere. %nLaunching Small Launch Vehicle increases §aNode§r amount in the Dyson Sphere. %n%nDyson Sphere Energy Credit = Solar Sail Output (default §c524,288§r) * Solar Sail Amount * (Node + §c1§r)^§c0.8§r%nEvery Node by default can absorb §c256§r Solar Sails.%n%nIf unabsorbed solar sails amount is > §c2048§r, the excess may be destroyed.%n%nEvery §a30§r minutes has §c1§r/§c5000§r chance to decrease Solar Sail amount.%nWhile decreasing, every Dyson Sphere has §c1§r/§c4§r chance to destroy Solar Sails | The amount destroyed is §c1§r/§c2§r of the excess.%n%n[note]Best Planet to put the Dyson Sphere Program is §9Vega§r%n%nIf you don't install a dynamo hatch, it'll output power directly to the Wireless EU Net%n%nUse a §aScrewdriver§r to change modes[/note]
-
-# Quest: THE RETURN OF THE PRINCE
-betterquesting.quest.eqaNqvEcRHKAHyA-8Nsxhw.name=THE RETURN OF THE PRINCE
-betterquesting.quest.eqaNqvEcRHKAHyA-8Nsxhw.desc=[quest]The Return of the King[/quest]%n%n§6Machine Type: §eProcessing Array§o§r%n%nTST Processing Array is a copy of the PA which has been deprecated from base GTNH. %n%n§4ENJOY!
-
-# Quest: Ultimate Voltage
-betterquesting.quest.jY3TYSguT7-t9__g-UhChQ.name=Ultimate Voltage
-betterquesting.quest.jY3TYSguT7-t9__g-UhChQ.desc=The Twist Multis for UV!
-
-# Quest: Buffered Energy Hatch LuV
-betterquesting.quest.f7DXNVevTFahaP1clzE3ig.name=Buffered Energy Hatch LuV
-betterquesting.quest.f7DXNVevTFahaP1clzE3ig.desc=Buffered Energy Hatch LuV%n%nAllows for batteries to be placed inside the Energy Hatch
-
-# Quest: §6§lAll these Multiblocks require a lot of POWER!
-betterquesting.quest.h3jljtGlTsu9TEZzsmKs-g.name=§6§lAll these Multiblocks require a lot of POWER!
-betterquesting.quest.h3jljtGlTsu9TEZzsmKs-g.desc=Flasks require §c100K§r of tier-specific components, circuits, and superconductors, as well as a large amount of a fluid input.
-
-# Quest: §6§lWow! That shiny new Space Elevator looks great!
-betterquesting.quest.Zt1dRGwWQBmH31PCyIRUyA.name=§6§lWow! That shiny new Space Elevator looks great!
-betterquesting.quest.Zt1dRGwWQBmH31PCyIRUyA.desc=Flasks require §c100K§r of tier-specific components, circuits, and superconductors, as well as a large amount of a fluid input.
-
-# Quest: DEVOURING INGOTS LIKE IM CASEOH!
-betterquesting.quest.tbd9wuNvSfOwGJrMlsjTrA.name=DEVOURING INGOTS LIKE IM CASEOH!
-betterquesting.quest.tbd9wuNvSfOwGJrMlsjTrA.desc=[quest]Thermal Energy Devourer[/quest]%n%n§6Machine Type: §aVacuum Freezer§r%n%nIncreasing the input power will increase the operating efficiency%n%n[note]Use a §aScrewdriver§r to change modes[/note]%n%n§6High Speed Mode:%n%n§r§c1024x§r Parallel%n%nOperating efficiency decreases the processing time%n%n§6High Parallel Mode:§r%n%n§cAlmost Infinite§r Parallel%n%nOperating efficiency decreases the EU cost%n%n§6Wireless Mode:§r %n%nPut an §bEnergized Tesseract§r into the controller to enable Wireless Mode%n%nProgress time is fixed at §c6.4§r seconds
-
-# Quest: The Tower of Abstraction
-betterquesting.quest.faVy9omrQDqrQYV7gw6xHQ.name=The Tower of Abstraction
-betterquesting.quest.faVy9omrQDqrQYV7gw6xHQ.desc=[quest]Tower of Abstraction[/quest]%n%n§6Machine Type: §aMagical Energy Absorber§r%n%nYou can use up to 1 Multi-Amp Dynamo Hatch or Laser Source Hatch%n%nPower Generation:%n%n§9Creeper Egg: §c1A HV%n§9Dragon Egg: §c1A EV%n§9Infinity Egg: §c2A IV§r%n%n[note]You can only have 1 Infinity Egg per segment[/note]%n%nEvery §a2§r^N segments gives §c2%§r max efficiency bonus, and every Infinity Egg gives §c1%§r%n%nEvery empty space decreases max efficiency by §c5%§r%n%nWarm-up process:%n%n§c.01%§r Base%nEach Pair of Dragon Eggs (up to 50 pairs) adds §c.01%§r%nEach Infinity Egg (no limit) adds §c1%§r%n%n[warn]DO NOT BREAK ANY PART OF THE MACHINE WHILE IT IS RUNNING[/warn]
-
-# Quest: Component Assembly Line Casing UMV
-betterquesting.quest.DsDVZ7pwTbSPujCwKbjuwQ.name=Component Assembly Line Casing UMV
-betterquesting.quest.DsDVZ7pwTbSPujCwKbjuwQ.desc=Component Assembly Line Casing UMV%n%nTo disassemble UMV Recipes
-
-# Quest: Silksong
-betterquesting.quest.Pt5TPyS6TG-TUmhjRmCCIA.name=Silksong
-betterquesting.quest.Pt5TPyS6TG-TUmhjRmCCIA.desc=[quest]Silksong[/quest]%n%n§6Machine Type: §aWiremill§r%n%nParallel = §9coil§r * §9segments§r * §c32§r%n%nEach level of coil increases speed by §b§c100%§r%n%nAdditional §c15%§r time reduction per coil tier
-
-# Quest: METEOR MINER GOES BRRRRR
-betterquesting.quest.UpFgviOcSkOdAhRVR5XMcA.name=METEOR MINER GOES BRRRRR
-betterquesting.quest.UpFgviOcSkOdAhRVR5XMcA.desc=[quest]Tier 2 Laser Meteor Miner[/quest]%n%n§4Tier II:§r Always has §6Fortune III§r. Mines §c1§r §orow§r every cycle. 
-
-# Quest: Buffered Energy Hatch UHV
-betterquesting.quest.7x8Xej30T0Ws-jThN9ZXIA.name=Buffered Energy Hatch UHV
-betterquesting.quest.7x8Xej30T0Ws-jThN9ZXIA.desc=Buffered Energy Hatch ZPM%n%nAllows for batteries to be placed inside the Energy Hatch%n%n[note]In one version of Twist, this recipe needed a UXV Energy Hatch to craft![/note]
-
-# Quest: Magnetic Drive Pressure Former
-betterquesting.quest.Clks5ijITou-HfE8U_rMKQ.name=Magnetic Drive Pressure Former
-betterquesting.quest.Clks5ijITou-HfE8U_rMKQ.desc=[quest]Magnetic Drive Pressure Former[/quest]%n%n§6Machine Type: §aExtruder§r | §aBending Machine§r | §aForming Press§r | §aForge Hammer§r%n%n§6Extruder Mode: §c700%§r faster than singleblock of same voltage | Infinity Coil + enables §9Perfect Overclock§r%n%n§6Bending, Forming Press, Forge Hammer modes: §c1500%§r faster than singleblock of same voltage | has §9Perfect Overclock§r%n%n§c1024x§r Parallel%n%nExtra §c100%§r speed multiplier per Coil Tier%n%n[note]Needs Infinity Glass to use Laser Energy Hatch[/note]%n%n[note]Use a §aScrewdriver§r to switch between modes[/note]%n%n------------------------------------%n%nThe Magnetic Drive Pressure Former is a §915x25x15§r Cylinder-shaped Multiblock used as a direct upgrade for 4 different Multiblocks: Extruder, Bending Machine, Forming Press and Forge Hammer. %n%nYou’ll need:%n%n§c384§r Mining Osmiridium Casing%n§c540§e§r Tiered Borosilicate Glass%n§c504§r Advanced Iridium Plated Machine Casing%n§c384§r Ameliorated Superconduct Coil%n§c64§r Tiered Coils%n§c90§r Assembly Line Casing%nI/O hatch and Energy Hatches%n%n§dPortion written by Annie Penndragon
-
-# Quest: Buffered Energy Hatch UV
-betterquesting.quest.X301RXe3Tqqh6098Jm0YmQ.name=Buffered Energy Hatch UV
-betterquesting.quest.X301RXe3Tqqh6098Jm0YmQ.desc=Buffered Energy Hatch UV%n%nAllows for batteries to be placed inside the Energy Hatch
-
-# Quest: §9§lLiquid Stargate?
-betterquesting.quest.CuygzBUiRgOeq3ePAYQl6g.name=§9§lLiquid Stargate?
-betterquesting.quest.CuygzBUiRgOeq3ePAYQl6g.desc=Yes, you read that right. Liquid Stargate. Have fun!
-
-# Quest: Dual Input Buffer UV
-betterquesting.quest.nfNptHHKSW6x0uPD-qdorQ.name=Dual Input Buffer UV
-betterquesting.quest.nfNptHHKSW6x0uPD-qdorQ.desc=The Dual Input Buffer is an alternative to the Input Buffer/Input Hatch method. %n%nIt contains slots for fluids and solids, as well as some non-consumable item slots.%n%n§aZPM§r: §c540,000L§r for each Fluid Slot
-
-# Quest: MAGIC WITH A TWIST
-betterquesting.quest.XKUBBOgSTpy0BCPkq15C6A.name=MAGIC WITH A TWIST
-betterquesting.quest.XKUBBOgSTpy0BCPkq15C6A.desc=[quest]THE MAGIC MULTIS[/quest]%n%n[note]I don't know magic, so don't ask me for descriptions[/note]
-
-# Quest: Dual Input Buffer IV
-betterquesting.quest.ta-vo2FhQZyhYyXBtjy0tg.name=Dual Input Buffer IV
-betterquesting.quest.ta-vo2FhQZyhYyXBtjy0tg.desc=The Dual Input Buffer is an alternative to the Input Buffer/Input Hatch method. %n%nIt contains slots for fluids and solids, as well as some non-consumable item slots.%n%n§aIV§r: §c20,000L§r for each Fluid Slot
-
-# Quest: Photonic Quantum Master
-betterquesting.quest.zGIAnZYISUiJoFhCE_rRFQ.name=Photonic Quantum Master
-betterquesting.quest.zGIAnZYISUiJoFhCE_rRFQ.desc=[quest]Precise High-Energy Photonic Quantum Master[/quest]%n%n§6Machine Type: §aPhoton Controller§r | §aLaser Engraver§r%n%n[note]Use a §aScrewdriver§r to change modes[/note]%n%nInstall §aPhotonic Intensifiers§r on the backside of the structure to drastically increase production speeds. %nMulti upgrade modules can be stacked/removed. Replace using normal casings. %n%n§6Photon Controller Mode:§r %n%n§c16x§r Parallel%n%n§6Laser Engraver Mode:§r%n%n§c256x§r Parallel%n§c50%§r Time Reduction%n%n------------------------------------%n%nThe Precise High-Energy Photonic Quantum Master is a §915x7x9§r Multiblock, used as an upgrade to the High Intensity Laser Engraver, or used to do late game Photon Controller recipes.%n%nYou’ll need:%n§c52§r Assembly Line Casings%n§c317§r Advanced Iridium Plated Machine Casings%n§c77§r High Power Casing%n§c52§r Advanced Filter Casing%n§c76§r Assembler Machine Casing%n§c25§r tiered Photonic Intensifiers%nI/O ports%nMaintenance Hatch and Energy Hatch%n%n§dPortion written by Annie Penndragon
-
-# Quest: Merger T1
-betterquesting.quest.H7ivNgRDRVm90divSxhUeQ.name=Merger T1
-betterquesting.quest.H7ivNgRDRVm90divSxhUeQ.desc=The First Tier of the Merger
-
-# Quest: Photonic Intensifier - MAX
-betterquesting.quest.tZqpk7D2R6eFtiSU03VQLA.name=Photonic Intensifier - MAX
-betterquesting.quest.tZqpk7D2R6eFtiSU03VQLA.desc=Photonic Intensifer MAX%n%n§c320% §rSpeed Bonus
-
-# Quest: Fuel Rods
-betterquesting.quest.3DSvyMFFRZWvuIG2Z5FbsQ.name=Fuel Rods
-betterquesting.quest.3DSvyMFFRZWvuIG2Z5FbsQ.desc=[quest]Antimatter Fuel Rod[/quest]%n%nAntimatter Fuel Rod is an endgame Twist material used as a crafting component and as a fuel source in the Artificial Star. %n%nDo not worry about passiving this immediately as you will have a better method soon, but you should be comfortable in producing these as you continue. 
-
-# Quest: Buffered Energy Hatch EV
-betterquesting.quest.XuT01JSGRiSf8A743bKA5A.name=Buffered Energy Hatch EV
-betterquesting.quest.XuT01JSGRiSf8A743bKA5A.desc=Buffered Energy Hatch EV%n%nAllows for batteries to be placed inside the Energy Hatch
-
-# Quest: Oscillator T2
-betterquesting.quest.tf1kw48LS12TWkkD05fYvA.name=Oscillator T2
-betterquesting.quest.tf1kw48LS12TWkkD05fYvA.desc=Oscillator T2
-
-# Quest: One BIG BLUE BALL to rule them all!
-betterquesting.quest.zhBduwUOQLSL98YGhCBUqw.name=One BIG BLUE BALL to rule them all!
-betterquesting.quest.zhBduwUOQLSL98YGhCBUqw.desc=[quest]Hephaestus' Atelier[/quest]%n%n§6Machine Type: §aFurnace§r | §aAlloy Smelter§r%n%n[note]Use a §aScrewdriver§r to change modes[/note]§r%n%nThis multi will parallel across recipes!%n%n§6--- T1 Coil: Molecular Coil ---§r%n%n§c2.1G§r Parallel%n%n§9In Furnace Mode:§r %n%n§c25.6§r Seconds%n%nEvery item consumes §c7§r EU/tick%n%n§6--- T2 Coil: Ultimate Containment Field Generator ---§r%n%nDirectly consume power from Wireless EU Network%n%n§cInfinite§r Parallel%n%n§9In Furnace Mode:§r%n%n§c12.8§r Seconds%n%nEvery item consumes §c2048§r EU/tick%n%n§6--- T3 Coil: Teleportation Casing ---§r%n%nProcessing Time: §c1§r second
-
-# Quest: Photonic Intensifier - UEV
-betterquesting.quest.1V6CVaQ_QNaa5Iqm9i6DoQ.name=Photonic Intensifier - UEV
-betterquesting.quest.1V6CVaQ_QNaa5Iqm9i6DoQ.desc=Photonic Intensifier UEV%n%n§c100% §rSpeed Bonus
-
-# Quest: Space Apiray II: Electric Boogaloo
-betterquesting.quest.sb7ucqTJQP-ErsAaOLcApw.name=Space Apiray II: Electric Boogaloo
-betterquesting.quest.sb7ucqTJQP-ErsAaOLcApw.desc=[quest]Space Apiray Module MK-II[/quest]%n%n§7§6Machine Type: §aBee Processing§r%n%nNeeds §nQueen§r Bee in Controller%n%nConsumes §c1A LuV §rper Parallel | Consumes §c25L§o§r Liquid DNA per Parallel per Run%n%nMax Parallels: §c4096§r%n%n[note]Needs at least Space Elevator Motor MK-II to work. [/note]
-
-# Quest: §6§lDid you enjoy that long mothership trip?
-betterquesting.quest.9k5p7qG7Q7Ws1NgPPW7v3Q.name=§6§lDid you enjoy that long mothership trip?
-betterquesting.quest.9k5p7qG7Q7Ws1NgPPW7v3Q.desc=Flasks require §c100K§r of tier-specific components, circuits, and superconductors, as well as a large amount of a fluid input.
-
-# Quest: Large Neutron Oscillator
-betterquesting.quest.-UVdheXSQdOP5sf6w0IPdw.name=Large Neutron Oscillator
-betterquesting.quest.-UVdheXSQdOP5sf6w0IPdw.desc=[quest]Large Neutron Oscillator[/quest]%n%n§6Machine Type:§r Modularized Machine - §aNeutron Activator§r%n%nThis is the first Twist Modular Machine that you will encounter. %n%nPlace §9Modular Hatches§r around the controller to enhance your machine.%n%n§6Installable Modules§r are: %n%n§cOverclock Controller Module§r: Sets machine overclock type%n§cParallel Controller Module§r: Sets machine parallels%n§cPower Consumption Controller Module§r: Reduces machine energy consumption%n§cSpeed Controller Module§r: Increases machine processing speed%n§cExecution Core Module§r: Adds additional running units to machine, enabling §9True Parallelism§r%n%n[warn]Only the §aExecution Core Module§r can be installed more than once[/warn]
-
-# Quest: §6§lCongrats on making an Assline!
-betterquesting.quest.4vSPI6NmThmV-UasuVYvXg.name=§6§lCongrats on making an Assline!
-betterquesting.quest.4vSPI6NmThmV-UasuVYvXg.desc=Flasks require §c100K§r of tier-specific components, circuits, and superconductors, as well as a large amount of a fluid input.
-
-# Quest: Infiniter Cobblestone
-betterquesting.quest.tHlWJNTDTyyvkrj9S8Mh2A.name=Infiniter Cobblestone
-betterquesting.quest.tHlWJNTDTyyvkrj9S8Mh2A.desc=[quest]Silicon Rock Synthesizer[/quest]%n%n§6Machine Type: §aStone Breaker§r%n%nBasic Parallel: §c4§r | Multiplier = §9Imperfect Overclock§r%n%nBasic Increase in output: §c4x§r%n%nWhen Water and Lava are inputted from the side input hatch, output increases to §c1024x§r
-
-# Quest: Scavenger
-betterquesting.quest.CxpYOYziSB2GyskRVA7qng.name=Scavenger
-betterquesting.quest.CxpYOYziSB2GyskRVA7qng.desc=[quest]The Scavenger[/quest]%n%n§6Machine Type: §aSifter§r%n%nHas parallel equivalent to §9Perfect Overclock§r%n%nOnly uses §c60%§r of the EU/t normally required.%n%nAdditional §c20%§r reduction in time per Voltage Tier. %n%n---------------------------------------%n%nThe Scavenger is §913x9x13§r Multiblock. It is used as an upgrade to the Large Sifter. %n%nYou’ll need:%n%n§c425§r Advanced Iridium Plated Machine Casing%n§c707§r Osmiridium Frame Box %n§c8§r Borosilicate Glass Block %n§c46§r Mining Osmiridium Casing%nI/O ports and Energy Hatches%n%n§dPortion written by Annie Penndragon 
-
-# Quest: §9§lPOWER TO THE STARS
-betterquesting.quest.4zwmpYcKTJqwspu3KlG-GQ.name=§9§lPOWER TO THE STARS
-betterquesting.quest.4zwmpYcKTJqwspu3KlG-GQ.desc=[quest]Artificial Star[/quest]%n%n§6Machine Type: §aDyson Sphere Program: Annihilation Generator§r%n%nActual Output Tower is affected by the §b3§r types of Tiered Blocks%n%n§9tTime§r = Time Dilation Field Generator%n§9tDim§r = Spacetime Compression Field Generator%n§9tStabilisation§r = Stabilisation Field Generator%n%nHigher Tier increases the probability of recovering materials. %n%nContinuous Operation improves §9Power Generation§r%n%nOnly §c1§r Input Bus must be installed%n%nEnergy will output to Wireless EU directly%n%n§6 --- Details --- §r%n%nOutput Multiplier = tTime^§c0.25§r * tDim^§c0.25§r * §c1.588186§r^(tStabilisation - §c2§r)%n%nActual Generating EU = recipe value * output multiplier * reward for continuous operation%n%nRecovering Probability = tTime * tDim * tStabilisation / §c1000§r%n%nAll input fuels will be consumed at once | Processing Time is §c6.4§r seconds, and will output the corresponding EU%n%nRewards Multiplier: §c1%§r increase per run per continuous operation | Maximum is §c150%§r & Minimum is §c100%§r if uncontinuous%n%n§6 --- Dyson Sphere Program --- §r%n%nLaunching Solar Sails increases §aSolar Sail§r amount in the Dyson Sphere. %nLaunching Small Launch Vehicle increases §aNode§r amount in the Dyson Sphere. %n%nDyson Sphere Energy Credit = Solar Sail Output (default §c524,288§r) * Solar Sail Amount * (Node + §c1§r)^§c0.8§r%nEvery Node by default can absorb §c256§r Solar Sails.%n%nIf unabsorbed solar sails amount is > §c2048§r, the excess may be destroyed.%n%nEvery §a30§r minutes has §c1§r/§c5000§r chance to decrease Solar Sail amount.%nWhile decreasing, every Dyson Sphere has §c1§r/§c4§r chance to destroy Solar Sails | The amount destroyed is §c1§r/§c2§r of the excess.%n%n[note]Use a §aScrewdriver§r to enable/disable the animation[/note]
-
-# Quest: Merger T2
-betterquesting.quest.4L2lm8nLQoS-AzF07LQsTg.name=Merger T2
-betterquesting.quest.4L2lm8nLQoS-AzF07LQsTg.desc=Merger T2
-
-# Quest: Mega Array
-betterquesting.quest.7g1JEtT_QR-TzsunjUMl_Q.name=Mega Array
-betterquesting.quest.7g1JEtT_QR-TzsunjUMl_Q.desc=[quest]Mega Array[/quest]%n%n§6Machine Type: §aProcessing Array§r | §aGenerator Array§r%n%nThe Mega Array is a bigger and better version of the Processing Array. Unlike the PA, the Mega Array can do more than §c64§r of a singleblock allowing for more parallels and even more fun with automation. %n%n[note]To add a machine(s) to the MegaArray, put the singleblocks in an input bus and §aScrewdriver§r the controller.[/note]%n%nTo get the singleblocks back, screwdriver the controller once more and it will output the machines to the Output Bus. %n%nMax Parallelism of the MegaArray is:%n%n§c320§r%n§c1,280§r%n§c5,120§r%n§c20,480§r%n§c5,242,880§r%n§c2,147,483,647§r %n%nBase Parallelism is §c64§r.%n%n[note]Supports almost all processing single block machines in GTNH. Including Singleblock generators and Solar Panels.[/note]%n%n§cWill overclock recipes to energy level of energy hatch, but can't process recipes with energy level higher than that of the machines in the controller. %n%n§6Energy Hatch Tier§r: Tier of Glass%n§6Dynamo Hatch Tier§r: Tier of Machine Casing%n§6Tier of Machines§r: Restricted by Frames%n%n§aUV Glass unlocks laser hatches§r%n%nUMV Casings will unlock all dynamo hatches and unlock global wireless mode.%n%n§lAddon Structures ---§r%n%nUse up to §c§o5§r Hologram Projectors to see the addon structural towers.%n%n§aThe tier of machines is not limited when there's no addon structures. Level of parallelism casing in addon structures limits the Parallelism.§r %n%nEnergy consumption will decrease §c10%§r for each coil upgrade.%nProcessing speed will increase §c50%§r for each parallelism upgrade. %nEach machine provides §c2§r ^ (tier of parallelism block). Casings §a3§r/§a4§r provide §c512§r/§c1,024§r parallelism.§r %n%nThe upgrades in energy/consumption/processing speed/parallelism will also take effect in enegy generation. %n%n§9§nStructural Guidelines:%n%n§dFor each TOWER§r | Maximum of§r §c4§r:%n%nParallelism Casing: §c134§r%nGlass: §c530§r%nFrame: §c64§r%nCoil: §c42§r%nStainless Steel Casing: §c86§r%nAssembly Line Casing: §c64§r%n%n%n%n%n%n%n
-
-# Quest: Lightning Spire
-betterquesting.quest.sdZi3PUVQ1e-LgIDuiDGog.name=Lightning Spire
-betterquesting.quest.sdZi3PUVQ1e-LgIDuiDGog.desc=[quest]Lightning Spire[/quest]%n%n§6Machine Type: §aMulti Lightning Rod§r%n%nMaximum storage capacity of §c512§r Lightning Rods (I)%nEach Lightning Rod produces §c28 MEU§r per lightning strike and stores §c280 MEU§r. %n%nConsumes §c128L§r Cryotheum band §c72L§r * (the number of lightning rods) Molten Iron every lightning. %n%nQuantitative input is required. Too much or too little input will lead to failure. %n%n§r[note]Ignores §cthunderstorm§r weather for power generation[/note]%n%n[warn]Use a §aScrewdriver§r to switch between modes.[/warn]%n[warn]Please clear internal cache before outputting lightning rods.[/warn]%n[warn]Output all lightning rods before dismantling the machine.[/warn]%n%n[note]Use a §aWire Cutter§r to enable/disable the animation. [/note]
-
-# Quest: Buffered Energy Hatch ZPM
-betterquesting.quest.qafcjd0qQc6zs6aN-SnXEA.name=Buffered Energy Hatch ZPM
-betterquesting.quest.qafcjd0qQc6zs6aN-SnXEA.desc=Buffered Energy Hatch ZPM%n%nAllows for batteries to be placed inside the Energy Hatch
-
-# Quest: §8§lPROTOTYPE TENTACLE MK2
-betterquesting.quest.fxks13NgQliUq8c-K7faJg.name=§8§lPROTOTYPE TENTACLE MK2
-betterquesting.quest.fxks13NgQliUq8c-K7faJg.desc=[quest]Indistinct Tentacle[/quest]%n%n§6Machine Type:§r Modularized Machine - §aAssembly Line§r | §aComponent Assembly Line§r | §aAssembler§r | §aPrecise Assembler§r%n%nPlace §9Modular Hatches§r around the controller to enhance your machine.%n%n[note]The MK2 Tentacle is not expressly required to finish Twist, but if you want to spend the resources to get it, it will be fast[/note]%n%nGlass Tier limits Energy Hatch Tier | Laser Hatches require UV+ Glass%n%nComponent Casing Tier limits Recipe Tier | Casing Tier requires at least recipe voltage level - §c1§r%n%nIf Component Casing Tier is higher than recipe tier, enable §9Perfect Overclock§r%n%nUMV+ Glass and Component Casing enables §aWireless Mode§r%n%nProcessing Time is §bfixed§r in Wireless Mode.%n%n§6Installable Modules§r are: %n%n§cParallel Controller Module§r: Sets machine parallels%n§cPower Consumption Controller Module§r: Reduces machine energy consumption%n§cExecution Core Module§r: Adds additional running units to machine, enabling §9True Parallelism§r%n%n[warn]Only the §aPerfect Execution Core Module§r can be installed on the Tentacle MK2[/warn]%n%n§6 --- Details --- §r%n%nDefault Speed:%n%nAssembly Line: §c100%§r%nComponent Assembly Line: §c200%§r%nAssembler: §c400%§r%nPrecise Assembler: §c400%§r%n%nDefault Parallel = §c256§r%n%nIn Wireless Mode, time is fixed at §c25.6§r seconds.%n%nUsing an §bAstral Array Fabricator§r in controller slot, processing time is fixed to §c1§r second, and EU cost increases to §c64x§r %n%n[note]Use a §aScrewdriver§r to change modes[/note]
-
-# Quest: Photonic Intensifier - UXV
-betterquesting.quest.OSMoLhsYQ_aT9jeTiJ9OqQ.name=Photonic Intensifier - UXV
-betterquesting.quest.OSMoLhsYQ_aT9jeTiJ9OqQ.desc=Photonic Intensifier UXV%n%n§c250% §rSpeed Bonus
-
-# Quest: The Largest Fluid Heater
-betterquesting.quest.-G9InKl_R5eXQ_Y7K_1uoA.name=The Largest Fluid Heater
-betterquesting.quest.-G9InKl_R5eXQ_Y7K_1uoA.desc=[quest]Core Device of Human Power Generation Facility[/quest]%n%n§6Machine Type: §aFluid Heater§r%n%nUpgrade §ccoils§r for faster speeds%n%n[note]The Glass Tier §9limits§r the Voltage Tier[/note]
+# Quest: A better way for autumating Infusion
+betterquesting.quest._nbRu5VzdQpqnOh-1YoHb5A.name=A better way for autumating Infusion
+betterquesting.quest._nbRu5VzdQpqnOh-1YoHb5A.desc=If you are confused with automating infusion,you can make Infusion Material Dispenser%nRead [warn]Tooltips[/warn] for more information.
 
 # Quest: Actual Twist Fusion
-betterquesting.quest.y_5DY6ztRdSchZ-nYQrTPw.name=Actual Twist Fusion
-betterquesting.quest.y_5DY6ztRdSchZ-nYQrTPw.desc=The Upgrade Chip unlocks Tier 3 of the Ball Lightning. %n%nPut it in the controller to enable Fusion Reactor Mode. 
-
-# Quest: Aquatic Farm
-betterquesting.quest.0I7_kKeiRC2pCovGSBbuoQ.name=Aquatic Farm
-betterquesting.quest.0I7_kKeiRC2pCovGSBbuoQ.desc=[quest]Aseptic Greenhouse Casing[/quest]%n%nTo enable the §c2nd§r Tier of the Eco-Sphere, you need to create Aquatic Casings. %n%nMaking the §6Fount of Ecology§r reduces the cost of liquids by §c10§r and improves production by §c5x§r%n%n[note]GOOD LUCK![/note]
-
-# Quest: §5§lWHERE DREAMS... BECOME REALITY
-betterquesting.quest.kpBpSURwR7SnTAejOvflsQ.name=§5§lWHERE DREAMS... BECOME REALITY
-betterquesting.quest.kpBpSURwR7SnTAejOvflsQ.desc=Congrats! You've just made the hardest item in GTNH History, and have now joined an exclusive club! %n%n[note]Contact Aditya on discord to be added to this list for a future update!%n%nContact EvgenWarGold on discord to be added to the in-game tooltip[/note]%n%n§9-------§r §6Twist Token Club§r §9-------§r%n%n§71st§r: §5Aditya & Hive Run§r%n§72nd§r: §cHoroboros & Koneko§r%n§73rd§r: §bMonroth & HyperCreep§r%n§74th§r: §bTuna§r%n
-
-# Quest: INTENSE CHEMICAL REACTIONS
-betterquesting.quest.7D1LS_7IQzm7DW1MfSBe6Q.name=INTENSE CHEMICAL REACTIONS
-betterquesting.quest.7D1LS_7IQzm7DW1MfSBe6Q.desc=[quest]Intensify CHemical Distorter[/quest]%n%n§6Machine Type: §aIntensify Chemical Distorter§r | §sChemical Reactor§r%n%n§6Intensify Chemical Distorter Mode:§r Complex Chemical Reactions | §c16x§r Parallel%n%n§6Chemical Reactor Mode:§r §c1024x§r Parallel & §c900%§r faster than using LCR of the same voltage%n%n[note]Use a §aScrewdriver§r to switch modes[/note]%n%n-----------------------------------%n%nThe Intensity Chemical Distorter is a §911x13x11§r Helix-shaped Multiblock, used as a direct upgrade to the Mega Chemical Reactor, or used to create complex chemicals in one single step. %n%nYou’ll need:%n%n§c53§r Clean Stainless Steel Machine Casing%n§c162§r Chemical Inert Machine Casing%n§c60§r PTFE Pipe Casing%n§c11§r Tiered Coils%n§c1§r Heat Proof Machine Casing%nI/O Ports and Energy Hatches%n%n§dPortion written by Annie Penndragon
-
-# Quest: Fabrication to the Moon
-betterquesting.quest.z40SRCOtQXSJyxbCl_lm_Q.name=Fabrication to the Moon
-betterquesting.quest.z40SRCOtQXSJyxbCl_lm_Q.desc=[quest]Micro Spacetime Fabricatorio[/quest]%n%n§6Machine Type: §aArtificial SpaceTime Fabricator§r%n%nUpgrading the T2 Field Blocks enables §9Perfect Overclock§r, with further upgrades increasing the running speed.%n%nUsing Advanced Field Blocks [warn]REQUIRES[/warn] Advanced Structure Casing.%n%nProviding §a1§r Space-Time Seed in dedicated input bus will §c2x§r the output.
-
-# Quest: Scaling Space... kinda
-betterquesting.quest.roVL5ztaRji20qk4XNZzAg.name=Scaling Space... kinda
-betterquesting.quest.roVL5ztaRji20qk4XNZzAg.desc=[quest]Space Scaler[/quest]%n%n§6Machine Type: §aCompressor§r | §aExtractor§r | §aParticle Collider§r | §aElectric Implosion Compressor§r | §aNeutronium Compressor§r%n%nHas Parallel Equivalent to §9Perfect Overclock§r.%n%nUsing an Ultimate Containment Field Generator enables §c10x§r Speed Multiplier. %n%nCrude Stabilisation Field Generator enables §aParticle Collider§r Mode. %n%nGallifreyan Stabilisation Field Generator enables §aElectric Implosion Compressor§r & §aNeutronium Compressor§r Mode. %n%nIn §aParticle Collider§r Mode, higher tier = more output. %n%n§9T2§r Block unlocks HIP%n§9T3§r Block unlocks Stabilized Black Hole%n%n[note]Use a §aScrewdriver§r to change mode[/note]%n%n-----------------------------------------%n%nThe Space Scaler is a §931x31x32§r Spherical Multiblock, used as an upgrade to quite a few Multiblocks: Electric Implosion Compressor, Hot Isostatic Pressurization Unit, Black Hole Compressor, Neutronium Compressor, Dissection Apparatus, Compact Cyclotron, as well as doing Particle Collider recipes for late game. %n%nYou’ll need: %n%n§c96§r Field Generators %n%nIf you use §c24§r Ultimate Containment Field Generators, a §c10x§r speed multiplier will be applied. %nIf you use §c24§r of EoH Field Gens, the Space Scaler will be able to run Particle Collider recipes. %n%nIf you use §c24§r Harmony Stabilization Field Gens, the Space Scaler can run EIC and Neutronium Compressor Recipes. %n%nPrimitive Stabilization Field Generators enable HIP unit recipes, and Stable Stabilization Field.%n%n§dPortion written by Annie Penndragon§r
-
-# Quest: Buffered Energy Hatch UEV
-betterquesting.quest.wXvHavO_RFWAPwQs_6YEXQ.name=Buffered Energy Hatch UEV
-betterquesting.quest.wXvHavO_RFWAPwQs_6YEXQ.desc=Buffered Energy Hatch UEV%n%nAllows for batteries to be placed inside the Energy Hatch
-
-# Quest: §6§lHopefully little old MV isn't too hard for you
-betterquesting.quest.dq-Q60gnTOeEhYJvFADh0Q.name=§6§lHopefully little old MV isn't too hard for you
-betterquesting.quest.dq-Q60gnTOeEhYJvFADh0Q.desc=Flasks require §c100K§r of tier-specific components, circuits, and superconductors, as well as a large amount of a fluid input.
-
-# Quest: Space Apiray III: The Return of the King
-betterquesting.quest.knx8L2-uRPKcFa6Zr-airQ.name=Space Apiray III: The Return of the King
-betterquesting.quest.knx8L2-uRPKcFa6Zr-airQ.desc=[quest]Space Apiray Module MK-III[/quest]%n%n§7§6Machine Type: §aBee Processing§r%n%nNeeds §nQueen§r Bee in Controller%n%nConsumes §c1A LuV §rper Parallel | Consumes §c5L§o§r Liquid DNA per Parallel per Run%n%nMax Parallels: §c32,768§r%n%n[note]Needs at least Space Elevator Motor MK-III to work. [/note]
-
-# Quest: §6§lWow the EoH Progression is slow
-betterquesting.quest.EJx3rgLoQ3OqmV7jqjGQbQ.name=§6§lWow the EoH Progression is slow
-betterquesting.quest.EJx3rgLoQ3OqmV7jqjGQbQ.desc=Flasks require §c100K§r of tier-specific components, circuits, and superconductors, as well as a large amount of a fluid input.
-
-# Quest: Large Industrial Coking Factory
-betterquesting.quest.UBb1TbcmTnuzUYVKTypc0g.name=Large Industrial Coking Factory
-betterquesting.quest.UBb1TbcmTnuzUYVKTypc0g.desc=[quest]Large Industrial Coking Factory [/quest]%n%n§6Machine Type: §aCoke Oven§r%n%nProcesses all inputs at once. %n%nHigher coil tier makes the machine run faster.%n%n------------------------------------------%n%nThe Large Industrial Coking Factory is an upgrade for the Industrial Coke Oven. %n%nYou’ll need:%n%n§c299§r Robust Tungstensteel Machine Casings%n§c275§r Tiered Coils %n§c32§r Heat Proof Coke Oven Casings%n§c243§r Steel Frame Boxes%n§c593§r Pyrolyse Oven Casings%n§c579§r Structural Coke Oven Casings%n§c275§r Black Steel Frame Boxes%n§c10§r Tungstensteel Pipe Casings%n§c10§r Tungstensteel Firebox Casings%nI/O ports and Energy Hatches.%n%n§dPortion written by Annie Penndragon
-
-# Quest: Strange Annihilation
-betterquesting.quest.NdlFIyN9QkaHZ26kcgBlnw.name=Strange Annihilation
-betterquesting.quest.NdlFIyN9QkaHZ26kcgBlnw.desc=The Strange Annihilation Rod is the T2 output of the SMA. It is used for recipes and can be used as a fuel source in the Artificial Star
-
-# Quest: Buffered Energy Hatch IV
-betterquesting.quest.TbVTtoQLTsSef0zYERLoZA.name=Buffered Energy Hatch IV
-betterquesting.quest.TbVTtoQLTsSef0zYERLoZA.desc=Buffered Energy Hatch IV%n%nAllows for batteries to be placed inside the Energy Hatch
-
-# Quest: ULTIMATE EXTREME MISERY
-betterquesting.quest.wa20ts7vR_KBiJ_tPcP3SA.name=ULTIMATE EXTREME MISERY
-betterquesting.quest.wa20ts7vR_KBiJ_tPcP3SA.desc=The Twist Items for UEV Tier
-
-# Quest: Dual Input Buffer LuV
-betterquesting.quest.jRP4PbrcSGGrZ3A4eVpH8w.name=Dual Input Buffer LuV
-betterquesting.quest.jRP4PbrcSGGrZ3A4eVpH8w.desc=The Dual Input Buffer is an alternative to the Input Buffer/Input Hatch method. %n%nIt contains slots for fluids and solids, as well as some non-consumable item slots.%n%n§aLuV§r: §c60,000L§r for each Fluid Slot
-
-# Quest: THE LPF RETURNS!!
-betterquesting.quest.o4NO13iURuOijY-RyGRlNw.name=THE LPF RETURNS!!
-betterquesting.quest.o4NO13iURuOijY-RyGRlNw.desc=[quest]Manufacturing Center[/quest]%n%n§6Machine Type: §aNine in One§r%n%nRecipe Voltage is limited by §9MultiUse Core§r%n%n§c20%§r faster than singleblocks.%n%nEach Core Tier over §aIV§f§r gains §b50%§k§f§r Speed Bonus.%nEach Core Tier over §aIV§f§r gains §b15%§k§f§r EU/t Reduction.%n%nMax Parallel is §c2x§r voltage tier. 
-
-# Quest: Buffered Energy Hatch LV
-betterquesting.quest.-7q3vNsBSZSq5azIVoPKmw.name=Buffered Energy Hatch LV
-betterquesting.quest.-7q3vNsBSZSq5azIVoPKmw.desc=Buffered Energy Hatch LV%n%nAllows for batteries to be placed inside the Energy Hatch
-
-# Quest: Primordial Disjunctus
-betterquesting.quest.gSdZ1wwHRBWfJnhEhk1PWg.name=Primordial Disjunctus
-betterquesting.quest.gSdZ1wwHRBWfJnhEhk1PWg.desc=[quest]Primordial Disjunctus[/quest]%n%n§6Machine Type: §aEssentia Extractor§r%n%n[note]I don't know anything about magic, so good luck[/note]
-
-# Quest: Parallelism BEYOND!
-betterquesting.quest.GR9LOsfCRhCW5OKLgtoTPQ.name=Parallelism BEYOND!
-betterquesting.quest.GR9LOsfCRhCW5OKLgtoTPQ.desc=[quest]Parallelism BEYOND[/quest]%n%nCheckbox quest for the rest of the Parallels. %n%n[warn]Each Tier of Parallelism block requires a multiple of the previous tier. This will get expensive very quickly. [/warn]
-
-# Quest: Molecular Deconstructor
-betterquesting.quest.C4_Daxl2QMK9OM5HMSLxfg.name=Molecular Deconstructor
-betterquesting.quest.C4_Daxl2QMK9OM5HMSLxfg.desc=[quest]Molecule Deconstructor[/quest]%n%n§6Machine Type: §aElectrolyzer§r | §aCentrifuge§r%n%n§c24x§r Parallel per segment | §c16§r segments enables §9Perfect Overclock§r%n%nAdditional §c10%§r time reduction per voltage tier. %n%nThe Glass Tier §9limits§r the Voltage Tier. %n%n[note]Use a §aScrewdriver§r to change modes[/note]
-
-# Quest: §6§lHave you made a Rocket yet?
-betterquesting.quest.16TlMRqkQ22lbpZkftXy2g.name=§6§lHave you made a Rocket yet?
-betterquesting.quest.16TlMRqkQ22lbpZkftXy2g.desc=Flasks require §c100K§r of tier-specific components, circuits, and superconductors, as well as a large amount of a fluid input.
-
-# Quest: HIGHLY ULTIMATE VOLTAGE
-betterquesting.quest.IBFIcHXzQbm_eVmnp-rmmg.name=HIGHLY ULTIMATE VOLTAGE
-betterquesting.quest.IBFIcHXzQbm_eVmnp-rmmg.desc=The Twist Quests for UHV!
-
-# Quest: General Circuit Converter
-betterquesting.quest.-OvvYWxSSnSdU9vcbuAVfA.name=General Circuit Converter
-betterquesting.quest.-OvvYWxSSnSdU9vcbuAVfA.desc=[quest]General Circuit Converter[/quest]%n%n§6Machine Type: §aCircuit Converter§r%n%nTransforms Circuits to their "Any" Variant.%n%nDoes not require power. 
-
-# Quest: Welcome to Twist
-betterquesting.quest.sO0paf5MT9yJHbfUy_gY4g.name=Welcome to Twist
-betterquesting.quest.sO0paf5MT9yJHbfUy_gY4g.desc=Twist Space Technology is an addon mod for GT:NH that adds multiblocks to aid in your Gregging Experience.%n%nThis quest page will guide you through the progression and multiblocks of Twist, and help to aid you in your journey. %n%n§6Github:§f [url]https://github.com/Nxer/Twist-Space-Technology-Mod[/url]§f%n%n§6Wiki:§f [url]https://twistspace.miraheze.org/wiki/Main_Page[/url]%n%nQB maintained by: §5Aditya
-
-# Quest: Photonic Intensifier - UMV
-betterquesting.quest.k9gh_xm8SDGiZqEATL0gKQ.name=Photonic Intensifier - UMV
-betterquesting.quest.k9gh_xm8SDGiZqEATL0gKQ.desc=Photonic Intensifier UMV%n%n§c190% §rSpeed Bonus
-
-# Quest: §6§lGod Forge? Gorge? Forge of the Gods?
-betterquesting.quest.Dupi04-3RFiETSU228AYfg.name=§6§lGod Forge? Gorge? Forge of the Gods?
-betterquesting.quest.Dupi04-3RFiETSU228AYfg.desc=Flasks require §c100K§r of tier-specific components, circuits, and superconductors, as well as a large amount of a fluid input.
+betterquesting.quest._uncppDfITJypZFaT215ozA.name=Actual Twist Fusion
+betterquesting.quest._uncppDfITJypZFaT215ozA.desc=The Upgrade Chip unlocks Tier 3 of the Ball Lightning. %nPut it in the controller to enable Fusion Reactor Mode.
 
 # Quest: Advanced Circuit Assembly Line
-betterquesting.quest.6oAc_ldVQc-d3RV3vjNUlw.name=Advanced Circuit Assembly Line
-betterquesting.quest.6oAc_ldVQc-d3RV3vjNUlw.desc=Advanced Circuit Assembly Line%n%n§6Machine Type: §aCircuit Assembly Line§r%n%nCircuit Assembly Line with §c64x§r OC%n%nAllows multi-amp energy hatch up to §964A§r%n%nAllows §aCrafting Input Buffer§r%n%n[note]Install §o§4Imprint Circuit Hatch§r for more recipe support[/note]
+betterquesting.quest._XgCn_Xv1R0ypLVwxjUKC1Q.name=Advanced Circuit Assembly Line
+betterquesting.quest._XgCn_Xv1R0ypLVwxjUKC1Q.desc=§6Machine Type: §aCircuit Assembly Line§r%nAllows multi-amp energy hatch up to §964A§r%nAllows §aCrafting Input Buffer§r%n[note]Install §o§4Imprint Circuit Hatch§r for more recipe support[/note]
 
-# Quest: Bloody Hell
-betterquesting.quest.VaD7wEIUSlm2G8j5FMQFlw.name=Bloody Hell
-betterquesting.quest.VaD7wEIUSlm2G8j5FMQFlw.desc=[quest]Bloody Hell[/quest]%n%n§6Machine Type: §aAltar of Blood§r | §aAlchemic Chemistry Set§r | §aRitual of Binding§r%n%nYou would have swore this was British.%n%n[warn]This multiblock has 7 tiers. The optional task is only for Tier 1.[/warn] %n%n§9Good Luck with the rest.
+# Quest: Advanced High Power Coil
+betterquesting.quest._-nJqoiyBnSkC3zelZU5f7Qw.name=Advanced High Power Coil
+betterquesting.quest._-nJqoiyBnSkC3zelZU5f7Qw.desc=Unlocks Tier 4 of the Ball Lightning.%nIt replaces all the Fusion Coil Blocks, so you will need a lot of these.
+
+# Quest: Advanced Mega Oil Cracker
+betterquesting.quest._tPsPZZzERZev4js5H3XqsQ.name=Advanced Mega Oil Cracker
+betterquesting.quest._tPsPZZzERZev4js5H3XqsQ.desc=§6Machine Type: §aOil Cracker%n[note]Perfect Overclock enabled with Eternal Coils[/note]
+
+# Quest: A gas Engine in Early age 
+betterquesting.quest._oELxtcY-Tqe_stibxHiCpg.name=A gas Engine in Early age 
+betterquesting.quest._oELxtcY-Tqe_stibxHiCpg.desc=This machine is a new machine,read [warn]Tooltips[/warn] for more information
+
+# Quest: A Giant Vacuum
+betterquesting.quest._n92yxTt3TKqQHIOQWo-09g.name=A Giant Vacuum
+betterquesting.quest._n92yxTt3TKqQHIOQWo-09g.desc=[quest]Giant Vacuum Drying Furnace[/quest]%nMachine Type: §aVacuum Furnace§r | §aDehydrator§r%nThis multi consists of §93§r structures: Vacuum Pump, Main Structure and Drying Tower%nEvery additional voltage step reduces time to §c80%§r of the original processing speed.%n
+
+# Quest: A Hell Full Of Blood
+betterquesting.quest._pPqYw_ETTgGxon6Rxm6Yfg.name=A Hell Full Of Blood
+betterquesting.quest._pPqYw_ETTgGxon6Rxm6Yfg.desc=§6Machine Type: §aAltar of Blood§r | §aAlchemic Chemistry Set§r | §aRitual of Binding§r%nThis machine have 7 tiers.Each recipes need different tiers requirement.%nRead [warn]Tooltips[/warn] for more information.
+
+# Quest: Antimatter Fuel Rod
+betterquesting.quest._Sik8gJK5RH-4hnMQutAj4A.name=Antimatter Fuel Rod
+betterquesting.quest._Sik8gJK5RH-4hnMQutAj4A.desc=Antimatter Fuel Rod is an endgame Twist material used as a crafting component and as a fuel source in the Artificial Star. %nDo not worry about passiving this immediately as you will have a better method soon, but you should be comfortable in producing these as you continue. "
+
+# Quest: Astral Computing Array
+betterquesting.quest._AZrHN0euRGKQYSyMhG4RUA.name=Astral Computing Array
+betterquesting.quest._AZrHN0euRGKQYSyMhG4RUA.desc=[quest]Astral Computing Array[/quest]%nMachine Type: §aQuantum Computer§r%nJust like a quantum computer, this machine requires cooling during operation%nCoolant: §c0.001§r%nSuper Coolant: §c0.01§r%nEach operation will consume all the liquid input in the input hatch. %nIf you use multiple different options, a random one will be chosen. %nUsing a Twist Wireless Quantum Chip in the controller slot enables §9Wireless Mode§r. %n[warn]Do not put multiple Astral Computing Arrays on the same Wireless Frequency[/warn]%n[note]Uses §c4x§r Power Consumption[/note]
+
+# Quest: A Tower above the clouds
+betterquesting.quest._kjfwfszfTeaAjzDx9Svuxg.name=A Tower above the clouds
+betterquesting.quest._kjfwfszfTeaAjzDx9Svuxg.desc=§6Machine Type: §aEssentia Synthesizer§r%nIf want to swim in essentia,this is one of the best choices.%nRead [warn]Tooltips[/warn] for more information.
+
+# Quest: BEEEEEEEEEEEEEES
+betterquesting.quest._TpNarEhZQQmgZsWiteCQbA.name=BEEEEEEEEEEEEEES
+betterquesting.quest._TpNarEhZQQmgZsWiteCQbA.desc=[quest]Bee Engineer[/quest]%nMachine Type: §aBee Engineer%nTransforms drones into princess.%nCosts §c128kL§f§r Honey with a §c40%§f§r failing chance.%nIf provided with §c32kL§f§r of UUMatter, success rate increases to §c80%§f§r%n[warn]If the recipe fails, no ingredients will be returned[/warn]
+
+# Quest: Blasting to the Future!
+betterquesting.quest._jjStrmcZR9mdzCkvQc4QLg.name=Blasting to the Future!
+betterquesting.quest._jjStrmcZR9mdzCkvQc4QLg.desc=[quest]Swelegfyr Blast Furnace[/quest]%nMachine Type: §aBlast Furnace§r%nTemperature gradually increases in §9Passive Mode§r%nAdditional furnace heat will reset upon recipe change%nPower consumption decreases by §c10%§r per §b1800K§r above recipe temperature threshold%nEnery Hatch Tier is §arestricted§r by Glass Tier%nRead [warn]ToolTips[/warn] for more information.
+
+# Quest: Canning Things (Largely)
+betterquesting.quest._uZuU3TrTQ36heWjaJ8N4vQ.name=Canning Things (Largely)
+betterquesting.quest._uZuU3TrTQ36heWjaJ8N4vQ.desc=[quest]Large Canner[/quest]%nMachine Type: §aCanning Machine§r | §aFluid Canner§r%nCAN§r Infinite Parallels
+
+# Quest: Chair
+betterquesting.quest._b9cYaPNGS92jc1s8KJG3pw.name=Chair
+betterquesting.quest._b9cYaPNGS92jc1s8KJG3pw.desc=This is a chair.But it's full of power
+
+# Quest: Controller Modules
+betterquesting.quest._uy_UrglnQy-JqBP0lssovQ.name=Controller Modules
+betterquesting.quest._uy_UrglnQy-JqBP0lssovQ.desc=These tasks shows TST controller modules 
+
+# Quest: Control Parallel
+betterquesting.quest._039myL6eTBaGAYVuBb6CoA.name=Control Parallel
+betterquesting.quest._039myL6eTBaGAYVuBb6CoA.desc=These modules can improve Modularized machines' parallels.%nFrom T1-T8. Has both static and dynamic modes%nQuestbook uses dynamic modes.
+
+# Quest: Control speed
+betterquesting.quest._o1tsQe9VRbCNb3mbf5lQSA.name=Control speed
+betterquesting.quest._o1tsQe9VRbCNb3mbf5lQSA.desc=These modules can improve Modularized machines' speed.%nFrom T1-T8. Has both static and dynamic modes%nQuestbook uses static modes.
+
+# Quest: Critical Photons
+betterquesting.quest._QA2_ICJYRGiK7ISDxuUeKQ.name=Critical Photons
+betterquesting.quest._QA2_ICJYRGiK7ISDxuUeKQ.desc=Critical Photons are a byproduct of the Dyson Sphere Ray Receiver in collection mode. %nYou will need Critical Photons to create Antimatter which is required for endgame Twist Items.%nThis is the prerequisite for starting the §9§aMiracle Door§r.
+
+# Quest: Crystalline Infinitier
+betterquesting.quest._1DBZwxUcRsWO1UIztgQFXw.name=Crystalline Infinitier
+betterquesting.quest._1DBZwxUcRsWO1UIztgQFXw.desc=[quest]Crystalline Infinitier[/quest]%nMachine Type: §aAutoclave§r | §aCrystalline Infinitier§r | §aChemical Bath§r%nGlass Tier limits Voltage Tier%nRead [warn]Tooltips[/warn] for more information.%nThis machine brings cheaper recipes for Engraved Lapotron Crystal and Energy Crystal
+
+# Quest: Decompose any compound
+betterquesting.quest._mqFY-1y1RkuFZWICteDL3g.name=Decompose any compound
+betterquesting.quest._mqFY-1y1RkuFZWICteDL3g.desc=[quest]Molecule Deconstructor[/quest]%nMachine Type: §aElectrolyzer§r | §aCentrifuge§r%n24x§r Parallel per segment | §c16§r segments enables §9Perfect Overclock§r%nAdditional §c10%§r time reduction per voltage tier.%nThe Glass Tier §9limits§r the Voltage Tier. %nRead [warn]Tooltips[/warn] for more information.
+
+# Quest: Defying Gravity
+betterquesting.quest._1791TOpyQx-Pzq-50SJgnA.name=Defying Gravity
+betterquesting.quest._1791TOpyQx-Pzq-50SJgnA.desc=The Gravitational Lens enables Tier 2 of the Ball Lightning. %nAt the same time, you need to replace all the §1dimensional bridge blocks§r.
+
+# Quest: DEVOURING INGOTS LIKE IM CASEOH
+betterquesting.quest._7j-J6Ew9TbWo6fymEC8sTA.name=DEVOURING INGOTS LIKE IM CASEOH
+betterquesting.quest._7j-J6Ew9TbWo6fymEC8sTA.desc=[quest]Thermal Energy Devourer[/quest]%nMachine Type: §aVacuum Freezer§r%nThis machine have 3 patterns%nHigh Speed Mode:§c1024x§r Parallel,Operating efficiency decreases the processing time%n§6High Parallel Mode:§rAlmost Infinite§r Parallel,Operating efficiency decreases the EU cost%nWireless Mode:§r Put an §bEnergized Tesseract§r into the controller to enable Wireless Mode.Progress time is fixed at §c6.4§r seconds
+
+# Quest: Dissolve Stargate
+betterquesting.quest._WVL0LWqT1aWSZ6_D3qOCQ.name=Dissolve Stargate
+betterquesting.quest._WVL0LWqT1aWSZ6_D3qOCQ.desc=Yes, you read that right. Liquid Stargate.%nTwist Token need §b50,000L§r Liquid Stargate to craft
+
+# Quest: DOMAIN EXPANSION
+betterquesting.quest._RYsm-xmFScCHXwq7QVgaOA.name=DOMAIN EXPANSION
+betterquesting.quest._RYsm-xmFScCHXwq7QVgaOA.desc=[quest]Magnetic Domain Constructor[/quest]%nMachine Type: §aElectromagnetic Separator§r | §aElectromagnetic Polarizer§r%n64x§r Parallel per Ring%n§c25%§r Time Reduction per Voltage Tier%nWhen you are suffering from dealing with a large amount of §araw tengam power§r, be sure to make this machine.%n[warn]DO NOT USE A STACK OF HOLOGRAM PROJECTORS WHEN VISUALIZING THE MULTI[/warn]
+
+# Quest: Dyson sphere System Construction
+betterquesting.quest._-diesLifLRh-rdLTKSgmzng.name=Dyson sphere System Construction
+betterquesting.quest._-diesLifLRh-rdLTKSgmzng.desc=If you want to use Twist's Dysonball system,you need to make these materials.%nCraft these items to advance the task process below
+
+# Quest: Elven Workshop
+betterquesting.quest._-8o_sCbH_ROCbhCfCTWFvsw.name=Elven Workshop
+betterquesting.quest._-8o_sCbH_ROCbhCfCTWFvsw.desc=[quest]Elven Workshop[/quest]%n§6Machine Type: §aMana Infuser§r | §aRune Engraver§r%nIf you are troubled by Botania's automation, then building this machine can better help you achieve automation.%nRead [warn]Tooltips[/warn] for more information.
+
+# Quest: Execution Core Module
+betterquesting.quest._0tx7tIN_Sjy9rOGuNfRn8g.name=Execution Core Module
+betterquesting.quest._0tx7tIN_Sjy9rOGuNfRn8g.desc=This module can install more than one.
+
+# Quest: EXPANSION OF YOUR BEE DOMINANCE
+betterquesting.quest._t1vdvoKPQC-YpqPegdlYOQ.name=EXPANSION OF YOUR BEE DOMINANCE
+betterquesting.quest._t1vdvoKPQC-YpqPegdlYOQ.desc=[quest]Space Apiray Module MK-I[/quest]%nMachine Type: §aBee Processing§r%nNeeds §nQueen§r Bee in Controller\n\nConsumes §c1A LuV §rper Parallel | Consumes §c100L§o§r Liquid DNA per Parallel per Run\n\nMax Parallels: §c256§r%n[note]Needs at least Space Elevator Motor MK-I to work. [/note]
+
+# Quest: Extreme Crafting Center
+betterquesting.quest._PU462TJASaC0Nvwm5Jcq-g.name=Extreme Crafting Center
+betterquesting.quest._PU462TJASaC0Nvwm5Jcq-g.desc=§6Machine Type: §aMolecular Assembler§r | §aExtreme Crafting Table§r%nYou can use this machine to replace Molecular Assembly Room.Maybe it can save your TPS.%nDoes not use power. Controller Pattern Hatch need to be connected to AE Network.%nTime consumption is fixed at §c1§r §6second§r.%nItems will be sent to an Output Bus.%nSupports Crafting Table Dire Crafting Processes§r%nYou can §c§2x2§r the pattern to run multiple recipes at once.%nSet the pattern magnification parameters in the controller GUI.%nThe internal pattern input and output quantity will be multiplied by the magnification parameter when the recipe is running. %n[note]Use a §aScrewdriver§r on the controller to move internal patterns to output bus.[/note] 
+
+# Quest: Eye Of Wood
+betterquesting.quest._ahvLN8dqQs-A57M-XJz0TA.name=Eye Of Wood
+betterquesting.quest._ahvLN8dqQs-A57M-XJz0TA.desc=§%n§rEye of Wood, a multiblock structure for Steam Age.%nMachine Type: §aHappiness Master§r§r%nMachine need§r §l§cLava§c §rand§9§r §9Water§r§9 §rto run,§r%nYou can read Tooltips to get more information.%n[warn]CAN ONLY BE PLACED IN THE OVERWORLD, UNLESS CHANGED IN CONFIG[/warn]
+
+# Quest: Fabrication to the Moon
+betterquesting.quest._Hzn3OihOTE-vHCCbnVHr5A.name=Fabrication to the Moon
+betterquesting.quest._Hzn3OihOTE-vHCCbnVHr5A.desc=[quest]Micro Spacetime Fabricatorio[/quest]%nMachine Type: §aArtificial SpaceTime Fabricator§r%nThis is a better choice for Raw Tesseract producting.%nUpgrading the T2 Field Blocks enables §9Perfect Overclock§r, with further upgrades increasing the running speed.%nUsing Advanced Field Blocks [warn]REQUIRES[/warn] Advanced Structure Casing.%nProviding §a1§r Space-Time Seed in dedicated input bus will §c2x§r the output.
+
+# Quest: Faster Arcing and Faster Fusing
+betterquesting.quest._MZpVEr7IS96_ocuW8GDYhw.name=Faster Arcing and Faster Fusing
+betterquesting.quest._MZpVEr7IS96_ocuW8GDYhw.desc=Machine Type: §a(Plasma/Electric) Arc Furnace§r | §aFusion Reactor§r | §aStar Kernal Generator§r%n[note]This structure requires at least Infinity Coils[/note]%nThe Ball Lightning has §c4§r levels, each unlocking a different mode. %nRead [warn]Tooltips[/warn] for more information.%nIn UEV tier,you can only use T1 and T2 Balllighting
+
+# Quest: Flask
+betterquesting.quest._D6t3Oo7NS4m_eC3TLeAPyQ.name=Flask
+betterquesting.quest._D6t3Oo7NS4m_eC3TLeAPyQ.desc=Twist token need flask.%nMake these flask to complete this task.
+
+# Quest: Freedom of Form Conversion
+betterquesting.quest._VOyWBpRIQ2yKwhJw09NAmw.name=Freedom of Form Conversion
+betterquesting.quest._VOyWBpRIQ2yKwhJw09NAmw.desc=[quest]Physical Form Switcher[/quest]%nMachine Type: §aFluid Solidifier§r | §aFluid Extractor§r%nHas Parallel equivalent to §9Perfect Overclock§r%nGlass Tier §9limits§r the recipe voltage tier. %nAdditional §c10%§r time reduction per voltage tier.%nRead [warn]ToolTips[/warn] for more information.%n§dPortion written by Annie Penndragon
+
+# Quest: General Circuit Converter
+betterquesting.quest._L0YehMLETbKCNj6BopGKOg.name=General Circuit Converter
+betterquesting.quest._L0YehMLETbKCNj6BopGKOg.desc=§6Machine Type: §aCircuit Converter§r%nTransforms Circuits to their \"Any\" Variant.%nDoes not require power.%nWith the release of GT:NH 2.7.0,this task is optional.
 
 # Quest: GENESIS
-betterquesting.quest.G55pFU5pSnGBfma_OjbhRg.name=GENESIS
-betterquesting.quest.G55pFU5pSnGBfma_OjbhRg.desc=[quest]Mass Fabricator : Genesis[/quest]%n%n§6Machine Type:§r Modularized Machine - §aMass Fabricator§r%n%nPlace a §9Modular Hatch§r around the controller to enhance your machine.%n%n§6Installable Modules§r are: %n%n§cParallel Controller Module§r: Sets machine parallels
+betterquesting.quest._g0zK8LrMQLKfI-10d5uFAw.name=GENESIS
+betterquesting.quest._g0zK8LrMQLKfI-10d5uFAw.desc=[quest]Mass Fabricator : Genesis[/quest]%n§6Machine Type:§r Modularized Machine - §aMass Fabricator§r%nThis is a modularized machine,So you can place a §9Modular Hatch§r around the controller to enhance your machine.%nInstallable Modules§r §9§r§rare: %n§cParallel Controller Module§r: Sets machine parallel%nI hope you will never lack UU matter again.
+
+# Quest: Get Twist Token
+betterquesting.quest._F-X94kurTM2Btql5Sw00Dg.name=Get Twist Token
+betterquesting.quest._F-X94kurTM2Btql5Sw00Dg.desc=Challenge to get twist token, show us your skills.%nYou can use [warn]Pattern Optimization Matrix[/warn] to optimize your AE network.
+
+# Quest: GIGA WOOD
+betterquesting.quest._jGVs6zEZQUyYqEnk3ZQKPQ.name=GIGA WOOD
+betterquesting.quest._jGVs6zEZQUyYqEnk3ZQKPQ.desc=§6Machine Type: §aTree Farm§r | §aAquatic Farm§r | §aGreen House§r | §aMob Cloner§r(This mode is unavailable)%nIf you want lots of Barnarda C wood for Radox production line,§aEco-Sphere Growth Simulator§r is a better choice for you.%nHowever,the Instability points have reached§r§c§4 §rto§r§4 100§r.If you failed to infuse with Infusion Altar,please use [note]Industrial Magic Matrix[/note]
+
+# Quest: Imprint Circuit Hatch T1
+betterquesting.quest._33nZd3K4Ss2c0FhpvLQNPg.name=Imprint Circuit Hatch T1
+betterquesting.quest._33nZd3K4Ss2c0FhpvLQNPg.desc=Can add 4 extra slots for imprinted circuits
+
+# Quest: Imprint Circuit Hatch T2
+betterquesting.quest._tixBnWlwSs2K89nptGyyJg.name=Imprint Circuit Hatch T2
+betterquesting.quest._tixBnWlwSs2K89nptGyyJg.desc=Can add §b16§r extra slots for imprinted circuits
+
+# Quest: Industrial Alchemy Tower
+betterquesting.quest._qBEyZA2OTUWAnUbDPA44Xw.name=Industrial Alchemy Tower
+betterquesting.quest._qBEyZA2OTUWAnUbDPA44Xw.desc=§6Machine Type: §aThaumatorium§r%nThe Twist version of the Thaumatorium.
+
+# Quest: Industrial Magnetar Separator
+betterquesting.quest._-aiEKuQSJy_zPlDW08sDA.name=Industrial Magnetar Separator
+betterquesting.quest._-aiEKuQSJy_zPlDW08sDA.desc=[quest]Industrial Magnetar Separator[/quest]%nMachine Type: §aElectromagnetic Separator§r%n300%§f§r faster than using singleblock of the same voltage%nOnly uses §c80%§f§r of Eu/t normally required%nProcesses §c4§f§r items per voltage tier.%nThis machine [warn]does not[/warn] support Tectech's multi-amp energy hatches and laser hatches
+
+# Quest: In fact it's NOT Compact at all!
+betterquesting.quest._BeJC3DcBQoWsfcygT2bbQg.name=In fact it's NOT Compact at all!
+betterquesting.quest._BeJC3DcBQoWsfcygT2bbQg.desc=[quest]PULSAR - Incompact Cyclotron[/quest]%nMachine Type: §aParticle Accelerator§r%n§b§c100%§r Speed Bonus%n§b256x§r Parallel%nRequires an additional §c60%§r power to operate
+
+# Quest: Infiniter Cobblestone
+betterquesting.quest._yQ8r8Xb4R6e09XF8_BfU1Q.name=Infiniter Cobblestone
+betterquesting.quest._yQ8r8Xb4R6e09XF8_BfU1Q.desc=[quest]Silicon Rock Synthesizer[/quest]%nMachine Type: §aStone Breaker§r%nBasic Parallel: §c4§r | Multiplier Imperfect Overclock§r%nBasic Increase in output: §c4x§r%nWhen Water and Lava are inputted from the side input hatch, output increases to §c1024x§r
+
+# Quest: Input Buffer
+betterquesting.quest._aIuyKj0gSIqdxxtxFq5LLQ.name=Input Buffer
+betterquesting.quest._aIuyKj0gSIqdxxtxFq5LLQ.desc=The Dual Input Buffer is an alternative to the Input Buffer/Input Hatch method. It contains slots for fluids and solids, as well as some non-consumable item slots.
+
+# Quest: INTENSE CHEMICAL REACTIONS
+betterquesting.quest._Q1NVUf5JTU-P8wDn9uBLrw.name=INTENSE CHEMICAL REACTIONS
+betterquesting.quest._Q1NVUf5JTU-P8wDn9uBLrw.desc=[quest]Intensify CHemical Distorter[/quest]\n\n§6Machine Type: §aIntensify Chemical Distorter§r | §sChemical Reactor§r%nIntensify Chemical Distorter Mode:§r Complex Chemical Reactions | §c16x§r Parallel%n§6Chemical Reactor Mode:§r §c1024x§r Parallel,§c900%§r faster than using LCR of the same voltage%nRead [warn]ToolTips[/warn] for more information.%nAfter you get Infinity Coilblock,you can complete Naquadah process line in one step.%n§dPortion written by Annie Penndragon
+
+# Quest: Large Industrial Coking Factory
+betterquesting.quest._PzYWMV2JRGOP6VtAwCLZDA.name=Large Industrial Coking Factory
+betterquesting.quest._PzYWMV2JRGOP6VtAwCLZDA.desc=[quest]Large Industrial Coking Factory [/quest]%nMachine Type: §aCoke Oven§r%nProcesses all inputs at once. %nHigher coil tier makes the machine run faster.%nThe Large Industrial Coking Factory is an upgrade for the Industrial Coke Oven%nRead [warn]ToolTips[/warn] for more information.%n§4§5§5§4§3§1§3§4§5§1§0§dPortion written by Annie Penndragon
+
+# Quest: Large Neutron Oscillator
+betterquesting.quest._829JeuqpSveS9DnDySUo7w.name=Large Neutron Oscillator
+betterquesting.quest._829JeuqpSveS9DnDySUo7w.desc=[quest]Large Neutron Oscillator[/quest]%nMachine Type:§r Modularized Machine - §aNeutron Activator§r%nThis is the first Twist Modular Machine that you will encounter. %nPlace §9Modular Hatches§r around the controller to enhance your machine.%nInstallable Modules§r are: %n§cOverclock Controller Module§r: Sets machine overclock type%n§cParallel Controller Module§r: Sets machine parallels%n§cPower Consumption Controller Module§r: Reduces machine energy consumption%n§cSpeed Controller Module§r: Increases machine processing speed%n§cExecution Core Module§r: Adds additional running units to machine, enabling §9True Parallelism§r%n[warn]Only the §aExecution Core Module§r can be installed more than once[/warn]
+
+# Quest: Large Solar Boiler
+betterquesting.quest._-8oNa4IU3SRiAUKFNG-y2nQ.name=Large Solar Boiler
+betterquesting.quest._-8oNa4IU3SRiAUKFNG-y2nQ.desc=This machine is a multiblock solar boiler.%nIf you are bored with small solar boilers' maintenance,this is a better choice.%nYou can read [warn]Tooltips[/warn] for more information.%nLike any steam machines,[warn]This machine will explode with no water[/warn]
+
+# Quest: Large Steam Amlly Smelter
+betterquesting.quest._hiW_aFNpQ5iktrdFRm6Icg.name=Large Steam Amlly Smelter
+betterquesting.quest._hiW_aFNpQ5iktrdFRm6Icg.desc=§6Machine Type: §aAlloy Smelter§r%nWith the release of GT:NH 2.7.0,this machine quest is §b§r§§§coptional§r.%nThe Large Steam Alloy Smelter is a 5x3x3 non-hollow steam-gated multiblock used to process large amounts of early game alloy smelter recipes. %n§dWritten by Annie Pendragon
+
+# Quest: Large Steam Forge Hammer
+betterquesting.quest._72X4MthMQIWKd5HMwtMHZw.name=Large Steam Forge Hammer
+betterquesting.quest._72X4MthMQIWKd5HMwtMHZw.desc=§6Machine Type: §aForge Hammer§r%nLarge Steam Forge Hammer by Twist Space Technology.%nA 3x3 Hollow Multiblock with speed.%nThis quest is for those who want to do every Twist Multiblock, but base GTNH has §lthe Steam Presser §rwhich§r is §lcheaper§r than Twists.
+
+# Quest: Laser Meteor Miner
+betterquesting.quest._pd_Aah1OSwakMXvYyoY1Lg.name=Laser Meteor Miner
+betterquesting.quest._pd_Aah1OSwakMXvYyoY1Lg.desc=[quest]Laser Meteor Miner[/quest]%n§6Machine Type: §aMeteor Miner§r%nThere are §c2§r tiers of the Laser Meteor Miner.%nRead [warn]Tooltips[/warn] for more information.
+
+# Quest: Lightning Spire
+betterquesting.quest._X1HXsv0xSFup9YkrR.name=Lightning Spire
+betterquesting.quest._X1HXsv0xSFup9YkrR.desc=[quest]Lightning Spire[/quest]%nMachine Type: §aMulti Lightning Rod§r%nIf you are tired about [warn]safety[/warn] of nuclear reactors,let us use Lightning Spire%nMaximum storage capacity of §c512§r Lightning Rods (I)%nEach Lightning Rod produces §c28 MEU§r per lightning strike and stores §c280 MEU§r. %nConsumes §c128L§r Cryotheum band §c72L§r * (the number of lightning rods) Molten Iron every lightning.%n[warn]Quantitative input is required. Too much or too little input will lead to failure.[/warn]
+
+# Quest: Macerating Everything
+betterquesting.quest._9P4XzcfYTp2-QgPwyoycEg.name=Macerating Everything
+betterquesting.quest._9P4XzcfYTp2-QgPwyoycEg.desc=[quest]"Mini" Household Cell Fragmentizer[/quest]%nMachine Type: §aMacerator§r%nParallel is §c2§r^(§c2§r^(§aTier§r + §c2§r) - §c1§r)%nTier 1: §9Damascus Steel Blocks%nTier 2: §9Neutronium Blocks%nTier 3: §9Universium Blocks%nMax Voltage Tier is §alimited§r by the Glass Tier%nGain §c8x§r speed multiplier when glass tier §9is greater than§r recipe tier.%nMaybe you will use this machine to improve your mineral processing system until IOF.
+
+# Quest: Magic With Twists
+betterquesting.quest._Xmjr2FpaSg2FfzLSsHoAbQ.name=Magic With Twists
+betterquesting.quest._Xmjr2FpaSg2FfzLSsHoAbQ.desc=I dont know magic,but[warn] Tooltips[/warn] is your best friend.
+
+# Quest: Magnetic Drive Pressure Former
+betterquesting.quest._xM1QaZSoSxyPSlHWlUwULw.name=Magnetic Drive Pressure Former
+betterquesting.quest._xM1QaZSoSxyPSlHWlUwULw.desc=[quest]Magnetic Drive Pressure Former[/quest]%nMachine Type: §aExtruder§r | §aBending Machine§r | §aForming Press§r | §aForge Hammer§r%nRead [warn]ToolTips[/warn] for more information.%nBenefit from the dense nature of neutrons, we can produce plates faster.%nThe Magnetic Drive Pressure Former is a §915x25x15§r Cylinder-shaped Multiblock used as a direct upgrade for 4 different Multiblocks: Extruder, Bending Machine, Forming Press and Forge Hammer.%n§dPortion written by Annie Penndragon§r
+
+# Quest: Make some Liquid Mana
+betterquesting.quest._XYBS_Y37RLuI-8sT8H0uPg.name=Make some Liquid Mana
+betterquesting.quest._XYBS_Y37RLuI-8sT8H0uPg.desc=If you want to use some Twist magic machine,you should make some Liquid Mana%n
+
+# Quest: Mega Array
+betterquesting.quest._w033FTliSlimX7uGEchX0Q.name=Mega Array
+betterquesting.quest._w033FTliSlimX7uGEchX0Q.desc=§6Machine Type: §aProcessing Array§r%nThe Mega Array is a bigger and better version of the Processing Array. Unlike the PA, the Mega Array can do more than §c64§r of a singleblock allowing for more parallels and even more fun with automation. %nRead [warn]ToolTips[/warn] for more information.
+
+# Quest: Mega Bricked Blast
+betterquesting.quest._K-7ES8kRQDel3CfT5dfKTQ.name=Mega Bricked Blast
+betterquesting.quest._K-7ES8kRQDel3CfT5dfKTQ.desc=§6Machine Type:§r §aBlast Furnace%n§rIn order to use this machine,you should read §9Tootips§r,§r%nThe Mega Bricked Blast Furnace is a §933x24x33§r DTPF-shaped multiblock, used to process incredible amounts of iron/wrought iron ingots into steel using coal coke blocks as fuel.%n§dPortion written by Annie Pendragon%n
+
+# Quest: METEOR MINER GOES BRRRRR
+betterquesting.quest._xLswXiGSAKsSef2yij9wg.name=METEOR MINER GOES BRRRRR
+betterquesting.quest._xLswXiGSAKsSef2yij9wg.desc=Update Laser Meteor Miner to T2 will improve the mining speed and fortune level.
+
+# Quest: Modern Alchemy
+betterquesting.quest._G7ysCFr2Q6y5eEGwywi-5g.name=Modern Alchemy
+betterquesting.quest._G7ysCFr2Q6y5eEGwywi-5g.desc=§6Machine Type: §aThaumatorium§r%nThe Twist version of the Thaumatorium.
+
+# Quest: Modern Infusion
+betterquesting.quest._A9Q-utAZQqOcZwXMPlUqUQ.name=Modern Infusion
+betterquesting.quest._A9Q-utAZQqOcZwXMPlUqUQ.desc=The risk of instability always accompanies players,now let us make infusion Gregified.%nTwist's version of the Infusion Matrix from Thaumcraft. %n[warn]Use the Infusion Supplier to supply Essence[/warn]%n[note]The Industrial Magic Matrix is unable to perform active infusions[/note]%nParallelism depends on the level of the structure block.%n§9There is more information on the ToolTip. Please refer to that for more information.§r%n[warn]This multi requires a lot of materials. Be sure to keep track of everything you need.[/warn]
+
+# Quest: Molecular Deconstructor
+betterquesting.quest._mqFY-1y1RkuFZWICteDL3g.name=Molecular Deconstructor
+betterquesting.quest._mqFY-1y1RkuFZWICteDL3g.desc=[quest]Molecule Deconstructor[/quest]%nMachine Type: §aElectrolyzer§r | §aCentrifuge§r%n24x§r Parallel per segment | §c16§r segments enables §9Perfect Overclock§r%nAdditional §c10%§r time reduction per voltage tier.%nThe Glass Tier §9limits§r the Voltage Tier. %nRead [warn]Tooltips[/warn] for more information.
+
+# Quest: New Quest
+betterquesting.quest._8o_sCbH_ROCbhCfCTWFvsw.name=New Quest
+betterquesting.quest._8o_sCbH_ROCbhCfCTWFvsw.desc=[quest]Elven Workshop[/quest]%n§6Machine Type: §aMana Infuser§r | §aRune Engraver§r%nIf you are troubled by Botania's automation, then building this machine can better help you achieve automation.%nRead [warn]Tooltips[/warn] for more information.
+
+# Quest: Obtain resources from the Hell dimension
+betterquesting.quest._Sq1F3grhR3-RcopdX7oB5Q.name=Obtain resources from the Hell dimension
+betterquesting.quest._Sq1F3grhR3-RcopdX7oB5Q.desc=Bored with §cnetherite §cprocessing line§r?%nUse this machine to gain all products!It only need some distilled water.
+
+# Quest: One BIG BLUE BALL to rule them all!
+betterquesting.quest._PD-eQoBaSSiGCzp2MYnVLg.name=One BIG BLUE BALL to rule them all!
+betterquesting.quest._PD-eQoBaSSiGCzp2MYnVLg.desc=[quest]Hephaestus' Atelier[/quest]%nMachine Type: §aFurnace§r | §aAlloy Smelter§r%nThis multi will parallel across recipes!%nRead [warn]ToolTips[/warn] for more information.
+
+# Quest: ORES GOOO BRRRRRR!!
+betterquesting.quest._hwbzZNluSEq7RkL0Z_RcCg.name=ORES GOOO BRRRRRR!!
+betterquesting.quest._hwbzZNluSEq7RkL0Z_RcCg.desc=[quest]Starcore Miner[/quest]%n§6Machine Type: §aVoid Miner§r%nEach run produces §c24§r types of ore and §c131,072§r of each type. %nnTakes §c6.4§r seconds and §c2,013,265,920§r EU/t%nJoins the Wireless EU Network when no Energy Hatch is installed.%n[note]The tooltip mentions the mining access portion to extend to at least 20 blocks, but it works if you put it exactly on bedrock or 1 block above (the bottom of the multiblock)[/note]%nPerhaps to obtain most ores, you should place it in the §0§ §0§r§ldeep dark §rdimension?
+
+# Quest: Overclock
+betterquesting.quest._BIepqUkhSYGOVFeMmJvY5A.name=Overclock
+betterquesting.quest._BIepqUkhSYGOVFeMmJvY5A.desc=These modules can improve Modularized machines' overclock.%nHave 3 tiers. 
+
+# Quest: Parallelism Tower
+betterquesting.quest._pryq0ofGT724eLRsibDrOg.name=Parallelism Tower
+betterquesting.quest._pryq0ofGT724eLRsibDrOg.desc="[quest]Parallelism Tower #1[/quest]%nIf you want to fully unleash the capabilities of the machine,you can make parallelism Tower.%nYou can build Parallelism Tower for Mega Array.%n[note]For Each Tower: [/note]%nParallelism Casing: §c134§r%nGlass: §c530§r%nFrame: §c64§r%nCoil: §c42§r%nStainless Steel Casing: §c86§r%nAssembly Line Casing: §c64§r
+
+# Quest: Photonic Quantum Master
+betterquesting.quest._3oAsGzS8SeesSIdfzWv20Q.name=Photonic Quantum Master
+betterquesting.quest._3oAsGzS8SeesSIdfzWv20Q.desc=[quest]Precise High-Energy Photonic Quantum Master[/quest]%nMachine Type: §aPhoton Controller§r | §aLaser Engraver§r%nYou can install §aPhotonic Intensifiers§r on the backside of the structure to drastically increase production speeds. %nMulti upgrade modules can be stacked/removed. Replace using normal casings. %n§k§l§r§aPhoton Controller Mode:§r %n16x§r Paralle%n§aLaser Engraver Mode:§r%n256x§r Parallel,§c50%§r Time Reduction%nYou will like this machine when you are making §l§b§lExcited §b§lDimensionally Transcendent Catalyst§r%n§dPortion written by Annie Penndragon%n
+
+# Quest: Physical Form Switcher
+betterquesting.quest._VOyWBpRIQ2yKwhJw09NAmw.name=Physical Form Switcher
+betterquesting.quest._VOyWBpRIQ2yKwhJw09NAmw.desc=[quest]Physical Form Switcher[/quest]%nMachine Type: §aFluid Solidifier§r | §aFluid Extractor§r%nHas Parallel equivalent to §9Perfect Overclock§r%nGlass Tier §9limits§r the recipe voltage tier. \n\nAdditional §c10%§r time reduction per voltage tier.%nRead [warn]ToolTips[/warn] for more information.%n§dPortion written by Annie Penndragon
+
+# Quest: Plasma Forge Version 2
+betterquesting.quest._0fLMp-xIQTmlbwAhZdDUnA.name=Plasma Forge Version 2
+betterquesting.quest._0fLMp-xIQTmlbwAhZdDUnA.desc=[quest]Dimensionally Transcendent Matter Plasma Forge Prototype MK-II[/quest]%nMachine Type:§r Modularized Machine - §aPlasma Forge§r%nAfter §c24§r hours of continuous operation, fuel consumption is reduced by §b75%§r%nIf the continuous operation is broken, fuel consumption reduction will decrease to §b0%§r after §c1§r hour.%nPlace §9Modular Hatches§r around the controller to enhance your machine.%n§6Installable Modules§r are: %n§cOverclock Controller Module§r: Sets machine overclock type%n§cParallel Controller Module§r: Sets machine parallels%n§cPower Consumption Controller Module§r: Reduces machine energy consumption%n§cSpeed Controller Module§r: Increases machine processing speed%n§cExecution Core Module§r: Adds additional running units to machine, enabling §9True Parallelism§r%n[warn]Only the §aExecution Core Module§r can be installed more than once[/warn]
+
+# Quest: Precision and Grace
+betterquesting.quest._K3FFfjdkQVKGOiqpPwgFQg.name=Precision and Grace
+betterquesting.quest._K3FFfjdkQVKGOiqpPwgFQg.desc=[quest]Holy Separator[/quest]%nMachine Type: §aCutter§r | §aSlicer§r | §aLathe§r%n8x§r Parallel per segment%n16§r segments enables §9Perfect Overclock§r%n§c10%§r Time reduction per Voltage Tier%nIf you are troubled by cutting §9diamond plates§r, you can choose to make this machine.
+
+# Quest: Primordial Disjunctus
+betterquesting.quest._q_lAIVvoTnuqQ141Hva2mA.name=Primordial Disjunctus
+betterquesting.quest._q_lAIVvoTnuqQ141Hva2mA.desc=I dont know magic,but [warn]Tooltips[/warn] is your best friend.
+
+# Quest: §8§lPROTOTYPE TENTACLE MK2
+betterquesting.quest._5LX97meOQmuO1E64d94xlQ.name=§8§lPROTOTYPE TENTACLE MK2
+betterquesting.quest._5LX97meOQmuO1E64d94xlQ.desc=The tentacle prototype MK2 is an upgraded version of the original machine.%nThis machine directly use the energy in the wireless network, so you need to pay attention to the energy reserves in the wireless network.%nIf you have enough strength, please use the §lPerfect Execution Core Module§l.
+
+# Quest: Ray Receiving
+betterquesting.quest._KnVhBKiORsSWHNlgLUPF4A.name=Ray Receiving
+betterquesting.quest._KnVhBKiORsSWHNlgLUPF4A.desc=§6Machine Type: §aDyson Sphere Program: Ray Receiving Station§r%nReceived energy can be exported directly to the Wireless EU Net/Dynamo Hatches or converted as Critical Photons%n[warn]Actual Output Power is affected by Stellar and Planetary Coefficients.%n§6Perhaps you should build these two machines on the same dimension?§r
+
+# Quest: Recognition by Dreammaster
+betterquesting.quest._dDEgKaYWT-aQpo7WAksEdA.name=Recognition by Dreammaster
+betterquesting.quest._dDEgKaYWT-aQpo7WAksEdA.desc=Dreammaster has acknowledged your strength.%nMake §b§9§a64§r The Proof of a Hero to obtain the token.
+
+# Quest: Reduce power consumption
+betterquesting.quest._h60wxXYTT5OZvQbKgxUXag.name=Reduce power consumption
+betterquesting.quest._h60wxXYTT5OZvQbKgxUXag.desc=These modules can reduce power consumption%nFrom T1 to T8.
+
+# Quest: Scaling Space... kinda
+betterquesting.quest.zQ52_YljRR-rqCQMSW77wA.name=Scaling Space... kinda
+betterquesting.quest.zQ52_YljRR-rqCQMSW77wA.desc=[quest]Space Scaler[/quest]%n§6Machine Type: §aCompressor§r | §aExtractor§r | §aParticle Collider§r | §aElectric Implosion Compressor§r | §aNeutronium Compressor§r%nHas Parallel Equivalent to §9Perfect Overclock§r.%nUsing an Ultimate Containment Field Generator enables §c10x§r Speed Multiplier. %nCrude Stabilisation Field Generator enables §aParticle Collider§r Mode. %nGallifreyan Stabilisation Field Generator enables §aElectric Implosion Compressor§r and §aNeutronium Compressor§r Mode. %nRead [warn]Tooltips[/warn] for more information%n§dPortion written by Annie Penndragon§r
+
+# Quest: Scavenger
+betterquesting.quest._pO6Lf14PQ-SANM9nr8-jMw.name=Scavenger
+betterquesting.quest._pO6Lf14PQ-SANM9nr8-jMw.desc=§6Machine Type: §aSifter§r%n§6Has parallel equivalent to §9Perfect Overclock§r%nOnly uses §c60%§r of the EU/t normally required.%nAdditional §c20%§r reduction in time per Voltage Tier.%nThe Scavenger is §913x9x13§r Multiblock. It is used as an upgrade to the Large Sifter%n§5§m§m§r§dPortion written by Annie Penndragon §r
+
+# Quest: Silksong
+betterquesting.quest._qPaeT9S1T4aGS2vQUnWYGg.name=Silksong
+betterquesting.quest._qPaeT9S1T4aGS2vQUnWYGg.desc=[quest]Silksong[/quest]%nMachine Type: §aWiremill§r%nLet's weave the wires into a song.%nEach level of coil increases speed by §b§c100%§r%nAdditional §c15%§r time reduction per coil tier
+
+# Quest: Site Launching
+betterquesting.quest._EWZgobQlQZmMoOlW0JUWQg.name=Site Launching
+betterquesting.quest._EWZgobQlQZmMoOlW0JUWQg.desc=[quest]Dyson Sphere Module Launch Site[/quest]%nMachine Type: §aDyson Sphere Program: Launch Site§r%nLaunch Dyson Sphere Components into orbit to form a Dyson Sphere | Accepted Components: Launch Vehicles \u0026 Solar Sails%n§9NO§r Overclock,§9NO§r Extra Parallel%nHigher Tier of Elevator Motor Module could Faster Launching%nInputting §9Space Warper§r will enable overload mode; Reduces Launch Intervals. \n\nWill join the Wireless EU Network if no Energy Hatch is installed.%nRead [warn]Toottips[/warn] for more information.%n[note]If you don't know where to build the Dyson Sphere System, remember, it must be built at Vega B.[/note]
+
+# Quest: Solar Sails!
+betterquesting.quest._pAys5T49RjKxE431LImZuQ.name=Solar Sails!
+betterquesting.quest._pAys5T49RjKxE431LImZuQ.desc=Solar Sails are the second half of what you need to send up in your Dyson Sphere Launch Site to produce power and Critical Photons from the Dyson Sphere Ray Receiver.%n[warn]Remember to calculate the ratio correctly with Carrier Vehicles sent up or you willl have a very bad time.[/warn] %nAlthough the mission requires you to make 128 solar sails, in order to ensure your power generation is not worrying, you will need §o§l§c§lmore than§r just that number of solar sails.
+
+# Quest: Space Apiray II: Electric Boogaloo
+betterquesting.quest._1uJ3dvg7QmS75MsyrqE_kw.name=Space Apiray II: Electric Boogaloo
+betterquesting.quest._1uJ3dvg7QmS75MsyrqE_kw.desc=[quest]Space Apiray Module MK-II[/quest]%n§6Machine Type: §aBee Processing§r%nNeeds §nQueen§r Bee in Controller%nConsumes §c1A LuV §rper Parallel | Consumes §c25L§o§r Liquid DNA per Parallel per Run%nMax Parallels: §c4096§r%n[note]Needs at least Space Elevator Motor MK-II to work. [/note]
+
+# Quest: Space Apiray III: The Return of the King
+betterquesting.quest._eAN6DiUCRKWUm_FxDIXYEw.name=Space Apiray III: The Return of the King
+betterquesting.quest._eAN6DiUCRKWUm_FxDIXYEw.desc=[quest]Space Apiray Module MK-III[/quest]%n§6Machine Type: §aBee Processing§r%nNeeds §nQueen§r Bee in Controller\n\nConsumes §c1A LuV §rper Parallel | Consumes §c5L§o§r Liquid DNA per Parallel per Run%nMax Parallels: §c32,768§r%n[note]Needs at least Space Elevator Motor MK-III to work. [/note]
+
+# Quest: Space Apiray IV: A New Hope
+betterquesting.quest.__Z3K6ZbRSe-VzPMj5sOMZQ.name=Space Apiray IV: A New Hope
+betterquesting.quest.__Z3K6ZbRSe-VzPMj5sOMZQ.desc=§7§6Machine Type: §aBee Processing§r%nMax Parallels: §c2,147,483,647§r%nIf you are still not satisfied with the production of bee hives, then make this machine.%n[note]Needs at least Space Elevator Motor MK-IV to work. [/note]
+
+# Quest: Stabilise Void Matter
+betterquesting.quest._JXgfRrR1yLAS_48FvugQ.name=Stabilise Void Matter
+betterquesting.quest._JXgfRrR1yLAS_48FvugQ.desc=A stabilised void matter composed of all black powders and liquids%nYou need §61K§r Stable Void Matter to get twist token.
+
+# Quest: Tentacle
+betterquesting.quest._F2D0DrNbRCK5gi8qwTGemA.name=Tentacle
+betterquesting.quest._F2D0DrNbRCK5gi8qwTGemA.desc=[quest]Indistinct Tentacle[/quest]%nMachine Type: §aAssembly Line§r | §aComponent Assembly Line§r | §aAssembler§r | §aPrecise Assembler§r%nBy utilizing the characteristics of quantum circuits, we can improve the original methods of assembling and crafting items.%nMake 4 Tentacle to replace Assembly Line,Component Assembly Line,(Precise)Assembler,even if the task requires you to make only one machine%nGlass Tier limits Energy Hatch Tier | Laser Hatches require UV+ Glass%nComponent Casing Tier limits Recipe Tier | Casing Tier requires at least recipe voltage level - §c1§r%nIf Component Casing Tier is higher than recipe tier, enable §9Perfect Overclock§r%nUMV+ Glass and Component Casing enables §aWireless Mode§r%nProcessing Time is §bfixed§r in Wireless Mode.
+
+# Quest: The Apple Version of Ore Processing
+betterquesting.quest._1uYonrjxTfCjQP-YQbOoew.name=The Apple Version of Ore Processing
+betterquesting.quest._1uYonrjxTfCjQP-YQbOoew.desc=[quest]General Ore Processing Factory TST[/quest]%n§6Machine Type: §aOre Processor§r%nProcess time is always §c6.4§r seconds%nWill attempt to consume as many inputs as possible. Inputs that cannot be processed will be sent directly to Output Bus. %nJoins the Wireless EU Network when you dont install an Energy Hatch.%nConsumes §c3200L §rLubricant every §d§c12.8§r seconds.
+
+# Quest: The Disassembler Returns!
+betterquesting.quest._cAenIqmnRpu3vfOrzZTtzw.name=The Disassembler Returns!
+betterquesting.quest._cAenIqmnRpu3vfOrzZTtzw.desc=[quest]TST Large Disassembler[/quest]%n§6Machine Type: §f§eDisassembler§r%nNow, you can recycle§l§e§l most§r machines and blocks that you no longer use.%nThis machine does not require energy%nThe component assembly line casing level limits the tier of what you can disassemble. %n[warn]DOES NOT DISASSEMBLE SHAPED/SHAPELESS CRAFTING RECIPES![/warn]
+
+# Quest: THE FINAL MULTIS
+betterquesting.quest._7Gkq2tJWRHGsvg2hYVkcUQ.name=THE FINAL MULTIS
+betterquesting.quest._7Gkq2tJWRHGsvg2hYVkcUQ.desc=These is final mulits for TST,I hope these can help you on your graduation journey
+
+# Quest: The Largest Fluid Heater
+betterquesting.quest._flsw5yspR1G85IB-e76EgQ.name=The Largest Fluid Heater
+betterquesting.quest._flsw5yspR1G85IB-e76EgQ.desc=[quest]Core Device of Human Power Generation Facility[/quest]%nMachine Type: §aFluid Heater§r%nUpgrade §ccoils§r for faster speeds%n[note]The Glass Tier §9limits§r the Voltage Tier[/note]
+
+# Quest: THE LPF RETURNS!!
+betterquesting.quest._0mPVI2xIRAiMarXFpJchsA.name=THE LPF RETURNS!!
+betterquesting.quest._0mPVI2xIRAiMarXFpJchsA.desc=[quest]Manufacturing Center[/quest]%nMachine Type: §aNine in One§r%nRecipe Voltage is limited by §9MultiUse Core%n§rEach Core Tier over §aIV§f§r gains §b15%§k§f§r EU/t Reduction.%nRead [warn]ToolTips[/warn] for more information.
+
+# Quest: The Mini Mixer
+betterquesting.quest._sj5p3goHQQ-hDIxJ2P7VJA.name=The Mini Mixer
+betterquesting.quest._sj5p3goHQQ-hDIxJ2P7VJA.desc=[quest]"Mini" Magnetic Mixer[/quest]%nMachine Type: §aMixer§r%nHas Parallel equivalent to §9Perfect Overclock\n\nAdditional §c20%§r time reduction per voltage tier%nRead [warn]ToolTips[/warn] for more information.%nYou will like this machine when you are mixing §b§lDimensionally Transcendent Catalyst§r%n§dPortion written by Annie Penndragon
+
+# Quest: The most perfect module
+betterquesting.quest._hOa_xHM6QpOq6BwZUcEPzw.name=The most perfect module
+betterquesting.quest._hOa_xHM6QpOq6BwZUcEPzw.desc=Any recipes will be finished in 1 second%nOf course, it is §oquite§r expensive.
+
+# Quest: THE RETURN OF THE PRINCE
+betterquesting.quest._18FevkFqTlaC3sMZfwD9QA.name=THE RETURN OF THE PRINCE
+betterquesting.quest._18FevkFqTlaC3sMZfwD9QA.desc=Machine Type: §eProcessing Array§o§r%nTST Processing Array is a copy of the PA which has been deprecated from base GTNH.
+
+# Quest: The Tower of Abstraction
+betterquesting.quest._XvRv3loyRTGthe_Zqd0Y2Q.name=The Tower of Abstraction
+betterquesting.quest._XvRv3loyRTGthe_Zqd0Y2Q.desc=[quest]Tower of Abstraction[/quest]%n§6Machine Type: §aMagical Energy Absorber§r%nTower of Abstraction, the top choice for magic energy absorption machine enthusiasts.%nYou can read [warn]Tooltips[/warn] for more information.%n[warn]DO NOT BREAK ANY PART OF THE MACHINE WHILE IT IS RUNNING[/warn]
+
+# Quest: This is also a Miracle, but its also a Door
+betterquesting.quest._p_o59qLKQz6mvmdKvAxAj.name=This is also a Miracle, but its also a Door
+betterquesting.quest._p_o59qLKQz6mvmdKvAxAj.desc=[quest]Miracle Door[/quest]%n§6Machine Type: §aStellar Forge§r | §aStellar Forge : Alloy Smelter§r%nA §aCritical Photon§r is required to start the machine | All recipes will be ran at the same time\n\nPower Consumption:%nAlloy Smelter: §c100%§r%nStellar Forge: §c200%§r%nDirectly takes power from your Wireless EU Net%nPut a §aCircuit§r into the Controller Block to decrease the processing time%n[warn]If you do not have enough power in your Wireless EU Net, you will void the inputs[/warn]%nRead [warn]Tootips[/warn] for more information.
+
+# Quest: §6§lThis Process will be STRANGE
+betterquesting.quest._YbN3-EFiS52esMsGOJcraQ.name=§6§lThis Process will be STRANGE
+betterquesting.quest._YbN3-EFiS52esMsGOJcraQ.desc=[quest]Strange Matter Aggregator[/quest]%nMachine Type:§r Modularized Machine - §aStrange Matter Aggregator§r%nYou must set the number of rings per multi-specific block within the Machine UI.%nMulti-Specific Blocks: %nOscillator\nConstraintor\nMerger%n[warn]DO NOT, AND I REPEAT DO NOT USE MORE THAN §91§r HOLOGRAM PROJECTOR ON THIS MULTI[/warn]%n[note]It is recommended to go for 15 15 24 for Rings. The Multi will be about 1100 blocks long[/note]%nInput Hatch of SpaceTime Maintenance Fluid: §1§aLeft of the Controller Block§r%nInput Bus of Core Element and Annihilation Constrainer: §1§aRight of the Controller Block§r%n[note]Higher Tier, more rings, more benefits, but more resources required[/note]%nPlace §9Modular Hatches§r around the controller to enhance your machine.%n§6Installable Modules§r are: %n§cPower Consumption Controller Module§r: Reduces machine energy consumption%n§cSpeed Controller Module§r: Increases machine processing speed%nThe working principle of this machine is too complex,you can read [warn]ToolTips[/warn] for more information.
+
+# Quest: Tier 2 Swelegfyr
+betterquesting.quest._TU5y4hWLSImOVAf1hRGJzw.name=Tier 2 Swelegfyr
+betterquesting.quest._TU5y4hWLSImOVAf1hRGJz.desc=This chip unlocks the T2 of the Swelegfyr Blast Furnace Multi.
+
+# Quest: Transform Steam To EU
+betterquesting.quest._LY--BkM7QN6HhwjPBux4aQ.name=Transform Steam To EU
+betterquesting.quest._LY--BkM7QN6HhwjPBux4aQ.desc=§aMachine Type§r:§k§k§r§r§o§n§r§eSteam Generator§r%n1L Steam can generate 0.7EU.%n§k§4§2This task is optional.§r
+
+# Quest: TST Cleanroom
+betterquesting.quest._b6KPA7hMQ3KdN7mX6Kp-jg.name=TST Cleanroom
+betterquesting.quest._b6KPA7hMQ3KdN7mX6Kp-jg.desc=§6Machine Type: §aCleanroom§r%nDoes not need maintainence or power. %nBoth hatches need to be placed, but they do not require any setup. %nCan be any size up to §963x64x63§r.%n[warn]Warning:This machine is similar to Active Transfomer.Do not destroy structure when cleanroom is working![/warn]
+
+# Quest: Twist Antimatter
+betterquesting.quest._T3FP46-CRwCABWxTgQ0MQw.name=Twist Antimatter
+betterquesting.quest._T3FP46-CRwCABWxTgQ0MQw.desc=This is Twist's Version of Antimatter. This is a crafting component for endgame Twist items and can be used as a power source in the Artificial Star. %n[note]It is recommended to passive this process as you will need a large quantity for the endgame.
+
+# Quest: Twist in IV
+betterquesting.quest._8pHpaMpOQsWLMksYuvEtCQ.name=Twist in IV
+betterquesting.quest._8pHpaMpOQsWLMksYuvEtCQ.desc=These machines can make in §aIV§r age
+
+# Quest: Twist in LuV-ZPM
+betterquesting.quest._J4fbVxPITuOY1fSMieK8ig.name=Twist in LuV-ZPM
+betterquesting.quest._J4fbVxPITuOY1fSMieK8ig.desc=These machines can craft in LuV-ZPM tier.
+
+# Quest: Twist in LV
+betterquesting.quest._LvNtleZWS-eGlnEdMRqm_Q.name=Twist in LV
+betterquesting.quest._LvNtleZWS-eGlnEdMRqm_Q.desc=Twist in LV age.
+
+# Quest: Twist in MV-EV
+betterquesting.quest._rOYX8ztlQ86Jqthcm_gpiA.name=Twist in MV-EV
+betterquesting.quest._rOYX8ztlQ86Jqthcm_gpiA.desc=Twist mod in MV-EV Tier
+
+# Quest: Twist in Steam Age
+betterquesting.quest._EqEk2VEfTtebOpKVuq38-w.name=Twist in Steam Age
+betterquesting.quest._EqEk2VEfTtebOpKVuq38-w.desc=Twist mod in Steam Age,%nWith the release of GT:NH 2.7.0,These machines is [note]optional[/note] for players.
+
+# Quest: Twist in UEV
+betterquesting.quest._vUsILpweQOe9WX3NnUQvSw.name=Twist in UEV
+betterquesting.quest._vUsILpweQOe9WX3NnUQvSw.desc=You can make these machines in UEV Tier.%nIn order to improve the efficienty of machine production,make sure you have completed §4Advenced Assembly line automation.§r
+
+# Quest: Twist in UHV
+betterquesting.quest.__hT1v96aRlOUD8VPY7R8Kg.name=Twist in UHV
+betterquesting.quest.__hT1v96aRlOUD8VPY7R8Kg.desc=The Twist Quests for UHV
+
+# Quest: Twist in UIV
+betterquesting.quest._I0kSnb6oTX-OHkiKsaVo0Q.name=Twist in UIV
+betterquesting.quest._I0kSnb6oTX-OHkiKsaVo0Q.desc=THE TWIST STUFF FOR UIV. GO FORTH IF YOU MUST, BUT GOOD LUCK, AND I REALLY HOPE YOUR INFRASTRUCTURE IS SETUP FOR EXPANSION.
+
+# Quest: Twist in UMV
+betterquesting.quest._HSrnvNf3T86J7yygF9HQlA.name=Twist in UMV
+betterquesting.quest._HSrnvNf3T86J7yygF9HQlA.desc=These are the Twist Quests and Multis for UMV.%nChecking off this section and going further than this categorizes you as a real gamer btw. 
+
+# Quest: Twist in UV
+betterquesting.quest._r7E1o8YpTHOVV4wxOfPToA.name=Twist in UV
+betterquesting.quest._r7E1o8YpTHOVV4wxOfPToA.desc=The Twist Multis for UV,%nThese machines have played a §m§l§r§n§l§9§lsignificant§r role in the construction of your base
+
+# Quest: Upgrade:T2&T3
+betterquesting.quest._X9fsSW2eSP6rvPgTFjTwwQ.name=Upgrade:T2&T3
+betterquesting.quest._X9fsSW2eSP6rvPgTFjTwwQ.desc=T2 and T3 frame blocks.%nThis task is optional.
+
+# Quest: Use Stellar Engrgy
+betterquesting.quest._ga_2dLryS_Gs6R_WGf-Paw.name=Use Stellar Engrgy
+betterquesting.quest._ga_2dLryS_Gs6R_WGf-Paw.desc=§6Machine Type: §aDyson Sphere Program: Annihilation Generator§r%nAfter you make Harmony of eyes,you can make this machine.%nThis machine can use §e3§r types of fuels.Read [warn]ToolTips[/warn] for more information.%nDifferent fuels have different efficency.%nIf you want to continue using the highest grade fuel,please make sure to produce a §olarge§r number of space elevators,because get 1 Core Element need §r§b1,000§r zero point module.
+
+# Quest: Vacuum Filter Extractor
+betterquesting.quest._F2lVVScRQtGhMADmJ96cfg.name=Vacuum Filter Extractor
+betterquesting.quest._F2lVVScRQtGhMADmJ96cfg.desc=[quest]Vacuum Filter Extractor[/quest]%nMachine Type: §aDistillation Tower§r | §aDistillery%nRecipe Voltage is only §c50%§r%nIncreasing the energy input will result in more speed boosts!%nDistillery Mode enables §9Perfect Overclock§r
+
+# Quest: Water purification: Nine In One
+betterquesting.quest._kSfFva1QSruZwvkYRfNIkg.name=Water purification: Nine In One
+betterquesting.quest._kSfFva1QSruZwvkYRfNIkg.desc=Once, we needed nine machines to obtain the corresponding purified water. At this stage, we can combine these nine machines into one.%nIn this machine,each grade water have §912%§o§r chance to output%nYou can read [warn]Tooltips[/warn] for more information.
+
+# Quest: Welcome to Twist Space Technology
+betterquesting.quest._cI9fkUXLRUeNqricX0b3ZQ.name=Welcome to Twist Space Technology
+betterquesting.quest._cI9fkUXLRUeNqricX0b3ZQ.desc=Twist Space Technology is an addon mod for GT:NH that adds multiblocks to aid in your Gregging Experience.\n\nThis quest page will guide you through the progression and multiblocks of Twist, and help to aid you in your journey. %nGithub:§f [url]https://github.com/Nxer/Twist-Space-Technology-Mod[/url]§f%nWiki:§f [url]https://twistspace.miraheze.org/wiki/Main_Page[/url]%nQB maintained by: §5Aditya§r%nBecause of the release of GT:NH 2.8.0,these quest is §arebuild§r by Strawxg.%nMost quests structures and description were obtained in new questbooks.
+
+# Quest: Where did all the heat go?
+betterquesting.quest._dXup3L7sRKOUqv5LMKi00Q.name=Where did all the heat go?
+betterquesting.quest._dXup3L7sRKOUqv5LMKi00Q.desc=[quest]Hyper Thermal Convector[/quest]%nMachine Type: §aHeat Exchanger§r | §aHeat Cooler§r%nProcesses the input thermal fluid as thoroughly as possible in a single pass.%n[note]This device complies with §aGB/T 28712§r standards and will not explode[/note]
+
+# Quest: WHERE DREAMS... BECOME REALITY
+betterquesting.quest._rI_jPbgeT4O2pkZ1lpUazw.name=WHERE DREAMS... BECOME REALITY
+betterquesting.quest._rI_jPbgeT4O2pkZ1lpUazw.desc=Congrates! You have just made the hardest item in GTNH History, and have now joined an exclusive club! %n[note]Contact Aditya on discord to be added to this list for a future update!%nContact EvgenWarGold on discord to be added to the in-game tooltip[/note]%n-------§r §6Twist Token Club§r §9-------§r%n1st§r: §5Aditya \u0026 Hive Run§r%n§72nd§r: §cHoroboros \u0026 Koneko§r%n§73rd§r: §bMonroth \u0026 HyperCreep§r%n§74th§r: §bTuna§r
+
+# Quest: Yamato
+betterquesting.quest._Sx4YtKR2R7ONyQDnx8PFxw.name=Yamato
+betterquesting.quest._Sx4YtKR2R7ONyQDnx8PFxw.desc=A weapon with teleportation function%nYou should use Staff of Traveling*64 to get this weapon(tools)
+
+# Quest: You'll definitely want this Miracle
+betterquesting.quest._--s3EJe7kQnG-02zb-JxsVA.name=You'll definitely want this Miracle
+betterquesting.quest._--s3EJe7kQnG-02zb-JxsVA.desc=[quest]Miracle Top[/quest]%nMachine Type: §aCircuit Assembler§r | §aGravitation Breaker§r%nMaximum amount of Rings: §c16§r | Minimum amount of Rings: §c2§r%nIf you want to produce §ca large number of§r circuit boards in a short period of time, then you definitely need this Miracle Top.%nNow give up your small circult assemble machine.They are §9§7§3§6§lextremely§r inefficient.%n§6Gravitation Breaker§r mode can make Antimatter%nRead [warn]Tooltips[/warn] for more information.
 
