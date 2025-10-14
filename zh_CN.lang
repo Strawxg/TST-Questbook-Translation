@@ -490,3 +490,7 @@ betterquesting.quest.Sx4YtKR2R7ONyQDnx8PFxw.desc=阎魔刀,一把集传送权杖
 betterquesting.quest.-s3EJe7kQnG-02zb-JxsVA.name=你绝对需要的奇迹顶点
 betterquesting.quest.-s3EJe7kQnG-02zb-JxsVA.desc=[quest]奇迹顶点[/quest]%n机器类型: §a电路组装机r§r | §a引力驱使核心§r%n最大环数: §c16§r | 最小环数: §c2§r%n如果你想要在最短时间内生产§c巨量§r电路板,你一定会需要奇迹顶点.%n现在,是时候放弃你的小型电路组装机了.他们§6§效率太低了§r.%n§6引力驱使核心§r模块可以制作反物质%n阅读[warn]Tooltips[/warn]来获取更多信息.
 
+# Quest: Use Nanites To Simplify Assemble process
+betterquesting.quest.MGg5VojERdq_7u2-TO41JA.name=使用纳米蜂群技术简化装配过程
+betterquesting.quest.MGg5VojERdq_7u2-TO41JA.desc=现在，随着纳米技术的发展,我们可以操纵§6纳米蜂群§r来简化装配过程.%n同时堆叠大量的进阶装配线可能会导致§cTPS§r问题.%n这是 §6§d§e集成装配矩阵§r,使用纳米蜂群来使物品有序化,不再需要AE2的高级阻挡卡来自动化装配线%n代价是,在没有纳米蜂群加成下,比原来耗时长§c1.5§r倍%n你可以添加纳米蜂群来缩短装配所需时间,阅读[warn]ToolTips[/warn]以获取更多信息
+
