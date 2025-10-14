@@ -12,7 +12,7 @@ betterquesting.quest.XgCn_Xv1R0ypLVwxjUKC1Q.desc=§6机器类型: §a电路装�
 
 # Quest: Advanced High Power Coil
 betterquesting.quest.nJqoiyBnSkC3zelZU5f7Qw.name=最高级的线圈:进阶高能线圈
-betterquesting.quest.nJqoiyBnSkC3zelZU5f7Qw.desc=将聚变线圈换位进阶高能线圈即可解锁球状闪电的最后一个模块:星核发生器.%n译者注:§l也许这个阶段你应该考虑完成神锻的里程碑？§r
+betterquesting.quest.nJqoiyBnSkC3zelZU5f7Qw.desc=将聚变线圈换位进阶高能线圈即可解锁球状闪电的最后一个模块:星核发生器.%n译者注:§l也许这个阶段你应该考虑完成神锻的里程碑?§r
 
 # Quest: Advanced Mega Oil Cracker
 betterquesting.quest.tPsPZZzERZev4js5H3XqsQ.name=进阶巨型石油裂化机
@@ -24,7 +24,7 @@ betterquesting.quest.oELxtcY-Tqe_stibxHiCpg.desc=通用发电机,这是一台在
 
 # Quest: A Giant Vacuum
 betterquesting.quest.n92yxTt3TKqQHIOQWo-09g.name=巨型真空干燥炉
-betterquesting.quest.n92yxTt3TKqQHIOQWo-09g.desc=[quest]巨型真空干燥炉[/quest]%n机器类型: §a真空干燥炉§r | §a化学脱水机§r%n这台机器由 §93§r个结构组成: 真空泵、主体结构、干燥塔%n这台机器耗能达到了§c200%§r或许你应该升级一下发电设施？
+betterquesting.quest.n92yxTt3TKqQHIOQWo-09g.desc=[quest]巨型真空干燥炉[/quest]%n机器类型: §a真空干燥炉§r | §a化学脱水机§r%n这台机器由 §93§r个结构组成: 真空泵、主体结构、干燥塔%n这台机器耗能达到了§c200%§r或许你应该升级一下发电设施?
 
 # Quest: A Hell Full Of Blood
 betterquesting.quest.pPqYw_ETTgGxon6Rxm6Yfg.name=血狱
@@ -40,15 +40,15 @@ betterquesting.quest.AZrHN0euRGKQYSyMhG4RUA.desc=[quest]星规阵列[/quest]%n�
 
 # Quest: A Tower above the clouds
 betterquesting.quest.kjfwfszfTeaAjzDx9Svuxg.name=穿云尖塔
-betterquesting.quest.kjfwfszfTeaAjzDx9Svuxg.desc=§6机器类型: §aEssentia Synthesizer§r%n如果你想在源质的海洋中游泳,这是其中一个不错的选择.%n阅读[warn]Tooltips[/warn]来获取更多信息.
+betterquesting.quest.kjfwfszfTeaAjzDx9Svuxg.desc=§6机器类型: §a源质合成者§r%n如果你想在源质的海洋中游泳,这是其中一个不错的选择.%n阅读[warn]Tooltips[/warn]来获取更多信息.
 
 # Quest: BEEEEEEEEEEEEEES
-betterquesting.quest.TpNarEhZQQmgZsWiteCQbA.name=蜜蜂！
-betterquesting.quest.TpNarEhZQQmgZsWiteCQbA.desc=[quest]蜜蜂操纵者[/quest]%n机器类型: §a蜜蜂操纵者%n这台机器可以将雄蜂转化为公主蜂,且转换后的公主蜂均为§e§l始祖种§r%n每次转化需要§c128kL§r蜂蜜,有§c40%§f§r概率失败.%n你可以提供§c32kL§f§rUU物质, 成功率会提升到§c80%§f§r%n[warn]配方一旦失败,蜜蜂不会返还[/warn]
+betterquesting.quest.TpNarEhZQQmgZsWiteCQbA.name=蜜蜂!
+betterquesting.quest.TpNarEhZQQmgZsWiteCQbA.desc=[quest]蜜蜂操纵者[/quest]机器类型: §a蜜蜂操纵者%n%n这台机器可以将雄蜂转化为公主蜂,且转换后的公主蜂均为§e§l始祖种§r%n每次转化需要§c128kL§r蜂蜜,有§c40%§f§r概率失败.%n你可以提供§c32kL§rUU物质, 成功率会提升到§c80%§r%n[warn]配方一旦失败,蜜蜂不会返还[/warn]§r%n
 
 # Quest: Blasting to the Future!
 betterquesting.quest.jjStrmcZR9mdzCkvQc4QLg.name=向未来发出轰鸣!
-betterquesting.quest.jjStrmcZR9mdzCkvQc4QLg.desc=[quest]熯焱高炉[/quest]%n机器类型: §a工业高炉§r%n玻璃等级限制了能源仓等级§l限制了§r可执行的配方等级%n机器拥有两种模式:%n被动模式:在运行时,炉温会缓慢升高,切换配方时移除%n普通模式:如正常的高炉一样运行%n炉温每高出§c1800K§r,耗电减少§c10%§r.%n译者注:升级时请§c§l务必§r先清除炽焱！%n阅读[warn]Tooltips[/warn]来获取更多信息.
+betterquesting.quest.jjStrmcZR9mdzCkvQc4QLg.desc=机器类型: §a工业高炉§r%n玻璃等级限制了能源仓等级§l限制了§r可执行的配方等级%n机器拥有两种模式:%n被动模式:在运行时,炉温会缓慢升高,切换配方时移除%n普通模式:如正常的高炉一样运行%n炉温每高出§c1800K§r,耗电减少§c10%§r.%n译者注:升级时请§c§l务必§r先清除炽焱!%n阅读[warn]Tooltips[/warn]来获取更多信息.
 
 # Quest: Canning Things (Largely)
 betterquesting.quest.uZuU3TrTQ36heWjaJ8N4vQ.name=大规模装罐
@@ -76,7 +76,7 @@ betterquesting.quest.QA2_ICJYRGiK7ISDxuUeKQ.desc=临界光子,由§3戴森球射
 
 # Quest: Crystalline Infinitier
 betterquesting.quest.1DBZwxUcRsWO1UIztgQFXw.name=无限晶胞
-betterquesting.quest.1DBZwxUcRsWO1UIztgQFXw.desc=[quest]无限晶胞[/quest]%n机器类型: §a高压釜§r | §a晶胞铸造器§r | §a化学浸洗机§r%n玻璃等级限制了能源仓等级%n阅读[warn]Tooltips[/warn]来获取更多信息.%n这台机器为兰博顿和能量水晶提供了更便宜的配方,所以你一定需要%n译者注:或许你应该考虑升级§l力场发生器§r等级来提高速度？
+betterquesting.quest.1DBZwxUcRsWO1UIztgQFXw.desc=[quest]无限晶胞[/quest]%n机器类型: §a高压釜§r | §a晶胞铸造器§r | §a化学浸洗机§r%n玻璃等级限制了能源仓等级%n阅读[warn]Tooltips[/warn]来获取更多信息.%n这台机器为兰博顿和能量水晶提供了更便宜的配方,所以你一定需要%n译者注:或许你应该考虑升级§l力场发生器§r等级来提高速度?
 
 # Quest: Decompose any compound
 betterquesting.quest.mqFY-1y1RkuFZWICteDL3g.name=分解任何物质
@@ -87,7 +87,7 @@ betterquesting.quest.1791TOpyQx-Pzq-50SJgnA.name=挑战重力
 betterquesting.quest.1791TOpyQx-Pzq-50SJgnA.desc=插入引力透镜,解锁球状闪电的§3等离子电弧炉§r模块%n同时,你应该替换掉所有的§1维度桥接方块§r,替换为§1传输机械方块§r.
 
 # Quest: DEVOURING INGOTS LIKE IM CASEOH
-betterquesting.quest.7j-J6Ew9TbWo6fymEC8sTA.name=像CASEOH一样吞噬热锭！
+betterquesting.quest.7j-J6Ew9TbWo6fymEC8sTA.name=像CASEOH一样吞噬热锭!
 betterquesting.quest.7j-J6Ew9TbWo6fymEC8sTA.desc=[quest]热能饕餮[/quest]%n机器类型: §a真空冷冻机§r%n机器拥有三种模式:%n高速模式:§c1024x§r并行,同时降低处理耗时%n§6饕餮模式:§r近乎无限的§r并行,运行时减少EU消耗%n无线模式:在主机中放入 §b充能超立方体§r,以启用无线模式.一次性完成所有配方,固定耗时§c6.4§r秒
 
 # Quest: Dissolve Stargate
@@ -95,12 +95,12 @@ betterquesting.quest._WVL0LWqT1aWSZ6_D3qOCQ.name=溶解星门
 betterquesting.quest._WVL0LWqT1aWSZ6_D3qOCQ.desc=没错,你看到的是处于§b液态§r的星门%n制作毕业凭证需要§b50,000L§r液态星门
 
 # Quest: DOMAIN EXPANSION
-betterquesting.quest.RYsm-xmFScCHXwq7QVgaOA.name=解离分子
-betterquesting.quest.RYsm-xmFScCHXwq7QVgaOA.desc=[quest]分子解构器[/quest]%n机器类型: §a电解机§r | §a离心机§r%n每层24x§r并行,§c16§r层开启§9无损超频§r%n每个电压等级额外提供§c10%§r时间消耗减免.%n玻璃等级§9限制了§r可执行配方等级. %n阅读[warn]Tooltips[/warn]来获取更多信息.
+betterquesting.quest.RYsm-xmFScCHXwq7QVgaOA.name=磁域展开
+betterquesting.quest.RYsm-xmFScCHXwq7QVgaOA.desc=[quest]磁畴构建器[/quest]%n机器类型: §a电磁离析机§r | §a磁化机§r%n每层24x§r并行,§c16§r层开启§9无损超频§r%n每个电压等级额外提供§c10%§r时间消耗减免.%n玻璃等级§9限制了§r可执行配方等级. %n阅读[warn]Tooltips[/warn]来获取更多信息.
 
 # Quest: Dyson sphere System Construction
-betterquesting.quest.-diesLifLRh-rdLTKSgmzng.name=戴森球系统建设
-betterquesting.quest.-diesLifLRh-rdLTKSgmzng.desc=如果你想开始使用TST的戴森球系统,请制作以下物品.%n完成合成后,将继续推进以下的任务
+betterquesting.quest.diesLifLRh-rdLTKSgmzng.name=戴森球系统建设
+betterquesting.quest.diesLifLRh-rdLTKSgmzng.desc=如果你想开始使用TST的戴森球系统,请制作以下物品.%n完成合成后,将继续推进以下的任务
 
 # Quest: Elven Workshop
 betterquesting.quest.-8o_sCbH_ROCbhCfCTWFvsw.name=精灵工坊
@@ -111,7 +111,7 @@ betterquesting.quest.0tx7tIN_Sjy9rOGuNfRn8g.name=执行核心模块
 betterquesting.quest.0tx7tIN_Sjy9rOGuNfRn8g.desc=这个模块可以安装多个.
 
 # Quest: EXPANSION OF YOUR BEE DOMINANCE
-betterquesting.quest.t1vdvoKPQC-YpqPegdlYOQ.name=扩展你的蜜蜂统治！
+betterquesting.quest.t1vdvoKPQC-YpqPegdlYOQ.name=扩展你的蜜蜂统治!
 betterquesting.quest.t1vdvoKPQC-YpqPegdlYOQ.desc=[quest]太空蜂箱模块 MK-I[/quest]%n机器类型: §a蜂箱§r%n需要在控制器内放置1个§n蜂后§r%n每个并行消耗§c1A LuV §r以及§c100L§o§r液态DNA%n%n最大并行: §c256§r%n[note]机器运行需要太空加速轨道MKI[/note]
 
 # Quest: Extreme Crafting Center
@@ -136,7 +136,7 @@ betterquesting.quest.D6t3Oo7NS4m_eC3TLeAPyQ.desc=TST毕业凭证需要烧瓶来�
 
 # Quest: Freedom of Form Conversion
 betterquesting.quest.VOyWBpRIQ2yKwhJw09NAmw.name=形态转换自由
-betterquesting.quest.VOyWBpRIQ2yKwhJw09NAmw.desc=[quest]物质形态转换器[/quest]%n机器类型: §a流体固化器§r | §a流体提取机§r%n拥有与无损超频类似的并行,但是执行§9有损超频§r%n玻璃等级§9限制§r了可执行配方等级. %n每个电压等级提供§c10%§r时间减免.%n阅读[warn]Tooltips[/warn]来获取更多信息.%n§dPortion written by Annie Penndragon
+betterquesting.quest.VOyWBpRIQ2yKwhJw09NAmw.desc=[quest]物质形态转换器[/quest]%n机器类型: §a流体固化器§r | §a流体提取机§r%n拥有与无损超频类似的并行,但是执行§9有损超频§r%n玻璃等级§9限制§r了可执行配方等级. %n每个电压等级提供§c10%§r时间减免.%n阅读[warn]Tooltips[/warn]来获取更多信息.%n§dPortion written by Annie Penndragon§r
 
 # Quest: General Circuit Converter
 betterquesting.quest.L0YehMLETbKCNj6BopGKOg.name=通用电路板转换器
@@ -148,7 +148,7 @@ betterquesting.quest.g0zK8LrMQLKfI-10d5uFAw.desc=[quest]质量发生器:创世�
 
 # Quest: Get Twist Token
 betterquesting.quest.F-X94kurTM2Btql5Sw00Dg.name=获取TST的毕业凭证
-betterquesting.quest.F-X94kurTM2Btql5Sw00Dg.desc=挑战获取TST的毕业凭证,展示你的实力%n由于毕业凭证合成所需步骤很多,或许你可以使用[warn]样板优化矩阵[/warn]改善你的AE网络？
+betterquesting.quest.F-X94kurTM2Btql5Sw00Dg.desc=挑战获取TST的毕业凭证,展示你的实力%n由于毕业凭证合成所需步骤很多,或许你可以使用[warn]样板优化矩阵[/warn]改善你的AE网络?
 
 # Quest: GIGA WOOD
 betterquesting.quest.jGVs6zEZQUyYqEnk3ZQKPQ.name=巨型原木
@@ -171,7 +171,7 @@ betterquesting.quest.-aiEKuQSJy_zPlDW08sDA.name=工业电磁离析机
 betterquesting.quest.-aiEKuQSJy_zPlDW08sDA.desc=[quest]工业电磁离析机[/quest]%n机器类型: §a电磁离析机§r%n比单方块电磁离析机快§f300%§r%n只需要使用配方电压的§c80%§r%n译者注:这台机器[warn]不支持[/warn]Tectech的多A能源仓和激光仓
 
 # Quest: In fact it's NOT Compact at all!
-betterquesting.quest.BeJC3DcBQoWsfcygT2bbQg.name=事实上它根本不紧凑！
+betterquesting.quest.BeJC3DcBQoWsfcygT2bbQg.name=事实上它根本不紧凑!
 betterquesting.quest.BeJC3DcBQoWsfcygT2bbQg.desc=[quest]PULSAR - 非紧凑式回旋加速器[/quest]%n机器类型: §a粒子加速器§r%n§b§c100%§r速度加成%n§b256x§r并行.%n需要§c60%§r的额外电力
 
 # Quest: Infiniter Cobblestone
@@ -184,11 +184,11 @@ betterquesting.quest.aIuyKj0gSIqdxxtxFq5LLQ.desc=输入总成,是输入仓和输
 
 # Quest: INTENSE CHEMICAL REACTIONS
 betterquesting.quest.Q1NVUf5JTU-P8wDn9uBLrw.name=深度化学反应
-betterquesting.quest.Q1NVUf5JTU-P8wDn9uBLrw.desc=[quest]深度化学扭曲仪[/quest]%n§6机器类型: §a深度化学扭曲仪§r | §s化学反应釜§r%n深度化学扭曲模式:§r专注于更复杂的化学反应:§c16x§r并行%n§6化学反应釜模式:§r §c1024x§r并行,比同电压大型化学反应釜快§c900%§r%n阅读[warn]Tooltips[/warn]来获取更多信息.%n在你获取无尽线圈后,你可以一步完成硅岩产线.%n§dPortion written by Annie Penndragon
+betterquesting.quest.Q1NVUf5JTU-P8wDn9uBLrw.desc=[quest]深度化学扭曲仪[/quest]%n§6机器类型: §a深度化学扭曲仪§r | §s化学反应釜§r%n深度化学扭曲模式:§r专注于更复杂的化学反应:§c16x§r并行%n§6化学反应釜模式:§r §c1024x§r并行,比同电压大型化学反应釜快§c900%§r%n阅读[warn]Tooltips[/warn]来获取更多信息.%n在你获取无尽线圈后,你可以一步完成硅岩产线.%n§dPortion written by Annie Penndragon§r
 
 # Quest: Large Industrial Coking Factory
 betterquesting.quest.PzYWMV2JRGOP6VtAwCLZDA.name=大型工业炼焦厂
-betterquesting.quest.PzYWMV2JRGOP6VtAwCLZDA.desc=[quest]大型工业炼焦厂[/quest]%n机器类型: §a焦炉§r%n无尽的原料一次加工完成 %n更高的线圈等级会提供更快的速度%n§d或许你可以用这台机器获取到更多的拉多X？§r%n阅读[warn]Tooltips[/warn]来获取更多信息.%n§dPortion written by Annie Penndragon§r
+betterquesting.quest.PzYWMV2JRGOP6VtAwCLZDA.desc=[quest]大型工业炼焦厂[/quest]%n机器类型: §a焦炉§r%n无尽的原料一次加工完成 %n更高的线圈等级会提供更快的速度%n§d或许你可以用这台机器获取到更多的拉多X?§r%n阅读[warn]Tooltips[/warn]来获取更多信息.%n§dPortion written by Annie Penndragon§r
 
 # Quest: Large Neutron Oscillator
 betterquesting.quest.829JeuqpSveS9DnDySUo7w.name=大型中子振荡器
@@ -200,7 +200,7 @@ betterquesting.quest.8oNa4IU3SRiAUKFNG-y2nQ.desc=这是一台多方块的太阳�
 
 # Quest: Large Steam Amlly Smelter
 betterquesting.quest.hiW_aFNpQ5iktrdFRm6Icg.name=大型蒸汽合金炉
-betterquesting.quest.hiW_aFNpQ5iktrdFRm6Icg.desc=§6机器类型: §a合金冶炼炉§r%n由于GT:NH 2.7.0的发布,此任务为§c可选任务§r.%n当然,你可以制作这台机器,它相较于原来的蒸汽合金炉更快%n§dWritten by Annie Pendragon
+betterquesting.quest.hiW_aFNpQ5iktrdFRm6Icg.desc=§6机器类型: §a合金冶炼炉§r%n由于GT:NH 2.7.0的发布,此任务为§c可选任务§r.%n当然,你可以制作这台机器,它相较于原来的蒸汽合金炉更快%n§dWritten by Annie Pendragon§r
 
 # Quest: Large Steam Forge Hammer
 betterquesting.quest.72X4MthMQIWKd5HMwtMHZw.name=大型蒸汽锻造锤
@@ -212,11 +212,11 @@ betterquesting.quest.pd_Aah1OSwakMXvYyoY1Lg.desc=[quest]激光陨星采矿场[/q
 
 # Quest: Lightning Spire
 betterquesting.quest.X1HXsv0xSFup9YkrR-N3mg.name=闪电尖塔
-betterquesting.quest.X1HXsv0xSFup9YkrR-N3mg.desc=[quest]闪电尖塔[/quest]%n机器类型: §a多方块避雷针§r%n如果你对核电的[warn]安全[/warn]所困扰,那么让我们使用闪电尖塔来代替核电%n请查询[warn]Tooltips[/warn]来了解这台机器的运行原理%n[warn]请注意:为了保证发电的成功,这台机器需要定量输入[/warn]
+betterquesting.quest.X1HXsv0xSFup9YkrR-N3mg.desc=[quest]闪电尖塔[/quest]%n机器类型: §a多方块避雷针§r%n如果你对核电的[warn]安全[/warn]所困扰,那么让我们使用闪电尖塔来代替核电%n请查询[warn]Tooltips[/warn]来了解这台机器的运行原理%n[warn]请注意:为了保证发电的成功,这台机器需要定量输入[/warn]%n
 
 # Quest: Macerating Everything
 betterquesting.quest.9P4XzcfYTp2-QgPwyoycEg.name=粉碎一切
-betterquesting.quest.9P4XzcfYTp2-QgPwyoycEg.desc=[quest]\u201c"小型"\u201d家用破壁机[/quest]%n机器类型: §a粉碎机§r%n你可以使用三种方块提高运行速度,玻璃等级高于配方等级时获取8*提速.%n也许你需要在集成矿石处理厂之前,使用这台机器改进你的矿物处理线？
+betterquesting.quest.9P4XzcfYTp2-QgPwyoycEg.desc=[quest]"小型"家用破壁机[/quest]%n机器类型: §a粉碎机§r%n你可以使用三种方块提高运行速度,玻璃等级高于配方等级时获取8*提速.%n也许你需要在集成矿石处理厂之前,使用这台机器改进你的矿物处理线?§r
 
 # Quest: Magic With Twists
 betterquesting.quest.Xmjr2FpaSg2FfzLSsHoAbQ.name=魔法与TST
@@ -236,10 +236,10 @@ betterquesting.quest.w033FTliSlimX7uGEchX0Q.desc=§6机器类型: §a处理阵�
 
 # Quest: Mega Bricked Blast
 betterquesting.quest.K-7ES8kRQDel3CfT5dfKTQ.name=巨型砖高炉
-betterquesting.quest.K-7ES8kRQDel3CfT5dfKTQ.desc=§6机器类型:§r §a砖高炉%n§r为了更好的使用这台机器,建议阅读§9Tootips§r,§r%n这是一个类似于超维度等离子锻炉DTPF的结构.%n§dPortion written by Annie Pendragon%n
+betterquesting.quest.K-7ES8kRQDel3CfT5dfKTQ.desc=§6机器类型:§a砖高炉%n§r为了更好的使用这台机器,建议阅读§9Tootips§r,§r%n这是一个类似于超维度等离子锻炉DTPF的结构.%n§dPortion written by Annie Pendragon§r%n
 
 # Quest: METEOR MINER GOES BRRRRR
-betterquesting.quest._xLswXiGSAKsSef2yij9wg.name=矿石开采冲冲冲！！
+betterquesting.quest._xLswXiGSAKsSef2yij9wg.name=矿石开采冲冲冲!!
 betterquesting.quest._xLswXiGSAKsSef2yij9wg.desc=升级激光陨星采矿场至T2等级,提高其时运等级和运行效率.
 
 # Quest: Modern Alchemy
@@ -260,15 +260,15 @@ betterquesting.quest.8o_sCbH_ROCbhCfCTWFvsw.desc=[quest]精灵工坊[/quest]%n§
 
 # Quest: Obtain resources from the Hell dimension
 betterquesting.quest.Sq1F3grhR3-RcopdX7oB5Q.name=从地狱维度获取物资
-betterquesting.quest.Sq1F3grhR3-RcopdX7oB5Q.desc=对§c下界（届）合金产线§r感到厌烦？%n使用这台机器吧,它的运行只需要一点点的蒸馏水.
+betterquesting.quest.Sq1F3grhR3-RcopdX7oB5Q.desc=对§c下界(届)合金产线§r感到厌烦?%n使用这台机器吧,它的运行只需要一点点的蒸馏水.
 
 # Quest: One BIG BLUE BALL to rule them all!
-betterquesting.quest.PD-eQoBaSSiGCzp2MYnVLg.name=统御一切的巨型蓝球！
+betterquesting.quest.PD-eQoBaSSiGCzp2MYnVLg.name=统御一切的巨型蓝球!
 betterquesting.quest.PD-eQoBaSSiGCzp2MYnVLg.desc=[quest]赫菲斯托斯的工坊[/quest]%n机器类型: §a熔炉§r | §a合金冶炼炉§r%n机器可以跨配方运行.%n阅读[warn]Tooltips[/warn]来获取更多信息.
 
 # Quest: ORES GOOO BRRRRRR!!
 betterquesting.quest.hwbzZNluSEq7RkL0Z_RcCg.name=从恒星中获取矿石
-betterquesting.quest.hwbzZNluSEq7RkL0Z_RcCg.desc=[quest]星核钻机[/quest]%n§6机器类型: §a虚空采矿场§r%n每次运行产出§c24§r种,数量为§c131,072§r的矿石%n%n消耗§c6.4§r秒,以及耗电§c2,013,265,920§r EU/t%n不安装能源仓时,将自动进入无线网络%n%n译者注:为了获取最多种类的矿石,或许你应该把它布置在§l漆黑世界§r？
+betterquesting.quest.hwbzZNluSEq7RkL0Z_RcCg.desc=[quest]星核钻机[/quest]%n§6机器类型: §a虚空采矿场§r%n每次运行产出§c24§r种,数量为§c131,072§r的矿石%n%n消耗§c6.4§r秒,以及耗电§c2,013,265,920§r EU/t%n不安装能源仓时,将自动进入无线网络%n%n译者注:为了获取最多种类的矿石,或许你应该把它布置在§l漆黑世界§r?
 
 # Quest: Overclock
 betterquesting.quest.BIepqUkhSYGOVFeMmJvY5A.name=超频模块
@@ -280,11 +280,11 @@ betterquesting.quest.pryq0ofGT724eLRsibDrOg.desc=[quest]大哥阵列并行塔[/q
 
 # Quest: Photonic Quantum Master
 betterquesting.quest.3oAsGzS8SeesSIdfzWv20Q.name=光量子大师
-betterquesting.quest.3oAsGzS8SeesSIdfzWv20Q.desc=[quest]精密高能光量子掌控者[/quest]%n机器类型: §a光子掌控者§r | §a激光蚀刻机§r%n你可以安装§a光量子增幅器§r,这将显著提升机器的运行效率.%n当然,光量子增幅器可以不安装,用强化镀铱方块占位 %n§a光子掌控者模式:§r %n16x§r并行%n§a激光蚀刻模式:§r%n256x§r并行,§c50%§r的所需时间减免.%n当你制作§l§b§l激发的§b§l超维度催化剂§r时,你会喜欢这台机器的.%n§dPortion written by Annie Penndragon%n
+betterquesting.quest.3oAsGzS8SeesSIdfzWv20Q.desc=[quest]精密高能光量子掌控者[/quest]%n机器类型: §a光子掌控者§r | §a激光蚀刻机§r%n你可以安装§a光量子增幅器§r,这将显著提升机器的运行效率.%n当然,光量子增幅器可以不安装,用强化镀铱方块占位 %n§a光子掌控者模式:§r %n16x§r并行%n§a激光蚀刻模式:§r%n256x§r并行,§c50%§r的所需时间减免.%n当你制作§l§b§l激发的§b§l超维度催化剂§r时,你会喜欢这台机器的.%n§dPortion written by Annie Penndragon§r%n
 
 # Quest: Physical Form Switcher
 betterquesting.quest.VOyWBpRIQ2yKwhJw09NAmw.name=物质形态转换器
-betterquesting.quest.VOyWBpRIQ2yKwhJw09NAmw.desc=[quest]物质形态转换器[/quest]%n机器类型: §a流体固化器§r | §a流体提取机§r%n拥有与无损超频类似的并行,但是执行§9有损超频§r%n玻璃等级§9限制§r了可执行配方等级. %n每个电压等级提供§c10%§r时间减免.%n阅读[warn]Tooltips[/warn]来获取更多信息.%n§dPortion written by Annie Penndragon
+betterquesting.quest.VOyWBpRIQ2yKwhJw09NAmw.desc=[quest]物质形态转换器[/quest]%n机器类型: §a流体固化器§r | §a流体提取机§r%n拥有与无损超频类似的并行,但是执行§9有损超频§r%n玻璃等级§9限制§r了可执行配方等级. %n每个电压等级提供§c10%§r时间减免.%n阅读[warn]Tooltips[/warn]来获取更多信息.%n§dPortion written by Annie Penndragon§r
 
 # Quest: Plasma Forge Version 2
 betterquesting.quest.0fLMp-xIQTmlbwAhZdDUnA.name=DTPF 2.0
@@ -304,7 +304,7 @@ betterquesting.quest.5LX97meOQmuO1E64d94xlQ.desc=不可视之触原型机——M
 
 # Quest: Ray Receiving
 betterquesting.quest.KnVhBKiORsSWHNlgLUPF4A.name=射线接收
-betterquesting.quest.KnVhBKiORsSWHNlgLUPF4A.desc=§6机器类型: §a戴森球计划: 射线接收站§r%n这台机器将接收戴森球的高能射线,转化为§c临界光子§r或者输出到§c无线网络/动力仓§r%n[warn]输出功率受到恒星系数影响%n§6译者注:或许你应该把这两台机器放在§9§l同一个§r维度？§r
+betterquesting.quest.KnVhBKiORsSWHNlgLUPF4A.desc=§6机器类型: §a戴森球计划: 射线接收站§r%n这台机器将接收戴森球的高能射线,转化为§c临界光子§r或者输出到§c无线网络/动力仓§r%n[warn]输出功率受到恒星系数影响%n§6译者注:或许你应该把这两台机器放在§9§l同一个§r维度?§r
 
 # Quest: Recognition by Dreammaster
 betterquesting.quest.dDEgKaYWT-aQpo7WAksEdA.name=Dreammaster的认可
@@ -320,7 +320,7 @@ betterquesting.quest.zQ52_YljRR-rqCQMSW77wA.desc=[quest]空间缩放仪[/quest]%
 
 # Quest: Scavenger
 betterquesting.quest.pO6Lf14PQ-SANM9nr8-jMw.name=拾荒者
-betterquesting.quest.pO6Lf14PQ-SANM9nr8-jMw.desc=§6机器类型: §a筛选机§r%n§6有损超频,但是拥有与§9无损超频§r等效的并行.%n如果你的铂处理或者独居石产线被工业筛选机卡住了,或许升级成这台机器会解决问题？§r%n§dPortion written by Annie Penndragon §r
+betterquesting.quest.pO6Lf14PQ-SANM9nr8-jMw.desc=§6机器类型: §a筛选机§r%n§6有损超频,但是拥有与§9无损超频§r等效的并行.%n如果你的铂处理或者独居石产线被工业筛选机卡住了,或许升级成这台机器会解决问题?§r%n§dPortion written by Annie Penndragon §r
 
 # Quest: Silksong
 betterquesting.quest.qPaeT9S1T4aGS2vQUnWYGg.name=丝之歌
@@ -376,7 +376,7 @@ betterquesting.quest.0mPVI2xIRAiMarXFpJchsA.desc=[quest]加工中心[/quest]%n�
 
 # Quest: The Mini Mixer
 betterquesting.quest.sj5p3goHQQ-hDIxJ2P7VJA.name=小型磁力搅拌机
-betterquesting.quest.sj5p3goHQQ-hDIxJ2P7VJA.desc=[quest]\u201c"小型"\u201d磁力搅拌机[/quest]%n机器类型: §a搅拌机§r%n§6有损超频,但是拥有与§9无损超频§r等效的并行.%n%n每级电压减少§c20%§r时间消耗.%n阅读[warn]Tooltips[/warn]来获取更多信息.%n在搅拌§b§l超维度催化剂§r时,你一定会喜欢上这台机器的%n§dPortion written by Annie Penndragon
+betterquesting.quest.sj5p3goHQQ-hDIxJ2P7VJA.desc=[quest]"小型"磁力搅拌机[/quest]%n机器类型: §a搅拌机§r%n§6有损超频,但是拥有与§9无损超频§r等效的并行.%n%n每级电压减少§c20%§r时间消耗.%n阅读[warn]Tooltips[/warn]来获取更多信息.%n在搅拌§b§l超维度催化剂§r时,你一定会喜欢上这台机器的%n§dPortion written by Annie Penndragon§r
 
 # Quest: The most perfect module
 betterquesting.quest.hOa_xHM6QpOq6BwZUcEPzw.name=最完美的模块:完美执行逻辑核心
@@ -408,7 +408,7 @@ betterquesting.quest.LY--BkM7QN6HhwjPBux4aQ.desc=§a机器类型:§e蒸汽发电
 
 # Quest: TST Cleanroom
 betterquesting.quest.b6KPA7hMQ3KdN7mX6Kp-jg.name=TST超净间
-betterquesting.quest.b6KPA7hMQ3KdN7mX6Kp-jg.desc=§6机器类型: §a超净间§r%n该机器维持洁净度无需电力. %nLV能源仓需要安装2个,MV能源仓只需要安装一个.%n最大大小为: §963x64x63§r.%n[warn]警告:这台机器的原理类似有源变压器,请勿在开机过程中破坏结构！[/warn]
+betterquesting.quest.b6KPA7hMQ3KdN7mX6Kp-jg.desc=§6机器类型: §a超净间§r%n该机器维持洁净度无需电力. %nLV能源仓需要安装2个,MV能源仓只需要安装一个.%n最大大小为: §963x64x63§r.%n[warn]警告:这台机器的原理类似有源变压器,请勿在开机过程中破坏结构![/warn]
 
 # Quest: Twist Antimatter
 betterquesting.quest.T3FP46-CRwCABWxTgQ0MQw.name=TST反物质
@@ -468,14 +468,14 @@ betterquesting.quest.F2lVVScRQtGhMADmJ96cfg.desc=[quest]真空抽滤器[/quest]%
 
 # Quest: Water purification: Nine In One
 betterquesting.quest.kSfFva1QSruZwvkYRfNIkg.name=净化水:归一
-betterquesting.quest.kSfFva1QSruZwvkYRfNIkg.desc=曾经,我们需要使用一台净水厂和§b8§r台净水机器来完成净化水线. 借助时空与超维度之力,便可以完成滴涓汇流,八器归一的艰难进步.%n这台机器运行时,各个级别的净化水均有§912%§o§r几率产出%n阅读[warn]Tooltips[/warn]来获取更多信息.
+betterquesting.quest.kSfFva1QSruZwvkYRfNIkg.desc=   曾经,我们需要使用一台净水厂和§b8§r台净水机器来完成净化水线. 借助时空与超维度之力,便可以完成滴涓汇流,八器归一的艰难进步.%n这台机器运行时,各个级别的净化水均有§912%§o§r几率产出%n阅读[warn]Tooltips[/warn]来获取更多信息.
 
 # Quest: Welcome to Twist Space Technology
 betterquesting.quest.cI9fkUXLRUeNqricX0b3ZQ.name=欢迎来到扭曲空间科技
 betterquesting.quest.cI9fkUXLRUeNqricX0b3ZQ.desc=扭曲空间科技（后续简称为TST）是一个GTNH整合包的额外模组,它添加了许多多方块结构来帮助你的格雷科技之旅\n\n这个任务书将帮你理清TST在各个阶段的作用,以及可用的多方块机器 %nGithub:§f [url]https://github.com/Nxer/Twist-Space-Technology-Mod[/url]§f%nWiki:§f [url]https://twistspace.miraheze.org/wiki/Main_Page[/url]%nQB maintained by: §5Aditya§r%n由于GTNH2.8.0的发布任务书由Strawxg§a重做§r.%n绝大多数多方块机器和结构会包含在此任务书中.%n为了方便理解,中文翻译内容可能与原英文存在部分差异%n若翻译存在问题,欢迎您提交issues.
 
 # Quest: Where did all the heat go?
-betterquesting.quest.dXup3L7sRKOUqv5LMKi00Q.name=热量都去哪了？
+betterquesting.quest.dXup3L7sRKOUqv5LMKi00Q.name=热量都去哪了?
 betterquesting.quest.dXup3L7sRKOUqv5LMKi00Q.desc=[quest]高能态热对流器[/quest]%n机器类型: §a热交换机§r | §a热冷却机§r%n一次运行时请尽量放入所有可执行配方%n[note]注:这台机器符合§aGB/T 28712§r标准,不会因缺失§9蒸馏水§r而爆炸[/note]
 
 # Quest: WHERE DREAMS... BECOME REALITY
