@@ -1,7 +1,6 @@
 TST 任务书
 
-使用 DeepSeek 机翻版本，目前由Straw完成第二次人工校对，目前已去除绝大部分的格式错误、机翻内容和少部分的赘余描述。你可以 fork 这个仓库，创建自己的翻译，或者提交你觉得有问题的翻译，以及提交更好的翻译方式来完善翻译，目前该版本已适配至GTNH版本2.7.4。
-由于人工翻译作者不会找en_US.lang文件且生活较为繁忙，2.8.0任务书在原仓库Pull Requests通过后，再进行汉化
+使用 DeepSeek 机翻版本，目前由Straw完成第三次人工校对，第三次人工校对后为全人工翻译版本。你可以 fork 这个仓库，创建自己的翻译，或者提交你觉得有问题的翻译，以及提交更好的翻译方式来完善翻译，目前2.8.0分支已适配至GTNH版本2.8.0，TST版本0.7.5。
 
 使用方法
 
@@ -37,9 +36,9 @@ To install it the Hard Way (manually, not recommended):
 
 Reload the QuestBook after using the default load command. This should work, but please don't hesitate to contact me in my Discord or the Twist Discord if you have any questions.
 
-以下为安装方法的翻译版本，仅提供简单方法的译文，为保证其他中文翻译不被覆盖
+以下为安装任务书的中文版，使用简单方法时，为保证其他中文翻译不被覆盖
 
-建议在安装完成后，重新按照中文wiki的安装翻译的方法安装翻译，由于Betterquesting模组的特性，这不会导致TST的任务被覆盖
+在安装完成后，重新按照中文wiki的安装翻译的方法安装翻译，由于Betterquesting模组的特性，这不会导致其他的任务翻译被覆盖
 
 1.找到你安装GTNH的文件夹，找到.minecraft/configs/betterquesting
 
