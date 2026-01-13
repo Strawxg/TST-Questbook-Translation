@@ -36,14 +36,19 @@ To install it the Hard Way (manually, not recommended):
 
 Reload the QuestBook after using the default load command. This should work, but please don't hesitate to contact me in my Discord or the Twist Discord if you have any questions.
 
-以下为安装方法的翻译版本，仅提供简单方法的译文，为保证其他中文翻译不被覆盖
+以下为安装方法的翻译版本，仅提供简单方法的译文，为保证其他中文翻译不被覆盖  
 
-建议在安装完成后，重新按照中文wiki的安装翻译的方法安装翻译，由于Betterquesting模组的特性，这不会导致TST的任务被覆盖
+建议在安装完成后，重新按照中文wiki的安装翻译的方法安装翻译，由于Betterquesting模组的特性，这不会导致TST的任务被覆盖  
 
-1.找到你安装GTNH的文件夹，找到.minecraft/configs/betterquesting
+1.找到你安装GTNH的文件夹，找到.minecraft/configs/betterquesting  
 
-2.删除Defaultquests文件夹，下载本库所提供的Defaultquests文件夹
+2.删除Defaultquests文件夹，下载本库所提供的Defaultquests文件夹  
 
-3.将其复制到原来的betterquesting文件夹
+3.将其复制到原来的betterquesting文件夹  
 
-4.输入指令：`/bq_admin default load`，若你为服务器管理员，此步骤可跳过。
+4.输入指令：`/bq_admin default load`，若你为服务器管理员，此步骤可跳过。  
+
+2026.1.13更新：  
+27X任务已不再维护，请通过切换分支的功能切换到2.8.0分支 下载新任务  
+新任务适配GTNH 2.8.0至2.8.4 TST版本0.7.7
+
