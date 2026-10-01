@@ -52,3 +52,12 @@ Reload the QuestBook after using the default load command. This should work, but
 27X任务已不再维护，请通过切换分支的功能切换到2.8.0分支 下载新任务  
 新任务适配GTNH 2.8.0至2.8.4 TST版本0.7.7
 
+## Star History
+
+<a href="https://www.star-history.com/?repos=strawxg%2Ftst-questbook-translation&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=strawxg/tst-questbook-translation&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=strawxg/tst-questbook-translation&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=strawxg/tst-questbook-translation&type=date&legend=top-left" />
+ </picture>
+</a>
