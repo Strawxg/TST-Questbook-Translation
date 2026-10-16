@@ -6,8 +6,8 @@ Node.js下可以通过gen_quest.js文件尝试提取，用ds写的，可能有�
 用法如下：
  *   node gen_quests.js                         交互式：列出章节并选择
  *   node gen_quests.js list                    只列出所有任务章节
- *   node gen_quests.js "Feeding Yourself"      按章节名称提取
- *   node gen_quests.js AAAAAAAAAAAAAAAAAAAACg  复制TST任务编号，按任务代码提取（推荐）
+ *   node gen_quests.js "Feeding Yourself"      按章节名称提取（推荐）
+ *   node gen_quests.js AAAAAAAAAAAAAAAAAAAACg  复制TST任务编号，按任务代码提取
  *   node gen_quests.js 10                      按列表序号提取
 
 
